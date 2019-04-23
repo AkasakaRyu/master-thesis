@@ -1,0 +1,1248 @@
+ERROR - 2019-03-29 09:26:23 --> 404 Page Not Found: Portal/daftar
+ERROR - 2019-03-29 09:27:44 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 09:27:45 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 09:27:45 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 09:27:45 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 09:27:45 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 09:27:45 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 09:27:45 --> Severity: Notice --> Trying to get property 'status_keluarga' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 09:27:45 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 09:27:45 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 09:27:45 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 09:27:45 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 09:27:45 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 09:27:45 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 09:27:46 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 09:27:46 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 09:27:46 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 09:27:46 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 09:31:39 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 09:31:40 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 09:31:40 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 09:31:40 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 09:31:40 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 09:31:40 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 09:31:40 --> Severity: Notice --> Trying to get property 'status_keluarga' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 09:31:40 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 09:31:40 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 09:31:40 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 09:31:40 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 09:31:40 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 09:31:40 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 09:31:40 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 09:31:40 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 09:31:41 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 09:31:42 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 09:31:54 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 09:31:54 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 09:31:54 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 09:31:54 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 09:31:54 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 09:31:54 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 09:31:54 --> Severity: Notice --> Trying to get property 'status_keluarga' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 09:31:54 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 09:31:54 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 09:31:54 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 09:31:54 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 09:31:54 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 09:31:54 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 09:31:54 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 09:31:54 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 09:31:54 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 09:31:54 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 09:32:14 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:32:15 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:32:55 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:32:55 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:32:55 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 09:32:56 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 09:32:56 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 09:32:56 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 09:32:56 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 09:32:56 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 09:32:56 --> Severity: Notice --> Trying to get property 'status_keluarga' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 09:32:56 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 09:32:56 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 09:32:56 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 09:32:56 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 09:32:56 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 09:32:56 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 09:32:56 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 09:32:56 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 09:32:56 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 09:32:56 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 09:33:14 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:33:14 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:33:14 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 09:33:14 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 09:33:15 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 09:33:15 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 09:33:15 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 09:33:15 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 09:33:15 --> Severity: Notice --> Trying to get property 'status_keluarga' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 09:33:15 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 09:33:15 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 09:33:15 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 09:33:15 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 09:33:15 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 09:33:15 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 09:33:15 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 09:33:15 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 09:33:15 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 09:33:15 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 09:34:03 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:34:03 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:34:03 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 09:34:04 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 09:34:04 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 09:34:04 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 09:34:04 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 09:34:04 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 09:34:05 --> Severity: Notice --> Trying to get property 'status_keluarga' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 09:34:05 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 09:34:05 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 09:34:05 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 09:34:06 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 09:34:06 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 09:34:06 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 09:34:06 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 09:34:06 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 09:34:06 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 09:34:06 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 09:35:24 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:35:24 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:35:24 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 09:35:24 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 09:35:24 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 09:35:25 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 09:35:25 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 09:35:25 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 09:35:25 --> Severity: Notice --> Trying to get property 'status_keluarga' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 09:35:25 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 09:35:25 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 09:35:25 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 09:35:25 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 09:35:26 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 09:35:26 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 09:35:26 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 09:35:26 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 09:35:26 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 09:35:26 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 09:36:40 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:36:40 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:36:41 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 09:36:41 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 09:36:41 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 09:36:41 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 09:36:41 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 09:36:41 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 09:36:41 --> Severity: Notice --> Trying to get property 'status_keluarga' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 09:36:41 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 09:36:41 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 09:36:41 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 09:36:42 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 09:36:42 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 09:36:42 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 09:36:42 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 09:36:42 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 09:36:42 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 09:36:42 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 09:37:13 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:37:13 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:37:13 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 09:37:14 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 09:37:14 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 09:37:14 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 09:37:14 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 09:37:14 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 09:37:15 --> Severity: Notice --> Trying to get property 'status_keluarga' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 09:37:15 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 09:37:15 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 09:37:15 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 09:37:15 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 09:37:18 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 09:37:21 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 09:37:21 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 09:37:22 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 09:37:22 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 09:37:22 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 09:41:37 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:41:41 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:41:42 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 09:41:46 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 09:41:46 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 09:41:46 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 09:41:46 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 09:41:46 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 09:41:47 --> Severity: Notice --> Trying to get property 'status_keluarga' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 09:41:47 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 09:41:47 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 09:41:47 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 09:41:48 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 09:41:48 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 09:41:51 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 09:41:51 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 09:41:51 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 09:41:51 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 09:41:51 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 09:44:02 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:44:03 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:44:03 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 09:44:03 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 09:44:04 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 09:44:04 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 09:44:04 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 09:44:04 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 09:44:04 --> Severity: Notice --> Trying to get property 'status_keluarga' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 09:44:04 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 09:44:04 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 09:44:04 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 09:44:04 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 09:44:04 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 09:44:04 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 09:44:04 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 09:44:04 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 09:44:04 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 09:44:04 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 09:44:24 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:44:24 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:44:24 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 09:44:24 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 09:44:24 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 09:44:24 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 09:44:24 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 09:44:24 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 09:44:24 --> Severity: Notice --> Trying to get property 'status_keluarga' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 09:44:24 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 09:44:24 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 09:44:24 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 09:44:24 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 09:44:24 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 09:44:24 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 09:44:24 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 09:44:24 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 09:44:24 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 09:44:24 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 09:44:27 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:44:27 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:44:27 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 09:44:27 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 09:44:27 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 09:44:27 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 09:44:27 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 09:44:27 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 09:44:27 --> Severity: Notice --> Trying to get property 'status_keluarga' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 09:44:27 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 09:44:27 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 09:44:27 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 09:44:27 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 09:44:27 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 09:44:27 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 09:44:27 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 09:44:27 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 09:44:27 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 09:44:27 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 09:44:43 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:44:44 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:44:44 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 09:44:44 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 09:44:44 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 09:44:44 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 09:44:44 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 09:44:44 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 09:44:44 --> Severity: Notice --> Trying to get property 'status_keluarga' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 09:44:44 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 09:44:44 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 09:44:44 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 09:44:44 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 09:44:44 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 09:44:44 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 09:44:44 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 09:44:44 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 09:44:45 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 09:44:45 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 09:45:40 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:45:40 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:45:40 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 09:45:40 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 09:45:40 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 09:45:40 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 09:45:40 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 09:45:40 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 09:45:40 --> Severity: Notice --> Trying to get property 'status_keluarga' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 09:45:40 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 09:45:40 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 09:45:40 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 09:45:40 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 09:45:40 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 09:45:40 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 09:45:40 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 09:45:40 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 09:45:40 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 09:45:40 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 09:45:53 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:45:53 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:45:53 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 09:45:53 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 09:45:54 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 09:45:54 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 09:45:54 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 09:45:54 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 09:45:54 --> Severity: Notice --> Trying to get property 'status_keluarga' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 09:45:54 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 09:45:54 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 09:45:54 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 09:45:54 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 09:45:54 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 09:45:54 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 09:45:54 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 09:45:54 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 09:45:54 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 09:45:54 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 09:46:03 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:46:03 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:46:04 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 09:46:04 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 09:46:04 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 09:46:04 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 09:46:04 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 09:46:04 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 09:46:04 --> Severity: Notice --> Trying to get property 'status_keluarga' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 09:46:04 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 09:46:04 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 09:46:04 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 09:46:04 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 09:46:04 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 09:46:04 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 09:46:04 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 09:46:04 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 09:46:04 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 09:46:04 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 09:48:56 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:48:56 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:48:56 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 09:48:56 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 09:48:56 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 09:48:56 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 09:48:56 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 09:48:56 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 09:48:56 --> Severity: Notice --> Trying to get property 'status_keluarga' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 09:48:56 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 09:48:56 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 09:48:56 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 09:48:56 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 09:48:56 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 09:48:56 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 09:48:56 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 09:48:56 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 09:48:56 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 09:48:56 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 09:49:16 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:49:16 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:49:16 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 09:49:16 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 09:49:16 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 09:49:16 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 09:49:16 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 09:49:16 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 09:49:16 --> Severity: Notice --> Trying to get property 'status_keluarga' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 09:49:16 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 09:49:16 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 09:49:16 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 09:49:16 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 09:49:16 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 09:49:16 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 09:49:16 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 09:49:16 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 09:49:16 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 09:49:16 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 09:49:33 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:49:33 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:49:33 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 09:49:33 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 09:49:33 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 09:49:33 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 09:49:33 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 09:49:33 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 09:49:33 --> Severity: Notice --> Trying to get property 'status_keluarga' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 09:49:33 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 09:49:33 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 09:49:33 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 09:49:33 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 09:49:33 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 09:49:33 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 09:49:33 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 09:49:33 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 09:49:33 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 09:49:33 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 09:49:45 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:49:45 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:49:45 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 09:49:45 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 09:49:45 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 09:49:45 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 09:49:45 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 09:49:45 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 09:49:45 --> Severity: Notice --> Trying to get property 'status_keluarga' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 09:49:45 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 09:49:45 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 09:49:45 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 09:49:45 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 09:49:45 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 09:49:45 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 09:49:45 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 09:49:45 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 09:49:45 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 09:49:45 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 09:49:47 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:49:47 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:49:49 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:49:49 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:49:50 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:49:50 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:49:50 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 09:49:50 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 09:49:50 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 09:49:50 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 09:49:50 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 09:49:50 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 09:49:50 --> Severity: Notice --> Trying to get property 'status_keluarga' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 09:49:50 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 09:49:50 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 09:49:50 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 09:49:50 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 09:49:50 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 09:49:50 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 09:49:50 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 09:49:50 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 09:49:50 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 09:49:50 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 09:52:09 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:52:09 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:52:10 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 09:52:10 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 09:52:10 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 09:52:10 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 09:52:10 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 09:52:10 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 09:52:10 --> Severity: Notice --> Trying to get property 'status_keluarga' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 09:52:10 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 09:52:10 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 09:52:10 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 09:52:10 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 09:52:10 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 09:52:10 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 09:52:10 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 09:52:10 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 09:52:10 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 09:52:10 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 09:52:53 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:52:53 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:52:53 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 09:52:53 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 09:52:53 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 09:52:53 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 09:52:53 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 09:52:53 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 09:52:53 --> Severity: Notice --> Trying to get property 'status_keluarga' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 09:52:53 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 09:52:53 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 09:52:53 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 09:52:53 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 09:52:53 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 09:52:53 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 09:52:53 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 09:52:53 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 09:52:53 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 09:52:53 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 09:53:07 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:53:07 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:53:07 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 09:53:07 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 09:53:07 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 09:53:07 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 09:53:07 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 09:53:07 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 09:53:07 --> Severity: Notice --> Trying to get property 'status_keluarga' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 09:53:07 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 09:53:07 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 09:53:07 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 09:53:07 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 09:53:07 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 09:53:07 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 09:53:07 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 09:53:07 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 09:53:07 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 09:53:07 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 09:53:31 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:53:31 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:53:31 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 09:53:31 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 09:53:31 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 09:53:31 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 09:53:31 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 09:53:31 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 09:53:31 --> Severity: Notice --> Trying to get property 'status_keluarga' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 09:53:31 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 09:53:31 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 09:53:31 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 09:53:31 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 09:53:31 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 09:53:31 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 09:53:31 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 09:53:31 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 09:53:31 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 09:53:31 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 09:54:52 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:54:53 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:54:54 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 09:54:54 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 09:54:54 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 09:54:54 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 09:54:54 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 09:54:54 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 09:54:54 --> Severity: Notice --> Trying to get property 'status_keluarga' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 09:54:54 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 09:54:54 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 09:54:54 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 09:54:54 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 09:54:54 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 09:54:54 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 09:54:54 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 09:54:54 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 09:54:54 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 09:54:54 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 09:59:48 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:59:48 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 09:59:48 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 09:59:48 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 09:59:48 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 09:59:48 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 09:59:48 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 09:59:48 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 09:59:48 --> Severity: Notice --> Trying to get property 'status_keluarga' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 09:59:48 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 09:59:48 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 09:59:48 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 09:59:48 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 09:59:48 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 09:59:48 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 09:59:48 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 09:59:48 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 09:59:48 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 09:59:48 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 10:02:49 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 10:02:49 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 10:02:50 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 10:02:50 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 10:02:50 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 10:02:50 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 10:02:50 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 10:02:50 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 10:02:50 --> Severity: Notice --> Trying to get property 'status_keluarga' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 10:02:50 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 10:02:50 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 10:02:50 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 10:02:50 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 10:02:50 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 10:02:50 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 10:02:50 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 10:02:50 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 10:02:50 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 10:02:50 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 10:03:35 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 10:03:35 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 10:03:35 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 10:03:35 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 10:03:35 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 10:03:35 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 10:03:35 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 10:03:35 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 10:03:35 --> Severity: Notice --> Trying to get property 'status_keluarga' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 10:03:35 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 10:03:35 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 10:03:35 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 10:03:35 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 10:03:35 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 10:03:35 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 10:03:35 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 10:03:35 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 10:03:35 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 10:03:35 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 10:03:42 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 10:03:43 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 10:03:43 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 10:03:43 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 10:03:43 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 10:03:43 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 10:03:43 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 10:03:43 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 10:03:43 --> Severity: Notice --> Trying to get property 'status_keluarga' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 10:03:43 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 10:03:43 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 10:03:43 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 10:03:43 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 10:03:43 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 10:03:43 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 10:03:43 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 10:03:43 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 10:03:43 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 10:03:43 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 10:08:22 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 10:08:22 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 10:08:22 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 10:08:22 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 10:08:22 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 10:08:22 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 10:08:22 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 10:08:22 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 10:08:22 --> Severity: Notice --> Trying to get property 'status_keluarga' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 10:08:22 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 10:08:22 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 10:08:22 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 10:08:22 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 10:08:22 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 10:08:22 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 10:08:22 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 10:08:22 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 10:08:22 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 10:08:22 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 10:09:04 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 10:09:04 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 10:09:04 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 10:09:04 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 10:09:05 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 10:09:05 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 10:09:05 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 10:09:05 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 10:09:05 --> Severity: Notice --> Trying to get property 'status_keluarga' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 10:09:05 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 10:09:05 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 10:09:05 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 10:09:05 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 10:09:05 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 10:09:05 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 10:09:05 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 10:09:05 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 10:09:05 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 10:09:05 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 10:09:47 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 10:09:48 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 10:09:48 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 10:09:48 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 10:09:48 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 10:09:48 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 10:09:48 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 10:09:48 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 10:09:48 --> Severity: Notice --> Trying to get property 'status_keluarga' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 10:09:48 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 10:09:48 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 10:09:48 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 10:09:48 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 10:09:48 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 10:09:48 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 10:09:48 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 10:09:48 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 10:09:48 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 10:09:48 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 10:10:17 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 10:10:17 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 10:10:18 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 10:10:18 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 10:10:24 --> 404 Page Not Found: Portal/daftar
+ERROR - 2019-03-29 10:12:55 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 10:12:55 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 10:13:00 --> 404 Page Not Found: Portal/daftar
+ERROR - 2019-03-29 10:23:00 --> 404 Page Not Found: Portal/daftar
+ERROR - 2019-03-29 10:52:44 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 10:52:48 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 10:53:37 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 10:53:37 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 10:54:57 --> 404 Page Not Found: Portal/daftar
+ERROR - 2019-03-29 11:00:55 --> 404 Page Not Found: Pendaftaran/Daftar/antrian
+ERROR - 2019-03-29 13:44:24 --> 404 Page Not Found: Pendaftaran/Daftar/antrian
+ERROR - 2019-03-29 13:44:30 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 13:45:44 --> Severity: error --> Exception: Unable to locate the model you have specified: M_Pendaftaran /usr/local/var/www/master-simrs/system/core/Loader.php 348
+ERROR - 2019-03-29 13:46:25 --> Severity: error --> Exception: /usr/local/var/www/master-simrs/application/models/Pendaftaran/M_Daftar.php exists, but doesn't declare class M_Daftar /usr/local/var/www/master-simrs/system/core/Loader.php 340
+ERROR - 2019-03-29 13:46:38 --> Severity: Notice --> Undefined property: stdClass::$status_keluarga /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 13:58:48 --> 404 Page Not Found: Layanan
+ERROR - 2019-03-29 13:58:48 --> 404 Page Not Found: Layanan
+ERROR - 2019-03-29 13:59:06 --> 404 Page Not Found: Office
+ERROR - 2019-03-29 13:59:10 --> 404 Page Not Found: Office
+ERROR - 2019-03-29 13:59:14 --> 404 Page Not Found: Settings
+ERROR - 2019-03-29 13:59:28 --> 404 Page Not Found: Layanan
+ERROR - 2019-03-29 13:59:28 --> 404 Page Not Found: Layanan
+ERROR - 2019-03-29 13:59:33 --> 404 Page Not Found: Office
+ERROR - 2019-03-29 14:03:20 --> 404 Page Not Found: Layanan
+ERROR - 2019-03-29 14:03:20 --> 404 Page Not Found: Layanan
+ERROR - 2019-03-29 14:03:33 --> 404 Page Not Found: Layanan
+ERROR - 2019-03-29 14:03:33 --> 404 Page Not Found: Layanan
+ERROR - 2019-03-29 14:03:58 --> 404 Page Not Found: Setting
+ERROR - 2019-03-29 14:07:23 --> Severity: Notice --> Undefined property: stdClass::$status_keluarga /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 14:07:23 --> 404 Page Not Found: Layanan
+ERROR - 2019-03-29 14:08:24 --> Severity: Notice --> Undefined property: stdClass::$status_keluarga /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 14:08:24 --> 404 Page Not Found: Layanan
+ERROR - 2019-03-29 14:08:51 --> Severity: Notice --> Undefined property: stdClass::$status_keluarga /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 14:08:51 --> 404 Page Not Found: Layanan
+ERROR - 2019-03-29 14:08:58 --> Severity: Notice --> Undefined property: stdClass::$status_keluarga /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 14:08:58 --> 404 Page Not Found: Layanan
+ERROR - 2019-03-29 14:09:57 --> Severity: Notice --> Undefined property: stdClass::$status_keluarga /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 14:09:57 --> 404 Page Not Found: Layanan
+ERROR - 2019-03-29 14:10:21 --> Severity: Notice --> Undefined property: stdClass::$status_keluarga /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 14:10:21 --> 404 Page Not Found: Layanan
+ERROR - 2019-03-29 14:10:30 --> Severity: Notice --> Undefined property: stdClass::$status_keluarga /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 14:10:30 --> 404 Page Not Found: Layanan
+ERROR - 2019-03-29 14:10:36 --> Severity: Notice --> Undefined property: stdClass::$status_keluarga /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 14:10:36 --> 404 Page Not Found: Layanan
+ERROR - 2019-03-29 14:10:45 --> Severity: Notice --> Undefined property: stdClass::$status_keluarga /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 14:10:45 --> 404 Page Not Found: Layanan
+ERROR - 2019-03-29 14:11:42 --> Severity: Notice --> Undefined property: stdClass::$status_keluarga /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 14:11:43 --> 404 Page Not Found: Layanan
+ERROR - 2019-03-29 14:12:27 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:12:27 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:12:32 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:12:32 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:12:32 --> Severity: Notice --> Undefined property: stdClass::$status_keluarga /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 14:12:32 --> 404 Page Not Found: Layanan
+ERROR - 2019-03-29 14:12:54 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:12:54 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:12:54 --> 404 Page Not Found: Layanan
+ERROR - 2019-03-29 14:13:23 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:13:24 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:13:24 --> 404 Page Not Found: Layanan
+ERROR - 2019-03-29 14:15:05 --> Severity: error --> Exception: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' /usr/local/var/www/master-simrs/application/views/pendaftaran/v_daftar_pelayanan.php 80
+ERROR - 2019-03-29 14:15:06 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:15:06 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:16:28 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:16:28 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:16:28 --> 404 Page Not Found: Layanan
+ERROR - 2019-03-29 14:17:22 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:17:22 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:17:22 --> 404 Page Not Found: Layanan
+ERROR - 2019-03-29 14:20:12 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:20:12 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:20:12 --> 404 Page Not Found: Layanan
+ERROR - 2019-03-29 14:21:55 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:21:55 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:21:55 --> 404 Page Not Found: Layanan
+ERROR - 2019-03-29 14:22:41 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:22:41 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:22:41 --> 404 Page Not Found: Layanan
+ERROR - 2019-03-29 14:23:06 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:23:06 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:23:06 --> 404 Page Not Found: Layanan
+ERROR - 2019-03-29 14:23:23 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:23:23 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:23:23 --> 404 Page Not Found: Layanan
+ERROR - 2019-03-29 14:23:53 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:23:53 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:23:53 --> 404 Page Not Found: Layanan
+ERROR - 2019-03-29 14:24:15 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:24:16 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:24:52 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:24:52 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:34:29 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:34:29 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:44:50 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:44:50 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:48:59 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:48:59 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:49:27 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:49:27 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:49:30 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:49:30 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:49:36 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:49:37 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:50:43 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:50:43 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:50:57 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:50:57 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:51:53 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:51:53 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:53:06 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:53:06 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:55:11 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:55:11 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:55:14 --> 404 Page Not Found: Setting
+ERROR - 2019-03-29 14:59:07 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 14:59:07 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 15:01:46 --> 404 Page Not Found: Setting
+ERROR - 2019-03-29 15:01:49 --> 404 Page Not Found: Setting
+ERROR - 2019-03-29 15:01:55 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 15:02:03 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 15:02:03 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 15:02:06 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 15:02:06 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 15:02:11 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 15:02:11 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 15:03:59 --> 404 Page Not Found: Setting
+ERROR - 2019-03-29 15:04:02 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 15:04:02 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 15:05:05 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 15:05:07 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 15:05:24 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 15:05:24 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 15:05:59 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 15:05:59 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 15:06:32 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 15:06:32 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 15:06:56 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 15:06:56 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 15:07:27 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 15:07:27 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 15:07:37 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 15:07:38 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 15:07:48 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 15:07:48 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 15:08:18 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 15:08:18 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 15:08:37 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 15:08:37 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 15:08:53 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 15:08:53 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 15:09:00 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 15:09:01 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 15:09:14 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 15:09:14 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 15:09:38 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 15:09:38 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 15:11:51 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 15:11:51 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 15:12:13 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 15:12:13 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 15:13:06 --> 404 Page Not Found: Setting
+ERROR - 2019-03-29 15:13:08 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 15:13:08 --> 404 Page Not Found: Assets
+ERROR - 2019-03-29 15:17:50 --> 404 Page Not Found: Setting
+ERROR - 2019-03-29 15:20:04 --> 404 Page Not Found: Setting
+ERROR - 2019-03-29 15:20:05 --> 404 Page Not Found: Setting
+ERROR - 2019-03-29 15:22:28 --> 404 Page Not Found: Setting
+ERROR - 2019-03-29 15:22:38 --> 404 Page Not Found: Setting
+ERROR - 2019-03-29 15:23:32 --> 404 Page Not Found: Setting
+ERROR - 2019-03-29 15:23:33 --> 404 Page Not Found: Setting
+ERROR - 2019-03-29 15:30:10 --> 404 Page Not Found: Setting
+ERROR - 2019-03-29 15:30:45 --> 404 Page Not Found: Setting
+ERROR - 2019-03-29 15:30:51 --> 404 Page Not Found: Setting
+ERROR - 2019-03-29 15:32:21 --> 404 Page Not Found: Setting
+ERROR - 2019-03-29 15:32:23 --> 404 Page Not Found: Setting
+ERROR - 2019-03-29 15:33:21 --> 404 Page Not Found: Setting
+ERROR - 2019-03-29 15:35:08 --> 404 Page Not Found: Setting
+ERROR - 2019-03-29 15:35:36 --> 404 Page Not Found: Setting
+ERROR - 2019-03-29 15:35:42 --> 404 Page Not Found: Setting
+ERROR - 2019-03-29 15:35:45 --> 404 Page Not Found: Setting
+ERROR - 2019-03-29 15:35:45 --> 404 Page Not Found: Setting
+ERROR - 2019-03-29 15:40:02 --> 404 Page Not Found: Setting
+ERROR - 2019-03-29 15:40:04 --> 404 Page Not Found: Setting
+ERROR - 2019-03-29 15:44:00 --> 404 Page Not Found: Portal/daftar
+ERROR - 2019-03-29 15:46:38 --> 404 Page Not Found: Setting
+ERROR - 2019-03-29 15:58:58 --> 404 Page Not Found: Setting
+ERROR - 2019-03-29 16:00:54 --> 404 Page Not Found: Setting
+ERROR - 2019-03-29 16:00:55 --> 404 Page Not Found: Setting
+ERROR - 2019-03-29 16:01:01 --> 404 Page Not Found: Settings
+ERROR - 2019-03-29 16:01:18 --> 404 Page Not Found: Settings
+ERROR - 2019-03-29 16:02:18 --> 404 Page Not Found: Portal/dashboard
+ERROR - 2019-03-29 16:16:26 --> 404 Page Not Found: Portal/user
+ERROR - 2019-03-29 16:33:19 --> 404 Page Not Found: Portal/user
+ERROR - 2019-03-29 16:35:37 --> 404 Page Not Found: Portal/user
+ERROR - 2019-03-29 16:35:51 --> 404 Page Not Found: Portal/user
+ERROR - 2019-03-29 16:35:53 --> 404 Page Not Found: Portal/user
+ERROR - 2019-03-29 16:38:35 --> 404 Page Not Found: Settings/User/index
+ERROR - 2019-03-29 16:38:49 --> 404 Page Not Found: Settings/User/index
+ERROR - 2019-03-29 16:38:57 --> Severity: error --> Exception: Unable to locate the model you have specified: M_Level /usr/local/var/www/master-simrs/system/core/Loader.php 348
+ERROR - 2019-03-29 16:40:45 --> 404 Page Not Found: Settings/User/index
+ERROR - 2019-03-29 16:43:13 --> Severity: error --> Exception: Unable to locate the model you have specified: M_User /usr/local/var/www/master-simrs/system/core/Loader.php 348
+ERROR - 2019-03-29 17:31:37 --> Severity: error --> Exception: Unable to locate the model you have specified: M_User /usr/local/var/www/master-simrs/system/core/Loader.php 348
+ERROR - 2019-03-29 17:38:10 --> Severity: error --> Exception: Unable to locate the model you have specified: M_User /usr/local/var/www/master-simrs/system/core/Loader.php 348
+ERROR - 2019-03-29 17:49:17 --> 404 Page Not Found: User
+ERROR - 2019-03-29 17:49:22 --> 404 Page Not Found: User
+ERROR - 2019-03-29 17:51:46 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 17:51:46 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 17:51:46 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 17:51:47 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 17:51:47 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 17:51:47 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 17:51:47 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 17:51:47 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 17:51:47 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 17:51:47 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 17:51:47 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 17:51:47 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 17:51:47 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 17:51:47 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 17:51:47 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 17:51:47 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 17:51:47 --> Severity: Notice --> Trying to get property 'tanggal_rekam_medis' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 17:53:36 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 17:53:36 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 17:53:36 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 17:53:36 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 17:53:36 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 17:53:36 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 17:53:36 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 17:53:36 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 17:53:36 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 17:53:36 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 17:53:36 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 17:53:36 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 17:53:36 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 17:53:36 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 17:53:36 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 17:53:36 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 17:53:36 --> Severity: Notice --> Trying to get property 'tanggal_rekam_medis' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 17:54:20 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 17:54:20 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 17:54:20 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 17:54:20 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 17:54:20 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 17:54:20 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 17:54:20 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 17:54:20 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 17:54:20 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 17:54:20 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 17:54:20 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 17:54:20 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 17:54:20 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 17:54:20 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 17:54:20 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 17:54:20 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 17:54:20 --> Severity: Notice --> Trying to get property 'tanggal_rekam_medis' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 17:54:21 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 17:54:21 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 17:54:21 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 17:54:21 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 17:54:21 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 17:54:21 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 17:54:21 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 17:54:21 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 17:54:21 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 17:54:21 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 17:54:21 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 17:54:21 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 17:54:21 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 17:54:21 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 17:54:21 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 17:54:21 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 17:54:21 --> Severity: Notice --> Trying to get property 'tanggal_rekam_medis' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 17:54:46 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 17:54:46 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 17:54:46 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 17:54:46 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 17:54:47 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 17:54:47 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 17:54:47 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 17:54:47 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 17:54:47 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 17:54:47 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 17:54:47 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 17:54:47 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 17:54:47 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 17:54:47 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 17:54:47 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 17:54:47 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 17:54:47 --> Severity: Notice --> Trying to get property 'tanggal_rekam_medis' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 17:54:51 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 17:54:51 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 17:54:51 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 17:54:51 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 17:54:51 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 17:54:51 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 17:54:51 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 17:54:51 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 17:54:51 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 17:54:51 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 17:54:51 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 17:54:51 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 17:54:51 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 17:54:51 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 17:54:51 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 17:54:51 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 17:54:51 --> Severity: Notice --> Trying to get property 'tanggal_rekam_medis' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 17:54:59 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 17:54:59 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 17:54:59 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 17:54:59 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 17:54:59 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 17:54:59 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 17:54:59 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 17:54:59 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 17:54:59 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 17:54:59 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 17:54:59 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 17:54:59 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 17:54:59 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 17:54:59 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 17:54:59 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 17:54:59 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 17:54:59 --> Severity: Notice --> Trying to get property 'tanggal_rekam_medis' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 17:55:25 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 17:55:25 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 17:55:25 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 17:55:25 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 17:55:25 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 17:55:25 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 17:55:25 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 17:55:25 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 17:55:25 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 17:55:25 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 17:55:25 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 17:55:25 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 17:55:25 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 17:55:25 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 17:55:25 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 17:55:25 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 17:55:25 --> Severity: Notice --> Trying to get property 'tanggal_rekam_medis' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 17:55:51 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 17:55:51 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 17:55:51 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 17:55:51 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 17:55:51 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 17:55:51 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 17:55:51 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 17:55:51 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 17:55:51 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 17:55:51 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 17:55:51 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 17:55:51 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 17:55:51 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 17:55:51 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 17:55:51 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 17:55:51 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 17:55:51 --> Severity: Notice --> Trying to get property 'tanggal_rekam_medis' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 17:56:23 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 17:56:23 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 17:56:23 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 17:56:23 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 17:56:23 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 17:56:23 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 17:56:23 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 17:56:23 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 17:56:23 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 17:56:23 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 17:56:23 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 17:56:23 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 17:56:23 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 17:56:23 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 17:56:23 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 17:56:23 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 17:56:23 --> Severity: Notice --> Trying to get property 'tanggal_rekam_medis' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 17:57:28 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 17:57:28 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 17:57:28 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 17:57:28 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 17:57:28 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 17:57:28 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 17:57:28 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 17:57:28 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 17:57:28 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 17:57:28 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 17:57:28 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 17:57:28 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 17:57:28 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 17:57:28 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 17:57:28 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 17:57:28 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 17:57:28 --> Severity: Notice --> Trying to get property 'tanggal_rekam_medis' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 17:58:03 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 17:58:05 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 17:58:05 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 17:58:05 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 17:58:05 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 17:58:05 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 17:58:05 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 17:58:05 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 17:58:05 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 17:58:05 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 17:58:05 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 17:58:05 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 17:58:05 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 17:58:05 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 17:58:05 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 17:58:05 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 17:58:05 --> Severity: Notice --> Trying to get property 'tanggal_rekam_medis' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 17:58:29 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 17:58:29 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 17:58:29 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 17:58:29 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 17:58:29 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 17:58:29 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 17:58:30 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 17:58:30 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 17:58:30 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 17:58:30 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 17:58:30 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 17:58:30 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 17:58:30 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 17:58:30 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 17:58:30 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 17:58:30 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 17:58:30 --> Severity: Notice --> Trying to get property 'tanggal_rekam_medis' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 17:58:43 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 17:58:43 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 17:58:43 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 17:58:43 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 17:58:43 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 17:58:43 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 17:58:43 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 17:58:43 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 17:58:43 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 17:58:43 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 17:58:43 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 17:58:43 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 17:58:43 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 17:58:43 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 17:58:43 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 17:58:43 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 17:58:43 --> Severity: Notice --> Trying to get property 'tanggal_rekam_medis' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 17:59:30 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 17:59:30 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 17:59:30 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 17:59:30 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 17:59:30 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 17:59:30 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 17:59:30 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 17:59:30 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 17:59:30 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 17:59:30 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 17:59:30 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 17:59:30 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 17:59:30 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 17:59:30 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 17:59:30 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 17:59:30 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 17:59:30 --> Severity: Notice --> Trying to get property 'tanggal_rekam_medis' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 17:59:54 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 17:59:54 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 17:59:54 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 17:59:54 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 17:59:54 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 17:59:54 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 17:59:54 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 17:59:54 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 17:59:54 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 17:59:54 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 17:59:54 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 17:59:54 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 17:59:54 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 17:59:54 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 17:59:54 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 17:59:54 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 17:59:54 --> Severity: Notice --> Trying to get property 'tanggal_rekam_medis' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 18:00:35 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 18:00:35 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 18:00:35 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 18:00:35 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 18:00:35 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 18:00:35 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 18:00:35 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 18:00:35 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 18:00:35 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 18:00:35 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 18:00:35 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 18:00:35 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 18:00:35 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 18:00:35 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 18:00:35 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 18:00:35 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 18:00:35 --> Severity: Notice --> Trying to get property 'tanggal_rekam_medis' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 18:00:59 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 18:00:59 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 18:00:59 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 18:00:59 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 18:00:59 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 18:00:59 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 18:00:59 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 18:00:59 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 18:00:59 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 18:00:59 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 18:00:59 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 18:00:59 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 18:00:59 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 18:00:59 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 18:00:59 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 18:00:59 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 18:00:59 --> Severity: Notice --> Trying to get property 'tanggal_rekam_medis' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 18:01:31 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 18:01:31 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 18:01:31 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 18:01:31 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 18:01:31 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 18:01:31 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 18:01:31 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 18:01:31 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 18:01:31 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 18:01:31 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 18:01:31 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 18:01:31 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 18:01:31 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 18:01:31 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 18:01:31 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 18:01:31 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 18:01:31 --> Severity: Notice --> Trying to get property 'tanggal_rekam_medis' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 18:01:40 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 18:01:40 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 18:01:40 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 18:01:40 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 18:01:40 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 18:01:40 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 18:01:41 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 18:01:41 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 18:01:41 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 18:01:41 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 18:01:41 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 18:01:43 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 18:01:43 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 18:01:43 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 18:01:43 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 18:01:43 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 18:01:43 --> Severity: Notice --> Trying to get property 'tanggal_rekam_medis' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 18:02:38 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 18:02:38 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 18:02:38 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 18:02:38 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 18:02:38 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 18:02:38 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 18:02:38 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 18:02:38 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 18:02:38 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 18:02:38 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 18:02:38 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 18:02:38 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 18:02:38 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 18:02:38 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 18:02:38 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 18:02:38 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 18:02:38 --> Severity: Notice --> Trying to get property 'tanggal_rekam_medis' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 18:03:00 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 18:03:01 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 18:03:02 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 18:03:02 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 18:03:02 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 18:03:02 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 18:03:02 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 18:03:02 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 18:03:02 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 18:03:02 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 18:03:02 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 18:03:02 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 18:03:02 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 18:03:02 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 18:03:02 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 18:03:02 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 18:03:02 --> Severity: Notice --> Trying to get property 'tanggal_rekam_medis' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-03-29 18:03:07 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-03-29 18:03:07 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-03-29 18:03:07 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-03-29 18:03:07 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-03-29 18:03:07 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-03-29 18:03:07 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-03-29 18:03:07 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-03-29 18:03:07 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-03-29 18:03:07 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-03-29 18:03:07 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-03-29 18:03:07 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-03-29 18:03:07 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-03-29 18:03:07 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-03-29 18:03:07 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-03-29 18:03:07 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-03-29 18:03:07 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-03-29 18:03:07 --> Severity: Notice --> Trying to get property 'tanggal_rekam_medis' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44

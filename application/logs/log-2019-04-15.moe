@@ -1,0 +1,434 @@
+ERROR - 2019-04-15 01:16:30 --> Query error: Table 'thesis.ak_data_adendum' doesn't exist - Invalid query: SELECT *
+FROM `ak_data_adendum`
+ERROR - 2019-04-15 01:17:31 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:17:31 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:17:31 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:17:31 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:19:14 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:19:14 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:19:14 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:19:14 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:19:43 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:19:43 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:19:43 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:19:43 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:20:14 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:20:14 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:20:14 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:20:14 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:21:09 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:21:09 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:21:09 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:21:09 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:22:07 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:22:07 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:22:07 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:22:07 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:22:29 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:22:29 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:22:29 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:22:29 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:22:50 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:22:50 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:22:50 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:22:50 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:23:06 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:23:06 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:23:06 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:23:06 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:23:20 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:23:20 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:23:20 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:23:20 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:23:24 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:23:24 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:23:24 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:23:24 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:23:26 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:23:26 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:23:26 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:23:26 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:23:36 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:23:36 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:23:36 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:23:36 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:23:54 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:23:54 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:23:54 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:23:54 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:24:00 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:24:00 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:24:00 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:24:00 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:24:08 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:24:08 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:24:08 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:24:08 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:24:20 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:24:20 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:24:20 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:24:20 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:24:25 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:24:25 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:24:25 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:24:25 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:25:44 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:25:44 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:25:44 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:25:44 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:26:01 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:26:01 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:26:01 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:26:01 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:26:09 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:26:09 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:26:09 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:26:09 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:26:14 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:26:14 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:26:14 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:26:14 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:26:20 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:26:20 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:26:20 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:26:20 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:26:24 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:26:24 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:26:24 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:26:24 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:26:27 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:26:27 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:26:27 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:26:27 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:26:35 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:26:35 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:26:35 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:26:35 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:26:39 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:26:39 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:26:39 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:26:39 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:26:43 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:26:43 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:26:43 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:26:43 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:26:47 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:26:47 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:26:47 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:26:47 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:27:40 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:27:40 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:27:40 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:27:40 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:27:55 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:27:55 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:27:55 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:27:55 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:28:51 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:28:51 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:28:51 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:28:51 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:29:29 --> 404 Page Not Found: Dosen
+ERROR - 2019-04-15 01:35:33 --> Severity: error --> Exception: Unable to locate the model you have specified: M_Dashboard /Users/gilangpratama/Sites/master-thesis/system/core/Loader.php 348
+ERROR - 2019-04-15 01:40:20 --> Query error: Table 'thesis.ak_data_dosen' doesn't exist - Invalid query: SELECT *
+FROM `ak_data_dosen`
+WHERE `ak_data_dosen`.`deleted` = 0
+ERROR - 2019-04-15 01:40:34 --> 404 Page Not Found: Assets
+ERROR - 2019-04-15 01:40:40 --> 404 Page Not Found: Assets
+ERROR - 2019-04-15 01:40:40 --> Query error: Table 'thesis.ak_data_dosen' doesn't exist - Invalid query: SELECT *
+FROM `ak_data_dosen`
+WHERE `ak_data_dosen`.`deleted` = 0
+ERROR - 2019-04-15 01:40:59 --> 404 Page Not Found: Assets
+ERROR - 2019-04-15 01:41:39 --> Query error: Column 'dosen_nip' cannot be null - Invalid query: INSERT INTO `ak_data_master_dosen` (`dosen_id`, `dosen_nip`, `dosen_nama`, `dosen_email`, `dosen_alamat`, `dosen_kontak`, `dosen_kuota`, `created_by`) VALUES ('DOS1904150001', NULL, 'Akasaka Ryuunosuke', 'akasaka@ymail.co.jp', 'Jl. Sakurasou No. 1', '087710545682', '10', 'Master')
+ERROR - 2019-04-15 01:41:43 --> 404 Page Not Found: Assets
+ERROR - 2019-04-15 01:41:46 --> 404 Page Not Found: Assets
+ERROR - 2019-04-15 01:42:16 --> Query error: Column 'dosen_nip' cannot be null - Invalid query: INSERT INTO `ak_data_master_dosen` (`dosen_id`, `dosen_nip`, `dosen_nama`, `dosen_email`, `dosen_alamat`, `dosen_kontak`, `dosen_kuota`, `created_by`) VALUES ('DOS1904150001', NULL, 'Akasaka Ryuunosuke', 'akasakaa@a.a', '-', '1', '1', 'Master')
+ERROR - 2019-04-15 01:42:24 --> 404 Page Not Found: Assets
+ERROR - 2019-04-15 01:42:40 --> 404 Page Not Found: Assets
+ERROR - 2019-04-15 01:42:57 --> 404 Page Not Found: Assets
+ERROR - 2019-04-15 01:43:13 --> 404 Page Not Found: Assets
+ERROR - 2019-04-15 01:44:08 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:44:08 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:44:08 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:44:08 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:44:12 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:44:12 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:44:12 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:44:12 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:44:47 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:44:47 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:44:47 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:44:47 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:52:38 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:52:38 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:52:38 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:52:38 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 01:52:39 --> 404 Page Not Found: Mahasiswa
+ERROR - 2019-04-15 01:59:23 --> Severity: error --> Exception: Unable to locate the model you have specified: M_Dashboard /Users/gilangpratama/Sites/master-thesis/system/core/Loader.php 348
+ERROR - 2019-04-15 02:00:12 --> Severity: error --> Exception: Unable to locate the model you have specified: M_Dashboard /Users/gilangpratama/Sites/master-thesis/system/core/Loader.php 348
+ERROR - 2019-04-15 02:00:50 --> Severity: error --> Exception: Unable to locate the model you have specified: M_Dashboard /Users/gilangpratama/Sites/master-thesis/system/core/Loader.php 348
+ERROR - 2019-04-15 02:02:57 --> Query error: Unknown column 'ak_data_master_mahasiswa.deleted' in 'where clause' - Invalid query: SELECT *
+FROM `ak_data_master_mahasiswa`
+WHERE `ak_data_master_mahasiswa`.`deleted` = 0
+ERROR - 2019-04-15 02:03:02 --> 404 Page Not Found: Assets
+ERROR - 2019-04-15 02:03:05 --> 404 Page Not Found: Assets
+ERROR - 2019-04-15 02:03:05 --> Query error: Unknown column 'ak_data_master_mahasiswa.deleted' in 'where clause' - Invalid query: SELECT *
+FROM `ak_data_master_mahasiswa`
+WHERE `ak_data_master_mahasiswa`.`deleted` = 0
+ERROR - 2019-04-15 02:04:16 --> 404 Page Not Found: Assets
+ERROR - 2019-04-15 02:04:36 --> 404 Page Not Found: Assets
+ERROR - 2019-04-15 02:04:48 --> 404 Page Not Found: Assets
+ERROR - 2019-04-15 02:06:07 --> 404 Page Not Found: Assets
+ERROR - 2019-04-15 02:06:37 --> Query error: Unknown column 'mahasiswa_nip' in 'field list' - Invalid query: INSERT INTO `ak_data_master_mahasiswa` (`mahasiswa_id`, `user_id`, `mahasiswa_nip`, `mahasiswa_nama`, `mahasiswa_email`, `mahasiswa_alamat`, `mahasiswa_kontak`, `created_by`) VALUES ('DOS1904150001', 'USR001', NULL, 'Gilang Pratama Priadi', 'pratamapriadi96@gmail.com', 'Jl. Raya Banjaran No. 112 D', '087710545682', 'Master')
+ERROR - 2019-04-15 02:07:22 --> 404 Page Not Found: Assets
+ERROR - 2019-04-15 02:07:50 --> Query error: Unknown column 'mahasiswa_nim' in 'field list' - Invalid query: INSERT INTO `ak_data_master_mahasiswa` (`mahasiswa_id`, `user_id`, `mahasiswa_nim`, `mahasiswa_nama`, `mahasiswa_email`, `mahasiswa_alamat`, `mahasiswa_kontak`, `created_by`) VALUES ('DOS1904150001', 'USR003', '41180220', 'Gilang Pratama Priadi', 'pratamapriadi96@gmail.com', 'Jl. Raya Banjaran No. 112 D', '087710545682', 'Master')
+ERROR - 2019-04-15 02:07:56 --> 404 Page Not Found: Assets
+ERROR - 2019-04-15 02:08:33 --> 404 Page Not Found: Assets
+ERROR - 2019-04-15 02:09:16 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:09:16 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:09:16 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:09:16 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:09:20 --> Query error: Table 'thesis.ak_data_dosen' doesn't exist - Invalid query: SELECT *
+FROM `ak_data_dosen`
+WHERE `ak_data_dosen`.`deleted` = 0
+ERROR - 2019-04-15 02:09:23 --> 404 Page Not Found: Assets
+ERROR - 2019-04-15 02:09:27 --> 404 Page Not Found: Assets
+ERROR - 2019-04-15 02:09:27 --> Query error: Table 'thesis.ak_data_dosen' doesn't exist - Invalid query: SELECT *
+FROM `ak_data_dosen`
+WHERE `ak_data_dosen`.`deleted` = 0
+ERROR - 2019-04-15 02:09:55 --> 404 Page Not Found: Assets
+ERROR - 2019-04-15 02:10:01 --> 404 Page Not Found: Assets
+ERROR - 2019-04-15 02:10:02 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:10:02 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:10:02 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:10:02 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:10:02 --> 404 Page Not Found: Assets
+ERROR - 2019-04-15 02:10:04 --> 404 Page Not Found: Assets
+ERROR - 2019-04-15 02:10:06 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:10:06 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:10:06 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:10:06 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:10:06 --> 404 Page Not Found: Assets
+ERROR - 2019-04-15 02:10:12 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:10:12 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:10:12 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:10:12 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:10:13 --> 404 Page Not Found: Jadwal
+ERROR - 2019-04-15 02:11:23 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:11:23 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:11:23 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:11:23 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:12:31 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:12:31 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:12:31 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:12:31 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:12:37 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:12:37 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:12:37 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:12:37 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:12:45 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:12:45 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:12:45 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:12:45 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:12:55 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:12:55 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:12:55 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:12:55 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:13:02 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:13:02 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:13:02 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:13:02 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:13:31 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:13:31 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:13:31 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:13:31 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:13:35 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:13:35 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:13:35 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:13:35 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:13:52 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:13:52 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:13:52 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:13:52 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:13:57 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:13:57 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:13:57 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:13:57 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:14:28 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:14:28 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:14:28 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:14:28 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:14:42 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:14:42 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:14:42 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:14:42 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:14:50 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:14:50 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:14:50 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:14:50 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:15:07 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:15:07 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:15:07 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:15:07 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:15:17 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:15:17 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:15:17 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:15:17 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:15:26 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:15:26 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:15:26 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:15:26 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:15:29 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:15:29 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:15:29 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:15:29 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:15:48 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:15:48 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:15:48 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:15:48 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:15:58 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:15:58 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:15:58 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:15:58 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:16:06 --> 404 Page Not Found: Adendum
+ERROR - 2019-04-15 02:16:09 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:16:09 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:16:09 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:16:09 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:16:26 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:16:26 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:16:26 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:16:26 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:16:38 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:16:38 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:16:38 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:16:38 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:16:41 --> 404 Page Not Found: Kata
+ERROR - 2019-04-15 02:20:38 --> Severity: error --> Exception: Unable to locate the model you have specified: M_Dashboard /Users/gilangpratama/Sites/master-thesis/system/core/Loader.php 348
+ERROR - 2019-04-15 02:26:44 --> Query error: Table 'thesis.ak_data_master_kata' doesn't exist - Invalid query: SELECT *
+FROM `ak_data_master_kata`
+WHERE `ak_data_master_kata`.`deleted` = 0
+ERROR - 2019-04-15 02:26:51 --> 404 Page Not Found: Assets
+ERROR - 2019-04-15 02:26:55 --> 404 Page Not Found: Assets
+ERROR - 2019-04-15 02:26:55 --> Query error: Table 'thesis.ak_data_master_kata' doesn't exist - Invalid query: SELECT *
+FROM `ak_data_master_kata`
+WHERE `ak_data_master_kata`.`deleted` = 0
+ERROR - 2019-04-15 02:27:10 --> 404 Page Not Found: Assets
+ERROR - 2019-04-15 02:28:10 --> 404 Page Not Found: Assets
+ERROR - 2019-04-15 02:29:59 --> Severity: error --> Exception: syntax error, unexpected ';', expecting ')' /Users/gilangpratama/Sites/master-thesis/application/controllers/Kata/Dashboard.php 60
+ERROR - 2019-04-15 02:30:05 --> 404 Page Not Found: Assets
+ERROR - 2019-04-15 02:30:30 --> Severity: Notice --> Undefined variable: user_id /Users/gilangpratama/Sites/master-thesis/application/controllers/Kata/Dashboard.php 58
+ERROR - 2019-04-15 02:30:30 --> Query error: Unknown column 'user_id' in 'field list' - Invalid query: INSERT INTO `ak_data_thesis_kata` (`kata_id`, `user_id`, `kata_input`, `kata_daftar`, `kata_maksimum`, `created_by`) VALUES ('WORD1904150001', NULL, 'Judul', 'apa,dimana,kapan,kenapa,siapa,bagaimana', '2', NULL)
+ERROR - 2019-04-15 02:30:42 --> 404 Page Not Found: Assets
+ERROR - 2019-04-15 02:30:48 --> Query error: Column 'created_by' cannot be null - Invalid query: INSERT INTO `ak_data_thesis_kata` (`kata_id`, `kata_input`, `kata_daftar`, `kata_maksimum`, `created_by`) VALUES ('WORD1904150001', 'Judul', 'apa,dimana,kapan,kenapa,siapa,bagaimana', '2', NULL)
+ERROR - 2019-04-15 02:31:06 --> 404 Page Not Found: Assets
+ERROR - 2019-04-15 02:31:16 --> 404 Page Not Found: Assets
+ERROR - 2019-04-15 02:31:38 --> 404 Page Not Found: Assets
+ERROR - 2019-04-15 02:32:12 --> 404 Page Not Found: Assets
+ERROR - 2019-04-15 02:32:17 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:32:17 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:32:17 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:32:17 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:32:34 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:32:34 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:32:34 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:32:34 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:32:46 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:32:46 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:32:46 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:32:46 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:32:47 --> 404 Page Not Found: Thesis
+ERROR - 2019-04-15 02:32:49 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:32:49 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:32:49 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:32:49 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:32:54 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:32:54 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:32:54 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:32:54 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 02:32:57 --> 404 Page Not Found: Thesis
+ERROR - 2019-04-15 02:35:00 --> 404 Page Not Found: Thesis
+ERROR - 2019-04-15 02:39:04 --> Severity: error --> Exception: Unable to locate the model you have specified: M_Dashboard /Users/gilangpratama/Sites/master-thesis/system/core/Loader.php 348
+ERROR - 2019-04-15 03:41:25 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 03:41:25 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 03:41:25 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 03:41:25 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 03:42:32 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 03:42:32 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 03:42:32 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 03:42:32 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 03:53:51 --> 404 Page Not Found: Assets
+ERROR - 2019-04-15 04:01:07 --> Severity: error --> Exception: syntax error, unexpected ''rows'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' /Users/gilangpratama/Sites/master-thesis/application/views/thesis/v_dashboard.php 83
+ERROR - 2019-04-15 04:02:00 --> Severity: Notice --> Undefined variable: data /Users/gilangpratama/Sites/master-thesis/application/models/Thesis/M_Dashboard.php 29
+ERROR - 2019-04-15 04:02:00 --> Query error: Unknown column 'kata_input' in 'where clause' - Invalid query: SELECT *
+FROM `ak_data_thesis`
+WHERE `kata_input` = 'Judul'
+ERROR - 2019-04-15 04:02:06 --> 404 Page Not Found: Assets
+ERROR - 2019-04-15 04:02:09 --> 404 Page Not Found: Assets
+ERROR - 2019-04-15 04:02:16 --> Severity: Notice --> Undefined variable: data /Users/gilangpratama/Sites/master-thesis/application/models/Thesis/M_Dashboard.php 29
+ERROR - 2019-04-15 04:02:16 --> Query error: Unknown column 'kata_input' in 'where clause' - Invalid query: SELECT *
+FROM `ak_data_thesis`
+WHERE `kata_input` = 'Judul'
+ERROR - 2019-04-15 04:02:52 --> 404 Page Not Found: Assets
+ERROR - 2019-04-15 04:02:59 --> Query error: Unknown column 'kata_input' in 'where clause' - Invalid query: SELECT *
+FROM `ak_data_thesis`
+WHERE `kata_input` = 'Judul'
+ERROR - 2019-04-15 04:03:13 --> 404 Page Not Found: Assets
+ERROR - 2019-04-15 04:03:20 --> Severity: Warning --> substr_count(): Empty substring /Users/gilangpratama/Sites/master-thesis/application/controllers/Thesis/Dashboard.php 149
+ERROR - 2019-04-15 04:03:20 --> Severity: Warning --> substr_count(): Empty substring /Users/gilangpratama/Sites/master-thesis/application/controllers/Thesis/Dashboard.php 149
+ERROR - 2019-04-15 04:03:20 --> Query error: Column 'thesis_kerangka_teori' cannot be null - Invalid query: INSERT INTO `ak_data_thesis` (`thesis_id`, `user_id`, `thesis_judul`, `thesis_tujuan`, `thesis_rumusan_masalah`, `thesis_kerangka_teori`, `thesis_metodologi_penelitian`, `created_by`) VALUES ('THE1904150001', 'USR19011700001', 'PEMECAHAN 2 apa apa dimana dimana dimana Masalah yang dapat dipecahkan oleh masalah - masalah lainnya', 'PEMECAHAN 2 apa apa dimana dimana dimana Masalah yang dapat dipecahkan oleh masalah - masalah lainnya', 'PEMECAHAN 2 apa apa dimana dimana dimana Masalah yang dapat dipecahkan oleh masalah - masalah lainnya', NULL, 'PEMECAHAN 2 apa apa dimana dimana dimana Masalah yang dapat dipecahkan oleh masalah - masalah lainnya', NULL)
+ERROR - 2019-04-15 04:05:27 --> 404 Page Not Found: Assets
+ERROR - 2019-04-15 04:05:35 --> Query error: Column 'created_by' cannot be null - Invalid query: INSERT INTO `ak_data_thesis` (`thesis_id`, `user_id`, `thesis_judul`, `thesis_tujuan`, `thesis_rumusan_masalah`, `thesis_kerangka_teori`, `thesis_metodologi_penelitian`, `created_by`) VALUES ('THE1904150001', 'USR19011700001', 'PEMECAHAN 2 apa apa dimana dimana dimana Masalah yang dapat dipecahkan oleh masalah - masalah lainnya', 'PEMECAHAN 2 apa apa dimana dimana dimana Masalah yang dapat dipecahkan oleh masalah - masalah lainnya', 'PEMECAHAN 2 apa apa dimana dimana dimana Masalah yang dapat dipecahkan oleh masalah - masalah lainnya', 'PEMECAHAN 2 apa apa dimana dimana dimana Masalah yang dapat dipecahkan oleh masalah - masalah lainnya', 'PEMECAHAN 2 apa apa dimana dimana dimana Masalah yang dapat dipecahkan oleh masalah - masalah lainnya', NULL)
+ERROR - 2019-04-15 04:06:03 --> 404 Page Not Found: Assets
+ERROR - 2019-04-15 04:06:17 --> 404 Page Not Found: Assets
+ERROR - 2019-04-15 04:11:08 --> 404 Page Not Found: Assets
+ERROR - 2019-04-15 04:11:51 --> 404 Page Not Found: Assets
+ERROR - 2019-04-15 04:19:00 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 04:19:00 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 04:19:00 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 04:19:00 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 04:19:35 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 04:19:35 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 04:19:35 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 04:19:35 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 04:40:25 --> Severity: Notice --> Undefined variable: maxlength /Users/gilangpratama/Sites/master-thesis/application/controllers/Thesis/Dashboard.php 151
+ERROR - 2019-04-15 04:40:25 --> Severity: Notice --> Undefined variable: maxlength /Users/gilangpratama/Sites/master-thesis/application/controllers/Thesis/Dashboard.php 151
+ERROR - 2019-04-15 04:40:25 --> Severity: Notice --> Undefined variable: maxlength /Users/gilangpratama/Sites/master-thesis/application/controllers/Thesis/Dashboard.php 151
+ERROR - 2019-04-15 04:40:25 --> Severity: Notice --> Undefined variable: maxlength /Users/gilangpratama/Sites/master-thesis/application/controllers/Thesis/Dashboard.php 151
+ERROR - 2019-04-15 04:40:25 --> Severity: Notice --> Undefined variable: maxlength /Users/gilangpratama/Sites/master-thesis/application/controllers/Thesis/Dashboard.php 151
+ERROR - 2019-04-15 04:40:25 --> Severity: Notice --> Undefined variable: maxlength /Users/gilangpratama/Sites/master-thesis/application/controllers/Thesis/Dashboard.php 151
+ERROR - 2019-04-15 04:40:25 --> Severity: Notice --> Undefined variable: maxlength /Users/gilangpratama/Sites/master-thesis/application/controllers/Thesis/Dashboard.php 151
+ERROR - 2019-04-15 04:40:25 --> Severity: Notice --> Undefined variable: maxlength /Users/gilangpratama/Sites/master-thesis/application/controllers/Thesis/Dashboard.php 151
+ERROR - 2019-04-15 04:40:25 --> Severity: Notice --> Undefined variable: maxlength /Users/gilangpratama/Sites/master-thesis/application/controllers/Thesis/Dashboard.php 151
+ERROR - 2019-04-15 04:40:25 --> Severity: Notice --> Undefined variable: maxlength /Users/gilangpratama/Sites/master-thesis/application/controllers/Thesis/Dashboard.php 151
+ERROR - 2019-04-15 04:40:25 --> Severity: Notice --> Undefined variable: maxlength /Users/gilangpratama/Sites/master-thesis/application/controllers/Thesis/Dashboard.php 151
+ERROR - 2019-04-15 04:40:25 --> Severity: Notice --> Undefined variable: maxlength /Users/gilangpratama/Sites/master-thesis/application/controllers/Thesis/Dashboard.php 151
+ERROR - 2019-04-15 04:40:25 --> Severity: Notice --> Undefined variable: maxlength /Users/gilangpratama/Sites/master-thesis/application/controllers/Thesis/Dashboard.php 151
+ERROR - 2019-04-15 04:40:25 --> Severity: Notice --> Undefined variable: maxlength /Users/gilangpratama/Sites/master-thesis/application/controllers/Thesis/Dashboard.php 151
+ERROR - 2019-04-15 04:40:25 --> Severity: Notice --> Undefined variable: maxlength /Users/gilangpratama/Sites/master-thesis/application/controllers/Thesis/Dashboard.php 151
+ERROR - 2019-04-15 04:40:25 --> Severity: Notice --> Undefined variable: maxlength /Users/gilangpratama/Sites/master-thesis/application/controllers/Thesis/Dashboard.php 151
+ERROR - 2019-04-15 04:40:25 --> Severity: Notice --> Undefined variable: maxlength /Users/gilangpratama/Sites/master-thesis/application/controllers/Thesis/Dashboard.php 151
+ERROR - 2019-04-15 04:40:25 --> Severity: Notice --> Undefined variable: maxlength /Users/gilangpratama/Sites/master-thesis/application/controllers/Thesis/Dashboard.php 151
+ERROR - 2019-04-15 04:40:25 --> Severity: Notice --> Undefined variable: maxlength /Users/gilangpratama/Sites/master-thesis/application/controllers/Thesis/Dashboard.php 151
+ERROR - 2019-04-15 04:40:25 --> Severity: Notice --> Undefined variable: maxlength /Users/gilangpratama/Sites/master-thesis/application/controllers/Thesis/Dashboard.php 151
+ERROR - 2019-04-15 04:40:25 --> Severity: Notice --> Undefined variable: maxlength /Users/gilangpratama/Sites/master-thesis/application/controllers/Thesis/Dashboard.php 151
+ERROR - 2019-04-15 04:42:56 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 04:42:56 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 04:42:56 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 04:42:56 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 04:43:12 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 04:43:12 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 04:43:12 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 04:43:12 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 04:51:24 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 04:51:24 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 04:51:24 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 04:51:24 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 04:51:39 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 04:51:39 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 04:51:39 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 04:51:39 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 04:51:53 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 04:51:53 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 04:51:53 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10
+ERROR - 2019-04-15 04:51:53 --> Severity: Notice --> Undefined variable: Adendum /Users/gilangpratama/Sites/master-thesis/application/views/user/js/js_page_dashboard.php 10

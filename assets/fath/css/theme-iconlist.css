@@ -1,0 +1,152 @@
+/* nav iconlist */
+.iconlist {
+  position: relative;
+  padding: 0.5rem 1rem;
+  height: calc(40px + 1rem);
+}
+
+.control-iconlist {
+  width: 40px;
+  height: 40px;
+  display: block;
+  position: absolute;
+  left: calc(200px + -3rem);
+  padding-top: calc(0.5rem - 1px);
+  padding-bottom: calc(0.5rem - 1px);
+  border: 2px solid rgba(0, 0, 0, 0.05);
+  text-align: center;
+  border-radius: 50%;
+  background: #fff;
+
+  -webkit-transition: left 0.5s ease-in-out;
+  transition: left 0.5s ease-in-out;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-animation-name: control-iconlist;
+  -webkit-animation-duration: 0.5s;
+  animation-name: control-iconlist;
+  animation-duration: 0.5s;
+  z-index: 100;
+}
+
+.control-iconlist.active {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-animation-name: control-iconlist-active;
+  -webkit-animation-duration: 0.5s;
+  animation-name: control-iconlist-active;
+  animation-duration: 0.5s;
+}
+
+@-webkit-keyframes control-iconlist {
+  from {-webkit-transform: rotate(90deg);transform: rotate(90deg);}
+  to {-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+} @keyframes control-iconlist {
+  from {-webkit-transform: rotate(90deg);transform: rotate(90deg);}
+  to {-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+}
+
+@-webkit-keyframes control-iconlist-active {
+  from {-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+  to {-webkit-transform: rotate(90deg);transform: rotate(90deg);}
+} @keyframes control-iconlist-active {
+  from {-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+  to {-webkit-transform: rotate(90deg);transform: rotate(90deg);}
+}
+
+.iconlist.iconlist-md .control-iconlist {
+  left: calc(120px + -2rem);
+}
+
+.iconlist.iconlist-sm .control-iconlist {
+  left: 40px;
+}
+
+.nav-iconlist {
+  padding: 0;
+}
+
+.nav-iconlist.active {
+  top: calc(40px + 1rem);
+  left: 0;
+  background: #333;
+  position: absolute;
+  padding: 0.5rem 1rem;
+
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+  -ms-flex-direction: column !important;
+  flex-direction: column !important;
+
+  -webkit-animation-name: iconlist-active;
+  -webkit-animation-duration: 1s;
+  animation-name: iconlist-active;
+  animation-duration: 1s;
+  z-index: 100;
+}
+
+.nav-iconlist .nav-item {
+  margin: 0;
+}
+
+.nav-iconlist .nav-link {
+  margin-left: -1rem;
+  -webkit-transition: margin 0.25s;
+  transition: margin 0.25s;
+}
+
+.nav-iconlist.active .nav-link {
+  margin: 0;
+}
+
+.nav-iconlist .nav-item:hover + .nav-item .nav-link {
+  margin-left: inherit;
+  -webkit-transition: margin 0.5s;
+  transition: margin 0.5s;
+}
+
+.nav-iconlist .nav-item:first-child .nav-link {
+  margin-left: inherit;
+}
+
+.nav-iconlist .nav-icon {
+  border-radius: 50%;
+  padding-top: calc(0.5rem - 1px);
+  padding-bottom: calc(0.5rem - 1px);
+  border: 2px solid rgba(0, 0, 0, 0.05);
+}
+
+.nav-iconlist .nav-text {
+  display: none;
+}
+
+.nav-iconlist.active .nav-text {
+  display: block;
+}
+
+.iconlist .nav-iconlist:not(.active) .nav-item:nth-child(5) ~ .nav-item {
+  /* max 5 */
+  display: none;
+}
+
+.iconlist.iconlist-md .nav-iconlist:not(.active) .nav-item:nth-child(3) ~ .nav-item {
+  /* max 3 */
+  display: none;
+}
+
+.iconlist.iconlist-sm .nav-iconlist:not(.active) .nav-item:nth-child(1) ~ .nav-item {
+  /* max 1 */
+  display: none;
+}
+
+@-webkit-keyframes iconlist-active {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,15 @@
+ERROR - 2019-03-25 20:10:21 --> 404 Page Not Found: /index
+ERROR - 2019-03-25 20:10:21 --> Severity: Warning --> include(/usr/local/var/www/master-moninvent/application/errors/html/error_404.php): failed to open stream: No such file or directory /usr/local/var/www/master-moninvent/system/core/Exceptions.php 182
+ERROR - 2019-03-25 20:10:21 --> Severity: Warning --> include(): Failed opening '/usr/local/var/www/master-moninvent/application/errors/html/error_404.php' for inclusion (include_path='.:/usr/local/Cellar/php/7.3.3/share/php/pear') /usr/local/var/www/master-moninvent/system/core/Exceptions.php 182
+ERROR - 2019-03-25 20:11:12 --> 404 Page Not Found: /index
+ERROR - 2019-03-25 20:11:59 --> 404 Page Not Found: /index
+ERROR - 2019-03-25 20:12:34 --> 404 Page Not Found: /index
+ERROR - 2019-03-25 20:19:17 --> Query error: Table 'moninvent.ak_data_sistem_log' doesn't exist - Invalid query: SELECT `data`
+FROM `ak_data_sistem_log`
+WHERE `id` = 'fb1cpc585km6eu2topu58k9ub52dlm09'
+AND `ip_address` = '::1'
+ERROR - 2019-03-25 20:19:17 --> Severity: Warning --> session_write_close(): Cannot call session save handler in a recursive manner Unknown 0
+ERROR - 2019-03-25 20:19:17 --> Severity: Warning --> session_write_close(): Failed to write session data using user defined save handler. (session.save_path: ) Unknown 0
+ERROR - 2019-03-25 20:20:16 --> Severity: error --> Exception: Unable to locate the model you have specified: M_Portal /usr/local/var/www/master-moninvent/system/core/Loader.php 348
+ERROR - 2019-03-25 20:25:57 --> Severity: error --> Exception: Unable to locate the model you have specified: M_Portal /usr/local/var/www/master-moninvent/system/core/Loader.php 348
+ERROR - 2019-03-25 20:26:54 --> Severity: error --> Exception: Unable to locate the model you have specified: M_Portal /usr/local/var/www/master-moninvent/system/core/Loader.php 348

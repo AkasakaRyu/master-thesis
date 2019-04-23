@@ -1,0 +1,53 @@
+ERROR - 2019-03-31 22:12:46 --> 404 Page Not Found: Assets
+ERROR - 2019-03-31 22:12:46 --> 404 Page Not Found: Assets
+ERROR - 2019-03-31 22:12:46 --> 404 Page Not Found: Assets
+ERROR - 2019-03-31 22:12:46 --> 404 Page Not Found: Assets
+ERROR - 2019-03-31 22:12:46 --> 404 Page Not Found: Assets
+ERROR - 2019-03-31 22:12:46 --> 404 Page Not Found: Assets
+ERROR - 2019-03-31 22:12:46 --> 404 Page Not Found: Assets
+ERROR - 2019-03-31 22:12:46 --> 404 Page Not Found: Assets
+ERROR - 2019-03-31 22:12:46 --> 404 Page Not Found: Assets
+ERROR - 2019-03-31 22:12:46 --> 404 Page Not Found: Assets
+ERROR - 2019-03-31 22:12:46 --> 404 Page Not Found: Assets
+ERROR - 2019-03-31 22:12:46 --> 404 Page Not Found: Assets
+ERROR - 2019-03-31 22:12:46 --> 404 Page Not Found: Assets
+ERROR - 2019-03-31 22:33:09 --> 404 Page Not Found: Portal/payment
+ERROR - 2019-03-31 22:42:36 --> 404 Page Not Found: Portal/biaya
+ERROR - 2019-03-31 22:52:00 --> Severity: error --> Exception: Unable to locate the model you have specified: M_Biaya /usr/local/var/www/master-simrs/system/core/Loader.php 348
+ERROR - 2019-03-31 22:58:24 --> 404 Page Not Found: Portal/tindakan
+ERROR - 2019-03-31 23:03:34 --> Severity: error --> Exception: Unable to locate the model you have specified: M_Tindakan /usr/local/var/www/master-simrs/system/core/Loader.php 348
+ERROR - 2019-03-31 23:22:32 --> Query error: Unknown column 'ak_data_master_tindakan.deleted' in 'where clause' - Invalid query: SELECT *
+FROM `ak_data_master_tindakan`
+WHERE `ak_data_master_tindakan`.`deleted` = 0
+ERROR - 2019-03-31 23:23:37 --> Query error: Unknown column 'ak_data_master_tindakan.deleted' in 'where clause' - Invalid query: SELECT *
+FROM `ak_data_master_tindakan`
+JOIN `ak_data_master_metode_pembayaran` ON `ak_data_master_metode_pembayaran`.`metode_pembayaran_id`=`ak_data_master_tindakan`.`metode_pembayaran_id`
+WHERE `ak_data_master_tindakan`.`deleted` = 0
+ERROR - 2019-03-31 23:23:44 --> 404 Page Not Found: Assets
+ERROR - 2019-03-31 23:23:44 --> 404 Page Not Found: Assets
+ERROR - 2019-03-31 23:23:48 --> 404 Page Not Found: Assets
+ERROR - 2019-03-31 23:23:49 --> 404 Page Not Found: Assets
+ERROR - 2019-03-31 23:23:49 --> Query error: Unknown column 'ak_data_master_tindakan.deleted' in 'where clause' - Invalid query: SELECT *
+FROM `ak_data_master_tindakan`
+JOIN `ak_data_master_metode_pembayaran` ON `ak_data_master_metode_pembayaran`.`metode_pembayaran_id`=`ak_data_master_tindakan`.`metode_pembayaran_id`
+WHERE `ak_data_master_tindakan`.`deleted` = 0
+ERROR - 2019-03-31 23:24:07 --> 404 Page Not Found: Assets
+ERROR - 2019-03-31 23:24:08 --> 404 Page Not Found: Assets
+ERROR - 2019-03-31 23:26:49 --> 404 Page Not Found: Portal/penyakit
+ERROR - 2019-03-31 23:44:16 --> 404 Page Not Found: Setting
+ERROR - 2019-03-31 23:44:53 --> 404 Page Not Found: Setting
+ERROR - 2019-03-31 23:45:06 --> 404 Page Not Found: Setting
+ERROR - 2019-03-31 23:45:16 --> 404 Page Not Found: Assets
+ERROR - 2019-03-31 23:45:16 --> 404 Page Not Found: Assets
+ERROR - 2019-03-31 23:45:20 --> 404 Page Not Found: Assets
+ERROR - 2019-03-31 23:45:20 --> 404 Page Not Found: Assets
+ERROR - 2019-03-31 23:45:24 --> 404 Page Not Found: Setting
+ERROR - 2019-03-31 23:46:02 --> 404 Page Not Found: Assets
+ERROR - 2019-03-31 23:46:02 --> 404 Page Not Found: Assets
+ERROR - 2019-03-31 23:46:07 --> 404 Page Not Found: Portal/layanan
+ERROR - 2019-03-31 23:46:09 --> 404 Page Not Found: Assets
+ERROR - 2019-03-31 23:46:10 --> 404 Page Not Found: Assets
+ERROR - 2019-03-31 23:46:12 --> 404 Page Not Found: Assets
+ERROR - 2019-03-31 23:46:12 --> 404 Page Not Found: Assets
+ERROR - 2019-03-31 23:52:35 --> 404 Page Not Found: Portal/layanan
+ERROR - 2019-03-31 23:55:45 --> Severity: error --> Exception: Unable to locate the model you have specified: M_Layanan /usr/local/var/www/master-simrs/system/core/Loader.php 348

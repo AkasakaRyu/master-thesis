@@ -1,0 +1,7 @@
+ERROR - 2019-03-26 01:31:06 --> Severity: Notice --> Undefined variable: Title /usr/local/var/www/master-moninvent/application/views/template/portal/v_portal_header.php 4
+ERROR - 2019-03-26 01:31:06 --> Severity: Notice --> Undefined variable: Info /usr/local/var/www/master-moninvent/application/views/template/portal/v_portal_header.php 4
+ERROR - 2019-03-26 01:31:06 --> Severity: Notice --> Trying to get property 'app_info_name' of non-object /usr/local/var/www/master-moninvent/application/views/template/portal/v_portal_header.php 4
+ERROR - 2019-03-26 02:11:56 --> 404 Page Not Found: Assets
+ERROR - 2019-03-26 02:12:48 --> 404 Page Not Found: Assets
+ERROR - 2019-03-26 02:12:48 --> 404 Page Not Found: Assets
+ERROR - 2019-03-26 02:12:49 --> 404 Page Not Found: Assets

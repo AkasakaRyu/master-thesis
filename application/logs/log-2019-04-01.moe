@@ -1,0 +1,821 @@
+ERROR - 2019-04-01 00:08:42 --> 404 Page Not Found: Portal/jadwal
+ERROR - 2019-04-01 00:09:16 --> 404 Page Not Found: Portal/jadwal
+ERROR - 2019-04-01 00:42:40 --> Severity: error --> Exception: Unable to locate the model you have specified: M_Jadwal /usr/local/var/www/master-simrs/system/core/Loader.php 348
+ERROR - 2019-04-01 00:43:29 --> Severity: error --> Exception: /usr/local/var/www/master-simrs/application/models/Pendaftaran/M_Jadwal.php exists, but doesn't declare class M_Jadwal /usr/local/var/www/master-simrs/system/core/Loader.php 340
+ERROR - 2019-04-01 01:12:09 --> 404 Page Not Found: Portal/rekap
+ERROR - 2019-04-01 01:12:16 --> Severity: Compile Error --> Cannot redeclare M_User::options() /usr/local/var/www/master-simrs/application/models/Settings/M_User.php 51
+ERROR - 2019-04-01 01:13:46 --> Query error: Unknown column 'user_id' in 'field list' - Invalid query: SELECT `user_id` as `id`, `user_id` as `value`, `user_nama` as `text`
+FROM `ak_data_user_level`
+WHERE `deleted` = 0
+ERROR - 2019-04-01 01:29:49 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 01:29:49 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 01:29:51 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 01:29:52 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 01:30:32 --> Query error: Unknown column 'deleteds' in 'where clause' - Invalid query: SELECT `user_id` as `id`, `user_id` as `value`, `user_nama` as `text`
+FROM `ak_data_user`
+WHERE `deleteds` = 0
+AND `level_id` = 'LVL19011700004'
+AND `level_id` = 'LVL19011700005'
+ERROR - 2019-04-01 01:32:01 --> Severity: error --> Exception: Call to undefined method CI_DB_mysqli_driver::where_or() /usr/local/var/www/master-simrs/application/models/Settings/M_User.php 67
+ERROR - 2019-04-01 01:32:29 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 01:32:29 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 01:33:26 --> Query error: Table 'simrs_lite.ak_data_master_jadwal' doesn't exist - Invalid query: SELECT *
+FROM `ak_data_master_jadwal`
+JOIN `ak_data_master_pelayanan` ON `ak_data_master_pelayanan`.`pelayanan_id`=`ak_data_master_jadwal`.`pelayanan_id`
+JOIN `ak_data_user` ON `ak_data_user`.`user_id`=`ak_data_master_jadwal`.`user_id`
+WHERE `ak_data_master_jadwal`.`deleted` = 0
+ERROR - 2019-04-01 01:33:30 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 01:33:30 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 01:33:35 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 01:33:35 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 01:33:35 --> Query error: Table 'simrs_lite.ak_data_master_jadwal' doesn't exist - Invalid query: SELECT *
+FROM `ak_data_master_jadwal`
+JOIN `ak_data_master_pelayanan` ON `ak_data_master_pelayanan`.`pelayanan_id`=`ak_data_master_jadwal`.`pelayanan_id`
+JOIN `ak_data_user` ON `ak_data_user`.`user_id`=`ak_data_master_jadwal`.`user_id`
+WHERE `ak_data_master_jadwal`.`deleted` = 0
+ERROR - 2019-04-01 01:33:53 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 01:33:53 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:19:17 --> 404 Page Not Found: Portal/jadwal
+ERROR - 2019-04-01 02:21:16 --> Query error: Unknown column 'jadwal_nama' in 'field list' - Invalid query: SELECT `jadwal_id` as `id`, `jadwal_id` as `value`, `jadwal_nama` as `text`
+FROM `ak_data_pendaftaran_jadwal`
+WHERE `deleted` = 0
+AND `pelayanan_id` = 'null'
+AND `tanggal` = '2019-04-01'
+ERROR - 2019-04-01 02:21:21 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:21:21 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:21:29 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:21:29 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:21:33 --> Query error: Unknown column 'jadwal_nama' in 'field list' - Invalid query: SELECT `jadwal_id` as `id`, `jadwal_id` as `value`, `jadwal_nama` as `text`
+FROM `ak_data_pendaftaran_jadwal`
+WHERE `deleted` = 0
+AND `pelayanan_id` = 'null'
+AND `tanggal` = '2019-04-01'
+ERROR - 2019-04-01 02:21:58 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:21:58 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:22:01 --> Query error: Unknown column 'jadwal_nama' in 'field list' - Invalid query: SELECT `jadwal_id` as `id`, `jadwal_id` as `value`, `jadwal_nama` as `text`
+FROM `ak_data_pendaftaran_jadwal`
+WHERE `deleted` = 0
+AND `pelayanan_id` = 'LYN1904010001'
+AND `tanggal` = '2019-04-01'
+ERROR - 2019-04-01 02:22:40 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:22:40 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:22:47 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:22:47 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:22:54 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:22:54 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:24:30 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:24:30 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:24:43 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:24:43 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:25:08 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:25:09 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:25:41 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:25:42 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:25:55 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:25:55 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:26:15 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:26:15 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:26:35 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:26:35 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:26:53 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:26:53 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:27:06 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:27:06 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:27:28 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:27:28 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:30:11 --> Severity: error --> Exception: Too few arguments to function Jadwal::options(), 0 passed in /usr/local/var/www/master-simrs/system/core/CodeIgniter.php on line 532 and exactly 1 expected /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Jadwal.php 107
+ERROR - 2019-04-01 02:30:53 --> Severity: error --> Exception: Too few arguments to function Jadwal::options(), 0 passed in /usr/local/var/www/master-simrs/system/core/CodeIgniter.php on line 532 and exactly 1 expected /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Jadwal.php 107
+ERROR - 2019-04-01 02:39:04 --> Severity: error --> Exception: Call to undefined method M_Daftar::get_antrian_id() /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Daftar.php 26
+ERROR - 2019-04-01 02:39:10 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:39:10 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:39:13 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:39:13 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:39:22 --> Severity: error --> Exception: Call to undefined method M_Daftar::get_antrian_id() /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Daftar.php 26
+ERROR - 2019-04-01 02:39:40 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:39:40 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:39:47 --> Severity: Notice --> Undefined variable: pelayanan /usr/local/var/www/master-simrs/application/models/Pendaftaran/M_Daftar.php 9
+ERROR - 2019-04-01 02:40:17 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:40:17 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:40:31 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:40:32 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:41:35 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:41:35 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:41:56 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:41:56 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:42:38 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:42:38 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:42:44 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:42:44 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:43:11 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:43:12 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:43:19 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:43:19 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:43:23 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:43:23 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:43:25 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:43:25 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:43:26 --> Severity: Notice --> Undefined property: stdClass::$tanggal_lahir /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Dashboard.php 40
+ERROR - 2019-04-01 02:43:26 --> Severity: Notice --> Undefined property: stdClass::$sapaan /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Dashboard.php 46
+ERROR - 2019-04-01 02:43:26 --> Severity: Notice --> Undefined property: stdClass::$pasien_nama /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Dashboard.php 46
+ERROR - 2019-04-01 02:43:26 --> Severity: Notice --> Undefined property: stdClass::$alamat /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Dashboard.php 48
+ERROR - 2019-04-01 02:43:26 --> Severity: Notice --> Undefined property: stdClass::$tanggal_lahir /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Dashboard.php 40
+ERROR - 2019-04-01 02:43:26 --> Severity: Notice --> Undefined property: stdClass::$sapaan /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Dashboard.php 46
+ERROR - 2019-04-01 02:43:26 --> Severity: Notice --> Undefined property: stdClass::$pasien_nama /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Dashboard.php 46
+ERROR - 2019-04-01 02:43:26 --> Severity: Notice --> Undefined property: stdClass::$alamat /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Dashboard.php 48
+ERROR - 2019-04-01 02:43:59 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:44:00 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:44:00 --> Severity: Notice --> Undefined property: stdClass::$tanggal_lahir /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Dashboard.php 40
+ERROR - 2019-04-01 02:44:00 --> Severity: Notice --> Undefined property: stdClass::$sapaan /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Dashboard.php 46
+ERROR - 2019-04-01 02:44:00 --> Severity: Notice --> Undefined property: stdClass::$pasien_nama /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Dashboard.php 46
+ERROR - 2019-04-01 02:44:00 --> Severity: Notice --> Undefined property: stdClass::$alamat /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Dashboard.php 48
+ERROR - 2019-04-01 02:44:00 --> Severity: Notice --> Undefined property: stdClass::$tanggal_lahir /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Dashboard.php 40
+ERROR - 2019-04-01 02:44:00 --> Severity: Notice --> Undefined property: stdClass::$sapaan /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Dashboard.php 46
+ERROR - 2019-04-01 02:44:00 --> Severity: Notice --> Undefined property: stdClass::$pasien_nama /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Dashboard.php 46
+ERROR - 2019-04-01 02:44:00 --> Severity: Notice --> Undefined property: stdClass::$alamat /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Dashboard.php 48
+ERROR - 2019-04-01 02:44:47 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:44:47 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:45:01 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:45:01 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:45:22 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:45:22 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:45:45 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:45:46 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:45:56 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:45:56 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:51:14 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:51:15 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:51:24 --> 404 Page Not Found: Administrasi
+ERROR - 2019-04-01 02:51:27 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:51:27 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:51:29 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:51:29 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 02:51:50 --> 404 Page Not Found: Portal/rekap
+ERROR - 2019-04-01 02:53:22 --> Severity: error --> Exception: Unable to locate the model you have specified: M_Kunjungan /usr/local/var/www/master-simrs/system/core/Loader.php 348
+ERROR - 2019-04-01 02:55:06 --> Severity: error --> Exception: syntax error, unexpected 'public' (T_PUBLIC) /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Rekap/Kunjungan.php 56
+ERROR - 2019-04-01 02:56:07 --> Severity: error --> Exception: Unable to locate the model you have specified: M_Kunjungan /usr/local/var/www/master-simrs/system/core/Loader.php 348
+ERROR - 2019-04-01 02:56:14 --> Severity: error --> Exception: Unable to locate the model you have specified: M_Kunjungan /usr/local/var/www/master-simrs/system/core/Loader.php 348
+ERROR - 2019-04-01 02:56:23 --> Severity: error --> Exception: Unable to locate the model you have specified: M_Kunjungan /usr/local/var/www/master-simrs/system/core/Loader.php 348
+ERROR - 2019-04-01 02:56:47 --> Severity: error --> Exception: Unable to locate the model you have specified: M_Kunjungan /usr/local/var/www/master-simrs/system/core/Loader.php 348
+ERROR - 2019-04-01 02:58:08 --> Severity: error --> Exception: Unable to locate the model you have specified: M_Kunjungan /usr/local/var/www/master-simrs/system/core/Loader.php 348
+ERROR - 2019-04-01 02:58:11 --> Severity: error --> Exception: Unable to locate the model you have specified: M_Kunjungan /usr/local/var/www/master-simrs/system/core/Loader.php 348
+ERROR - 2019-04-01 03:03:30 --> 404 Page Not Found: Layanan
+ERROR - 2019-04-01 03:04:19 --> 404 Page Not Found: Layanan
+ERROR - 2019-04-01 03:15:03 --> 404 Page Not Found: Portal/pasien
+ERROR - 2019-04-01 03:18:05 --> Severity: error --> Exception: Unable to locate the model you have specified: M_Pasien /usr/local/var/www/master-simrs/system/core/Loader.php 348
+ERROR - 2019-04-01 03:19:29 --> Severity: error --> Exception: /usr/local/var/www/master-simrs/application/models/Pendaftaran/Rekap/M_Rekap_Kunjungan.php exists, but doesn't declare class M_Rekap_Kunjungan /usr/local/var/www/master-simrs/system/core/Loader.php 340
+ERROR - 2019-04-01 03:19:57 --> Severity: error --> Exception: Unable to locate the model you have specified: M_Pasien /usr/local/var/www/master-simrs/system/core/Loader.php 348
+ERROR - 2019-04-01 03:22:34 --> 404 Page Not Found: Layanan
+ERROR - 2019-04-01 03:22:52 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 03:22:52 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 03:23:01 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 03:23:01 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 03:23:01 --> 404 Page Not Found: Layanan
+ERROR - 2019-04-01 03:24:06 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 03:24:06 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 03:24:21 --> 404 Page Not Found: Pendaftaran/Pasien/00000001
+ERROR - 2019-04-01 03:26:52 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 03:26:52 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 03:26:55 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 03:26:56 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 03:27:56 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 03:27:56 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 03:28:31 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 03:28:31 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 03:28:47 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 03:28:47 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 03:29:16 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 03:29:17 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 03:29:17 --> Severity: Notice --> Undefined variable: kode /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 26
+ERROR - 2019-04-01 03:29:34 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 03:29:34 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 03:30:29 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 03:30:29 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 03:30:54 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 03:30:54 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 03:31:39 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 03:31:40 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 03:32:14 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 03:32:14 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 03:32:53 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 03:32:53 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 03:32:58 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 03:32:58 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 03:33:33 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 03:33:34 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 03:33:52 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 03:33:52 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 03:34:25 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 03:34:25 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 03:34:35 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 03:34:35 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 03:34:42 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 03:34:42 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 03:35:58 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 03:35:58 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 03:56:16 --> 404 Page Not Found: Administrasi
+ERROR - 2019-04-01 03:56:16 --> 404 Page Not Found: Administrasi
+ERROR - 2019-04-01 03:56:16 --> 404 Page Not Found: Administrasi
+ERROR - 2019-04-01 03:56:16 --> 404 Page Not Found: Administrasi
+ERROR - 2019-04-01 03:56:16 --> 404 Page Not Found: Administrasi
+ERROR - 2019-04-01 03:56:16 --> 404 Page Not Found: Administrasi
+ERROR - 2019-04-01 03:56:16 --> 404 Page Not Found: Administrasi
+ERROR - 2019-04-01 03:56:16 --> 404 Page Not Found: Administrasi
+ERROR - 2019-04-01 03:56:16 --> 404 Page Not Found: Administrasi
+ERROR - 2019-04-01 03:56:16 --> 404 Page Not Found: Administrasi
+ERROR - 2019-04-01 03:56:16 --> 404 Page Not Found: Administrasi
+ERROR - 2019-04-01 03:56:16 --> 404 Page Not Found: Administrasi
+ERROR - 2019-04-01 03:56:16 --> 404 Page Not Found: Administrasi
+ERROR - 2019-04-01 03:56:16 --> 404 Page Not Found: Administrasi
+ERROR - 2019-04-01 03:56:16 --> 404 Page Not Found: Administrasi
+ERROR - 2019-04-01 03:56:16 --> 404 Page Not Found: Administrasi
+ERROR - 2019-04-01 03:56:16 --> 404 Page Not Found: Administrasi
+ERROR - 2019-04-01 03:56:16 --> 404 Page Not Found: Administrasi
+ERROR - 2019-04-01 03:56:16 --> 404 Page Not Found: Administrasi
+ERROR - 2019-04-01 03:56:16 --> 404 Page Not Found: Administrasi
+ERROR - 2019-04-01 03:56:16 --> 404 Page Not Found: Administrasi
+ERROR - 2019-04-01 03:56:16 --> 404 Page Not Found: Administrasi
+ERROR - 2019-04-01 03:56:16 --> 404 Page Not Found: Administrasi
+ERROR - 2019-04-01 03:56:17 --> 404 Page Not Found: Administrasi
+ERROR - 2019-04-01 03:56:17 --> 404 Page Not Found: Administrasi
+ERROR - 2019-04-01 03:56:17 --> 404 Page Not Found: Administrasi
+ERROR - 2019-04-01 03:56:17 --> 404 Page Not Found: Administrasi
+ERROR - 2019-04-01 03:57:12 --> 404 Page Not Found: Administrasi
+ERROR - 2019-04-01 03:57:12 --> Severity: error --> Exception: Call to undefined function base_url() /usr/local/var/www/master-simrs/application/errors/html/error_404.php 7
+ERROR - 2019-04-01 03:57:13 --> 404 Page Not Found: Administrasi
+ERROR - 2019-04-01 03:57:13 --> Severity: error --> Exception: Call to undefined function base_url() /usr/local/var/www/master-simrs/application/errors/html/error_404.php 7
+ERROR - 2019-04-01 03:57:55 --> 404 Page Not Found: Administrasi
+ERROR - 2019-04-01 05:41:28 --> 404 Page Not Found: Administrasi
+ERROR - 2019-04-01 05:52:29 --> Severity: error --> Exception: Unable to locate the model you have specified: M_Dashboard /usr/local/var/www/master-simrs/system/core/Loader.php 348
+ERROR - 2019-04-01 05:54:18 --> Severity: error --> Exception: Unable to locate the model you have specified: M_Dashboard /usr/local/var/www/master-simrs/system/core/Loader.php 348
+ERROR - 2019-04-01 06:07:07 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-04-01 06:07:07 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-04-01 06:07:07 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-04-01 06:07:07 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-04-01 06:07:07 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-04-01 06:07:07 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-04-01 06:07:07 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-04-01 06:07:07 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-04-01 06:07:07 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-04-01 06:07:07 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-04-01 06:07:07 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-04-01 06:07:07 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-04-01 06:07:07 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-04-01 06:07:07 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-04-01 06:07:07 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-04-01 06:07:07 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-04-01 06:07:07 --> Severity: Notice --> Trying to get property 'tanggal_rekam_medis' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-04-01 06:07:14 --> Severity: error --> Exception: Call to undefined method M_Daftar::get_id_transaksi() /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Daftar.php 27
+ERROR - 2019-04-01 06:07:17 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-04-01 06:07:17 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-04-01 06:07:17 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-04-01 06:07:17 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-04-01 06:07:17 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-04-01 06:07:17 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-04-01 06:07:17 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-04-01 06:07:17 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-04-01 06:07:17 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-04-01 06:07:17 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-04-01 06:07:17 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-04-01 06:07:17 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-04-01 06:07:17 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-04-01 06:07:17 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-04-01 06:07:17 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-04-01 06:07:17 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-04-01 06:07:17 --> Severity: Notice --> Trying to get property 'tanggal_rekam_medis' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-04-01 06:07:28 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:07:29 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:07:32 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:07:32 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:07:33 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-04-01 06:07:33 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-04-01 06:07:33 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-04-01 06:07:33 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-04-01 06:07:33 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-04-01 06:07:33 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-04-01 06:07:33 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-04-01 06:07:33 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-04-01 06:07:33 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-04-01 06:07:33 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-04-01 06:07:33 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-04-01 06:07:33 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-04-01 06:07:33 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-04-01 06:07:33 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-04-01 06:07:34 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-04-01 06:07:34 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-04-01 06:07:34 --> Severity: Notice --> Trying to get property 'tanggal_rekam_medis' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-04-01 06:07:40 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:07:40 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:07:43 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:07:43 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:07:47 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:07:47 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:07:47 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-04-01 06:07:47 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-04-01 06:07:47 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-04-01 06:07:47 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-04-01 06:07:47 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-04-01 06:07:47 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-04-01 06:07:47 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-04-01 06:07:47 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-04-01 06:07:47 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-04-01 06:07:47 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-04-01 06:07:47 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-04-01 06:07:47 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-04-01 06:07:47 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-04-01 06:07:47 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-04-01 06:07:47 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-04-01 06:07:47 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-04-01 06:07:47 --> Severity: Notice --> Trying to get property 'tanggal_rekam_medis' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-04-01 06:08:35 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:08:35 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:08:38 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:08:38 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:08:41 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:08:42 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:08:42 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:09:09 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:09:09 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:09:09 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:09:11 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:09:11 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:09:14 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:09:14 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:09:20 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:09:20 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:09:24 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:09:24 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:09:24 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-04-01 06:09:24 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-04-01 06:09:24 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-04-01 06:09:24 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-04-01 06:09:24 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-04-01 06:09:24 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-04-01 06:09:24 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-04-01 06:09:24 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-04-01 06:09:24 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-04-01 06:09:24 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-04-01 06:09:24 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-04-01 06:09:24 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-04-01 06:09:24 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-04-01 06:09:24 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-04-01 06:09:24 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-04-01 06:09:24 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-04-01 06:09:24 --> Severity: Notice --> Trying to get property 'tanggal_rekam_medis' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-04-01 06:09:27 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-04-01 06:09:27 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-04-01 06:09:27 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-04-01 06:09:27 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-04-01 06:09:27 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-04-01 06:09:27 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-04-01 06:09:27 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-04-01 06:09:27 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-04-01 06:09:27 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-04-01 06:09:27 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-04-01 06:09:27 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-04-01 06:09:27 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-04-01 06:09:27 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-04-01 06:09:27 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-04-01 06:09:27 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-04-01 06:09:27 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-04-01 06:09:27 --> Severity: Notice --> Trying to get property 'tanggal_rekam_medis' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-04-01 06:11:23 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:11:24 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:11:24 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-04-01 06:11:24 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-04-01 06:11:24 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-04-01 06:11:24 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-04-01 06:11:24 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-04-01 06:11:24 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-04-01 06:11:24 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-04-01 06:11:24 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-04-01 06:11:24 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-04-01 06:11:24 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-04-01 06:11:24 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-04-01 06:11:24 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-04-01 06:11:24 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-04-01 06:11:24 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-04-01 06:11:24 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-04-01 06:11:24 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-04-01 06:11:24 --> Severity: Notice --> Trying to get property 'tanggal_rekam_medis' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-04-01 06:11:44 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:11:44 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:11:44 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-04-01 06:11:44 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-04-01 06:11:44 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-04-01 06:11:44 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-04-01 06:11:44 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-04-01 06:11:44 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-04-01 06:11:44 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-04-01 06:11:44 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-04-01 06:11:44 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-04-01 06:11:44 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-04-01 06:11:44 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-04-01 06:11:44 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-04-01 06:11:44 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-04-01 06:11:44 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-04-01 06:11:44 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-04-01 06:11:44 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-04-01 06:11:44 --> Severity: Notice --> Trying to get property 'tanggal_rekam_medis' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-04-01 06:11:47 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-04-01 06:11:47 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-04-01 06:11:47 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-04-01 06:11:47 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-04-01 06:11:47 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-04-01 06:11:47 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-04-01 06:11:47 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-04-01 06:11:47 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-04-01 06:11:47 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-04-01 06:11:47 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-04-01 06:11:47 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-04-01 06:11:47 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-04-01 06:11:47 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-04-01 06:11:47 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-04-01 06:11:47 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-04-01 06:11:47 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-04-01 06:11:47 --> Severity: Notice --> Trying to get property 'tanggal_rekam_medis' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-04-01 06:12:26 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:12:26 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:12:26 --> Severity: Notice --> Trying to get property 'pasien_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 28
+ERROR - 2019-04-01 06:12:26 --> Severity: Notice --> Trying to get property 'pasien_nik' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 29
+ERROR - 2019-04-01 06:12:26 --> Severity: Notice --> Trying to get property 'pasien_kk' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 30
+ERROR - 2019-04-01 06:12:26 --> Severity: Notice --> Trying to get property 'pasien_bpjs' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 31
+ERROR - 2019-04-01 06:12:26 --> Severity: Notice --> Trying to get property 'pasien_nama' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 32
+ERROR - 2019-04-01 06:12:26 --> Severity: Notice --> Trying to get property 'sapaan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 33
+ERROR - 2019-04-01 06:12:26 --> Severity: Notice --> Trying to get property 'jenis_kelamin' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 34
+ERROR - 2019-04-01 06:12:26 --> Severity: Notice --> Trying to get property 'tempat_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 35
+ERROR - 2019-04-01 06:12:26 --> Severity: Notice --> Trying to get property 'tanggal_lahir' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 36
+ERROR - 2019-04-01 06:12:26 --> Severity: Notice --> Trying to get property 'alamat' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 37
+ERROR - 2019-04-01 06:12:26 --> Severity: Notice --> Trying to get property 'kelurahan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 38
+ERROR - 2019-04-01 06:12:26 --> Severity: Notice --> Trying to get property 'kecamatan' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 39
+ERROR - 2019-04-01 06:12:26 --> Severity: Notice --> Trying to get property 'kota' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 40
+ERROR - 2019-04-01 06:12:26 --> Severity: Notice --> Trying to get property 'nomor_telpon' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 41
+ERROR - 2019-04-01 06:12:26 --> Severity: Notice --> Trying to get property 'nama_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 42
+ERROR - 2019-04-01 06:12:26 --> Severity: Notice --> Trying to get property 'pekerjaan_ortu' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 43
+ERROR - 2019-04-01 06:12:26 --> Severity: Notice --> Trying to get property 'tanggal_rekam_medis' of non-object /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Pasien.php 44
+ERROR - 2019-04-01 06:12:58 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:12:58 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:13:17 --> Severity: error --> Exception: Call to undefined method M_Daftar::get_id_transaksi() /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Daftar.php 27
+ERROR - 2019-04-01 06:13:22 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:13:22 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:13:32 --> Severity: error --> Exception: Call to undefined method M_Daftar::get_id_transaksi() /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Daftar.php 27
+ERROR - 2019-04-01 06:14:22 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:14:22 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:14:29 --> Severity: error --> Exception: Call to undefined method M_Daftar::get_id_transaksi() /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Daftar.php 27
+ERROR - 2019-04-01 06:14:52 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:14:52 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:14:59 --> Severity: error --> Exception: Too few arguments to function M_Daftar::get_transaksi_id(), 0 passed in /usr/local/var/www/master-simrs/application/controllers/Pendaftaran/Daftar.php on line 27 and exactly 1 expected /usr/local/var/www/master-simrs/application/models/Pendaftaran/M_Daftar.php 17
+ERROR - 2019-04-01 06:15:13 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:15:13 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:15:21 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:15:22 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:15:26 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:15:26 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:15:28 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:15:28 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:17:50 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:17:50 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:18:58 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:18:59 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:19:02 --> 404 Page Not Found: Portal/kasir
+ERROR - 2019-04-01 06:23:11 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:23:12 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 06:23:18 --> 404 Page Not Found: Portal/kasir
+ERROR - 2019-04-01 06:30:52 --> 404 Page Not Found: Portal/kasir
+ERROR - 2019-04-01 07:49:21 --> Severity: error --> Exception: Unable to locate the model you have specified: M_Diagnosa /usr/local/var/www/master-simrs/system/core/Loader.php 348
+ERROR - 2019-04-01 07:56:53 --> Severity: error --> Exception: Unable to locate the model you have specified: M_Diagnosa /usr/local/var/www/master-simrs/system/core/Loader.php 348
+ERROR - 2019-04-01 08:06:07 --> Query error: Unknown column 'penyakit_nama' in 'field list' - Invalid query: SELECT `penyakit_id` as `id`, `penyakit_id` as `value`, `penyakit_nama` as `text`
+FROM `ak_data_master_penyakit`
+WHERE `deleted` = 0
+ERROR - 2019-04-01 08:06:18 --> Query error: Unknown column 'penyakit_nama' in 'field list' - Invalid query: SELECT `penyakit_id` as `id`, `penyakit_id` as `value`, `penyakit_nama` as `text`
+FROM `ak_data_master_penyakit`
+WHERE `deleted` = 0
+ERROR - 2019-04-01 08:06:41 --> Query error: Unknown column 'penyakit_nama' in 'field list' - Invalid query: SELECT `penyakit_id` as `id`, `penyakit_id` as `value`, `penyakit_nama` as `text`
+FROM `ak_data_master_penyakit`
+WHERE `deleted` = 0
+ERROR - 2019-04-01 08:07:15 --> Query error: Unknown column 'penyakit_nama' in 'field list' - Invalid query: SELECT `penyakit_id` as `id`, `penyakit_id` as `value`, `penyakit_nama` as `text`
+FROM `ak_data_master_penyakit`
+WHERE `deleted` = 0
+ERROR - 2019-04-01 08:07:33 --> Query error: Unknown column 'penyakit_nama' in 'field list' - Invalid query: SELECT `penyakit_id` as `id`, `penyakit_id` as `value`, `penyakit_nama` as `text`
+FROM `ak_data_master_penyakit`
+WHERE `deleted` = 0
+ERROR - 2019-04-01 08:07:47 --> Query error: Unknown column 'penyakit_nama' in 'field list' - Invalid query: SELECT `penyakit_id` as `id`, `penyakit_id` as `value`, `penyakit_nama` as `text`
+FROM `ak_data_master_penyakit`
+WHERE `deleted` = 0
+ERROR - 2019-04-01 08:07:52 --> Query error: Unknown column 'penyakit_nama' in 'field list' - Invalid query: SELECT `penyakit_id` as `id`, `penyakit_id` as `value`, `penyakit_nama` as `text`
+FROM `ak_data_master_penyakit`
+WHERE `deleted` = 0
+ERROR - 2019-04-01 08:08:23 --> Query error: Unknown column 'penyakit_nama' in 'field list' - Invalid query: SELECT `penyakit_id` as `id`, `penyakit_id` as `value`, `penyakit_nama` as `text`
+FROM `ak_data_master_penyakit`
+WHERE `deleted` = 0
+ERROR - 2019-04-01 08:08:30 --> Query error: Unknown column 'penyakit_nama' in 'field list' - Invalid query: SELECT `penyakit_id` as `id`, `penyakit_id` as `value`, `penyakit_nama` as `text`
+FROM `ak_data_master_penyakit`
+WHERE `deleted` = 0
+ERROR - 2019-04-01 08:09:25 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:09:25 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:09:28 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:09:28 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:09:28 --> Query error: Unknown column 'penyakit_nama' in 'field list' - Invalid query: SELECT `penyakit_id` as `id`, `penyakit_id` as `value`, `penyakit_nama` as `text`
+FROM `ak_data_master_penyakit`
+WHERE `deleted` = 0
+ERROR - 2019-04-01 08:09:48 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:09:48 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:14:51 --> 404 Page Not Found: Administrasi/Diagnosa/get_antrian_id
+ERROR - 2019-04-01 08:14:58 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:14:58 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:15:05 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:15:05 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:15:05 --> 404 Page Not Found: Administrasi/Diagnosa/get_antrian_id
+ERROR - 2019-04-01 08:21:18 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:21:18 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:21:18 --> Query error: Unknown column 'transaksi_id' in 'where clause' - Invalid query: SELECT *
+FROM `ak_data_pendaftaran_antrian`
+WHERE `transaksi_id` IS NULL
+ERROR - 2019-04-01 08:21:58 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:21:58 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:22:03 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:22:03 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:22:26 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:22:26 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:22:58 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:22:58 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:23:30 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:23:30 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:23:33 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:23:33 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:24:17 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:24:17 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:24:55 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:24:55 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:25:36 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:25:37 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:25:39 --> Severity: Notice --> Trying to get property 'diagnosa_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Administrasi/Diagnosa.php 56
+ERROR - 2019-04-01 08:25:39 --> Severity: Notice --> Trying to get property 'antrian_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Administrasi/Diagnosa.php 57
+ERROR - 2019-04-01 08:25:39 --> Severity: Notice --> Trying to get property 'penyakit_id' of non-object /usr/local/var/www/master-simrs/application/controllers/Administrasi/Diagnosa.php 58
+ERROR - 2019-04-01 08:25:39 --> Severity: Notice --> Trying to get property 'diagnosa_tanggal' of non-object /usr/local/var/www/master-simrs/application/controllers/Administrasi/Diagnosa.php 59
+ERROR - 2019-04-01 08:25:39 --> Severity: Notice --> Trying to get property 'diagnosa_keterangan' of non-object /usr/local/var/www/master-simrs/application/controllers/Administrasi/Diagnosa.php 60
+ERROR - 2019-04-01 08:25:57 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:25:57 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:32:14 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:32:14 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:32:14 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:32:36 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:32:36 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:32:36 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:32:47 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:32:47 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:32:47 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:33:31 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:33:31 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:33:34 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:33:34 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:33:34 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:33:40 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:33:41 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:33:41 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:33:47 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:33:47 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:33:47 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:34:33 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:34:33 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:34:33 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:34:42 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:34:42 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:34:42 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:36:35 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:36:35 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:36:35 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:37:31 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:37:31 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:37:31 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:37:44 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:37:44 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:37:44 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:44:43 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:44:43 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:44:43 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:44:45 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:44:45 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:44:45 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:45:41 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:45:41 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:45:41 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:46:22 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:46:22 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:46:22 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:46:25 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:46:25 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:46:25 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:46:51 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:46:52 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:46:52 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:48:34 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:48:34 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:48:34 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:49:00 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:49:00 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:49:00 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:49:31 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:49:31 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:49:31 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:49:34 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:49:34 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:49:34 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:49:47 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:49:47 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:49:47 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:49:50 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:49:50 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:49:50 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:51:16 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:51:16 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:51:16 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:52:15 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:52:15 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:52:15 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:52:22 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:52:22 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:52:22 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:53:09 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:53:09 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:53:09 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:53:42 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:53:42 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:53:42 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:54:28 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:54:28 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:54:28 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:54:36 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:54:36 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:54:36 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:54:49 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:54:49 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:54:49 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:54:57 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:54:57 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:54:57 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:55:07 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:55:07 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:55:07 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:55:17 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:55:17 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:55:17 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:55:25 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:55:25 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:55:25 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:56:11 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:56:11 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:56:11 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:56:39 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:56:39 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:56:39 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:56:56 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:56:56 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:56:56 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:57:01 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:57:01 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:57:01 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 08:57:30 --> 404 Page Not Found: Portal/administrasi
+ERROR - 2019-04-01 08:59:14 --> 404 Page Not Found: Portal/tindakan
+ERROR - 2019-04-01 09:14:08 --> 404 Page Not Found: Portal/tindakan
+ERROR - 2019-04-01 09:14:24 --> 404 Page Not Found: Administrasi/Tindakan/index
+ERROR - 2019-04-01 09:14:56 --> 404 Page Not Found: Administrasi/Tindakan/index
+ERROR - 2019-04-01 09:18:35 --> Severity: error --> Exception: Unable to locate the model you have specified: M_Tindakan /usr/local/var/www/master-simrs/system/core/Loader.php 348
+ERROR - 2019-04-01 09:36:55 --> Severity: error --> Exception: syntax error, unexpected ''tindakan_harga'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' /usr/local/var/www/master-simrs/application/controllers/Administrasi/Tindakan.php 77
+ERROR - 2019-04-01 09:37:11 --> Severity: error --> Exception: syntax error, unexpected ''tindakan_harga'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' /usr/local/var/www/master-simrs/application/controllers/Administrasi/Tindakan.php 77
+ERROR - 2019-04-01 09:37:20 --> Severity: error --> Exception: /usr/local/var/www/master-simrs/application/models/Administrasi/M_Tindakan.php exists, but doesn't declare class M_Tindakan /usr/local/var/www/master-simrs/system/core/Loader.php 340
+ERROR - 2019-04-01 13:47:21 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 13:48:02 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 13:48:22 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 13:51:44 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 13:51:50 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 13:51:50 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 13:51:50 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 13:51:50 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 13:51:50 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 13:51:50 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 13:51:52 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 13:52:02 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 13:52:20 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 13:52:33 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 13:52:41 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 13:52:41 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 13:52:41 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 13:52:41 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 13:52:42 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 13:52:43 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 13:52:47 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 13:55:40 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:02:52 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:02:52 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:02:52 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:02:52 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:02:53 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:04:17 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:04:17 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:04:17 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:04:17 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:05:15 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:05:15 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:05:15 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:05:36 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:05:36 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:05:36 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:05:59 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:05:59 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:05:59 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:06:28 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:06:28 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:06:28 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:06:28 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:06:33 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:06:33 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:06:33 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:07:09 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:07:09 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:07:09 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:07:32 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:07:32 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:07:32 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:07:55 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:07:55 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:07:55 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:07:55 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:08:07 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:08:07 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:08:07 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:08:07 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:08:22 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:08:22 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:08:22 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:08:22 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:08:53 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:08:53 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:08:53 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:08:53 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:10:33 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:10:33 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:10:33 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:10:33 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:10:42 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:10:42 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:10:42 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:10:44 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:10:44 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:10:44 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:10:45 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:10:57 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:10:59 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:11:00 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:11:00 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:11:47 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:12:08 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:12:25 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:49:54 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:52:36 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:58:18 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 14:58:37 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 15:17:14 --> 404 Page Not Found: Pendaftaran
+ERROR - 2019-04-01 15:19:13 --> 404 Page Not Found: Pendaftaran
+ERROR - 2019-04-01 15:19:37 --> 404 Page Not Found: Pendaftaran
+ERROR - 2019-04-01 15:20:56 --> 404 Page Not Found: Siswa
+ERROR - 2019-04-01 15:30:55 --> 404 Page Not Found: Portal/peminatan
+ERROR - 2019-04-01 15:32:47 --> 404 Page Not Found: Soal
+ERROR - 2019-04-01 15:33:06 --> 404 Page Not Found: Soal
+ERROR - 2019-04-01 15:39:05 --> 404 Page Not Found: Rekap
+ERROR - 2019-04-01 15:41:08 --> 404 Page Not Found: Rekap
+ERROR - 2019-04-01 15:41:11 --> 404 Page Not Found: Rekap
+ERROR - 2019-04-01 15:41:13 --> 404 Page Not Found: Settings
+ERROR - 2019-04-01 15:41:24 --> 404 Page Not Found: Settings
+ERROR - 2019-04-01 15:45:07 --> 404 Page Not Found: Portal/peminatan
+ERROR - 2019-04-01 15:46:35 --> 404 Page Not Found: Portal/peminatan
+ERROR - 2019-04-01 15:46:57 --> Severity: error --> Exception: Unable to locate the model you have specified: M_Peminatan /usr/local/var/www/master-cbt/system/core/Loader.php 348
+ERROR - 2019-04-01 16:02:06 --> 404 Page Not Found: Portal/layanan
+ERROR - 2019-04-01 16:12:07 --> 404 Page Not Found: Portal/layanan
+ERROR - 2019-04-01 16:12:58 --> 404 Page Not Found: Portal/layanan
+ERROR - 2019-04-01 16:13:31 --> 404 Page Not Found: Portal/layanan
+ERROR - 2019-04-01 16:14:07 --> 404 Page Not Found: Portal/layanan
+ERROR - 2019-04-01 16:14:27 --> 404 Page Not Found: Portal/layanan
+ERROR - 2019-04-01 16:15:00 --> Query error: Table 'cbt.ak_data_master_peminatan' doesn't exist - Invalid query: SELECT *
+FROM `ak_data_master_peminatan`
+WHERE `ak_data_master_peminatan`.`deleted` = 0
+ERROR - 2019-04-01 16:15:15 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 16:15:25 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 16:15:25 --> Query error: Table 'cbt.ak_data_master_peminatan' doesn't exist - Invalid query: SELECT *
+FROM `ak_data_master_peminatan`
+WHERE `ak_data_master_peminatan`.`deleted` = 0
+ERROR - 2019-04-01 16:15:33 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 16:15:33 --> Query error: Table 'cbt.ak_data_master_peminatan' doesn't exist - Invalid query: SELECT *
+FROM `ak_data_master_peminatan`
+WHERE `ak_data_master_peminatan`.`deleted` = 0
+ERROR - 2019-04-01 16:15:51 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 16:16:06 --> Query error: Unknown column 'peminatan_id' in 'field list' - Invalid query: INSERT INTO `ak_data_siswa_peminatan` (`peminatan_id`, `peminatan_singkatan`, `peminatan_nama`) VALUES ('PMT1904010001', 'TKJ', 'Teknik Komputer Jaringan')
+ERROR - 2019-04-01 16:16:13 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 16:16:16 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 16:16:25 --> Query error: Unknown column 'peminatan_id' in 'field list' - Invalid query: INSERT INTO `ak_data_siswa_peminatan` (`peminatan_id`, `peminatan_singkatan`, `peminatan_nama`) VALUES ('PMT1904010001', 'TKJ', 'Teknik Komputer Jaringan')
+ERROR - 2019-04-01 16:17:01 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 16:17:11 --> Query error: Unknown column 'peminatan_id' in 'field list' - Invalid query: INSERT INTO `ak_data_siswa_peminatan` (`peminatan_id`, `peminatan_singkatan`, `peminatan_nama`) VALUES ('PMT1904010001', 'TKJ', 'Teknik Komputer Jaringan')
+ERROR - 2019-04-01 16:17:27 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 16:17:38 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 16:17:54 --> 404 Page Not Found: Assets
+ERROR - 2019-04-01 16:39:31 --> 404 Page Not Found: Portal/kelas
+ERROR - 2019-04-01 16:41:10 --> Severity: error --> Exception: Unable to locate the model you have specified: M_Kelas /usr/local/var/www/master-cbt/system/core/Loader.php 348

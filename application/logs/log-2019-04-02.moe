@@ -1,0 +1,298 @@
+ERROR - 2019-04-02 10:59:57 --> Severity: Notice --> Undefined property: stdClass::$peminatan_singkatan /usr/local/var/www/master-cbt/application/controllers/Siswa/Kelas.php 31
+ERROR - 2019-04-02 11:00:01 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 11:01:00 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 11:01:05 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 11:01:22 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 11:01:26 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 11:01:46 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 11:02:05 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 11:02:12 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 11:02:23 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 11:02:27 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 11:02:29 --> 404 Page Not Found: Portal/daftar
+ERROR - 2019-04-02 11:03:09 --> Severity: error --> Exception: Unable to locate the model you have specified: M_Daftar /usr/local/var/www/master-cbt/system/core/Loader.php 348
+ERROR - 2019-04-02 11:15:39 --> Severity: error --> Exception: Unable to locate the model you have specified: M_Daftar /usr/local/var/www/master-cbt/system/core/Loader.php 348
+ERROR - 2019-04-02 11:20:01 --> Severity: error --> Exception: Unable to locate the model you have specified: M_Daftar /usr/local/var/www/master-cbt/system/core/Loader.php 348
+ERROR - 2019-04-02 11:21:00 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 11:29:34 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 11:38:49 --> 404 Page Not Found: Portal/paket
+ERROR - 2019-04-02 11:39:01 --> 404 Page Not Found: Portal/paket
+ERROR - 2019-04-02 11:47:54 --> 404 Page Not Found: Portal/paket
+ERROR - 2019-04-02 11:49:57 --> 404 Page Not Found: Portal/paket
+ERROR - 2019-04-02 11:51:01 --> Severity: error --> Exception: /usr/local/var/www/master-cbt/application/models/Soal/M_Paket.php exists, but doesn't declare class M_Paket /usr/local/var/www/master-cbt/system/core/Loader.php 340
+ERROR - 2019-04-02 11:51:07 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 11:51:11 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 11:51:11 --> Severity: error --> Exception: /usr/local/var/www/master-cbt/application/models/Soal/M_Paket.php exists, but doesn't declare class M_Paket /usr/local/var/www/master-cbt/system/core/Loader.php 340
+ERROR - 2019-04-02 11:51:25 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 11:54:06 --> Query error: Column 'user_id' cannot be null - Invalid query: INSERT INTO `ak_data_siswa` (`siswa_id`, `user_id`, `kelas_id`, `paket_id`, `siswa_nama`, `siswa_gender`, `siswa_tempat_lahir`, `siswa_tanggal_lahir`) VALUES ('SIS1904020001', NULL, 'KLS1904020002', 'PKG1904020001', 'Akasaka Ryuunosuke', 'Pria', 'Bandung', '1996-05-04')
+ERROR - 2019-04-02 11:54:09 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 11:54:14 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 11:54:39 --> Query error: Column 'user_id' cannot be null - Invalid query: INSERT INTO `ak_data_siswa` (`siswa_id`, `user_id`, `kelas_id`, `paket_id`, `siswa_nama`, `siswa_gender`, `siswa_tempat_lahir`, `siswa_tanggal_lahir`) VALUES ('SIS1904020001', NULL, 'KLS1904020002', 'PKG1904020001', 'Akasaka Ryuunosuke', 'Pria', 'Bandung', '1996-05-04')
+ERROR - 2019-04-02 11:56:31 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 11:56:57 --> Severity: error --> Exception: Call to undefined method M_Pendaftaran_Siswa::simpan_user() /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 83
+ERROR - 2019-04-02 11:57:33 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 11:57:57 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 12:00:00 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 12:00:24 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 12:00:43 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 12:00:49 --> Severity: Notice --> Trying to get property 'siswa_id' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 48
+ERROR - 2019-04-02 12:00:49 --> Severity: Notice --> Trying to get property 'user_id' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 49
+ERROR - 2019-04-02 12:00:49 --> Severity: Notice --> Trying to get property 'kelas_id' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 50
+ERROR - 2019-04-02 12:00:49 --> Severity: Notice --> Trying to get property 'paket_id' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 51
+ERROR - 2019-04-02 12:00:49 --> Severity: Notice --> Trying to get property 'siswa_nama' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 52
+ERROR - 2019-04-02 12:00:49 --> Severity: Notice --> Trying to get property 'siswa_gender' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 53
+ERROR - 2019-04-02 12:00:49 --> Severity: Notice --> Trying to get property 'siswa_tempat_lahir' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 54
+ERROR - 2019-04-02 12:00:49 --> Severity: Notice --> Trying to get property 'siswa_tanggal_lahir' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 55
+ERROR - 2019-04-02 12:00:51 --> Severity: Notice --> Trying to get property 'siswa_id' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 48
+ERROR - 2019-04-02 12:00:51 --> Severity: Notice --> Trying to get property 'user_id' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 49
+ERROR - 2019-04-02 12:00:51 --> Severity: Notice --> Trying to get property 'kelas_id' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 50
+ERROR - 2019-04-02 12:00:51 --> Severity: Notice --> Trying to get property 'paket_id' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 51
+ERROR - 2019-04-02 12:00:51 --> Severity: Notice --> Trying to get property 'siswa_nama' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 52
+ERROR - 2019-04-02 12:00:51 --> Severity: Notice --> Trying to get property 'siswa_gender' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 53
+ERROR - 2019-04-02 12:00:51 --> Severity: Notice --> Trying to get property 'siswa_tempat_lahir' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 54
+ERROR - 2019-04-02 12:00:51 --> Severity: Notice --> Trying to get property 'siswa_tanggal_lahir' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 55
+ERROR - 2019-04-02 12:00:53 --> Severity: Notice --> Trying to get property 'siswa_id' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 48
+ERROR - 2019-04-02 12:00:53 --> Severity: Notice --> Trying to get property 'user_id' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 49
+ERROR - 2019-04-02 12:00:53 --> Severity: Notice --> Trying to get property 'kelas_id' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 50
+ERROR - 2019-04-02 12:00:53 --> Severity: Notice --> Trying to get property 'paket_id' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 51
+ERROR - 2019-04-02 12:00:53 --> Severity: Notice --> Trying to get property 'siswa_nama' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 52
+ERROR - 2019-04-02 12:00:53 --> Severity: Notice --> Trying to get property 'siswa_gender' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 53
+ERROR - 2019-04-02 12:00:53 --> Severity: Notice --> Trying to get property 'siswa_tempat_lahir' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 54
+ERROR - 2019-04-02 12:00:53 --> Severity: Notice --> Trying to get property 'siswa_tanggal_lahir' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 55
+ERROR - 2019-04-02 12:00:58 --> Severity: Notice --> Trying to get property 'siswa_id' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 48
+ERROR - 2019-04-02 12:00:58 --> Severity: Notice --> Trying to get property 'user_id' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 49
+ERROR - 2019-04-02 12:00:58 --> Severity: Notice --> Trying to get property 'kelas_id' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 50
+ERROR - 2019-04-02 12:00:58 --> Severity: Notice --> Trying to get property 'paket_id' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 51
+ERROR - 2019-04-02 12:00:58 --> Severity: Notice --> Trying to get property 'siswa_nama' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 52
+ERROR - 2019-04-02 12:00:58 --> Severity: Notice --> Trying to get property 'siswa_gender' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 53
+ERROR - 2019-04-02 12:00:58 --> Severity: Notice --> Trying to get property 'siswa_tempat_lahir' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 54
+ERROR - 2019-04-02 12:00:58 --> Severity: Notice --> Trying to get property 'siswa_tanggal_lahir' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 55
+ERROR - 2019-04-02 12:00:59 --> Severity: Notice --> Trying to get property 'siswa_id' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 48
+ERROR - 2019-04-02 12:00:59 --> Severity: Notice --> Trying to get property 'user_id' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 49
+ERROR - 2019-04-02 12:00:59 --> Severity: Notice --> Trying to get property 'kelas_id' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 50
+ERROR - 2019-04-02 12:00:59 --> Severity: Notice --> Trying to get property 'paket_id' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 51
+ERROR - 2019-04-02 12:00:59 --> Severity: Notice --> Trying to get property 'siswa_nama' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 52
+ERROR - 2019-04-02 12:00:59 --> Severity: Notice --> Trying to get property 'siswa_gender' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 53
+ERROR - 2019-04-02 12:00:59 --> Severity: Notice --> Trying to get property 'siswa_tempat_lahir' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 54
+ERROR - 2019-04-02 12:00:59 --> Severity: Notice --> Trying to get property 'siswa_tanggal_lahir' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 55
+ERROR - 2019-04-02 12:01:07 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 12:01:11 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 12:01:23 --> Severity: Notice --> Trying to get property 'siswa_id' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 48
+ERROR - 2019-04-02 12:01:23 --> Severity: Notice --> Trying to get property 'user_id' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 49
+ERROR - 2019-04-02 12:01:23 --> Severity: Notice --> Trying to get property 'kelas_id' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 50
+ERROR - 2019-04-02 12:01:23 --> Severity: Notice --> Trying to get property 'paket_id' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 51
+ERROR - 2019-04-02 12:01:23 --> Severity: Notice --> Trying to get property 'siswa_nama' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 52
+ERROR - 2019-04-02 12:01:23 --> Severity: Notice --> Trying to get property 'siswa_gender' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 53
+ERROR - 2019-04-02 12:01:23 --> Severity: Notice --> Trying to get property 'siswa_tempat_lahir' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 54
+ERROR - 2019-04-02 12:01:23 --> Severity: Notice --> Trying to get property 'siswa_tanggal_lahir' of non-object /usr/local/var/www/master-cbt/application/controllers/Siswa/Daftar.php 55
+ERROR - 2019-04-02 12:01:50 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 12:02:56 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 12:03:24 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 12:03:27 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 12:04:09 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 12:04:48 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 12:04:54 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 12:04:57 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 12:07:11 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 13:35:31 --> 404 Page Not Found: Portal/proyek
+ERROR - 2019-04-02 13:39:50 --> Severity: error --> Exception: Unable to locate the model you have specified: M_Proyek /usr/local/var/www/master-cbt/system/core/Loader.php 348
+ERROR - 2019-04-02 13:41:38 --> Severity: error --> Exception: Unable to locate the model you have specified: M_Proyek /usr/local/var/www/master-cbt/system/core/Loader.php 348
+ERROR - 2019-04-02 13:44:09 --> Severity: error --> Exception: /usr/local/var/www/master-cbt/application/models/Soal/M_Proyek.php exists, but doesn't declare class M_Proyek /usr/local/var/www/master-cbt/system/core/Loader.php 340
+ERROR - 2019-04-02 14:15:33 --> Severity: Notice --> Undefined variable: res /usr/local/var/www/master-cbt/application/controllers/Soal/Proyek.php 60
+ERROR - 2019-04-02 14:15:33 --> Severity: Notice --> Trying to get property 'proyek_ujian_tahun_ajaran' of non-object /usr/local/var/www/master-cbt/application/controllers/Soal/Proyek.php 60
+ERROR - 2019-04-02 14:15:33 --> Severity: Notice --> Undefined variable: res /usr/local/var/www/master-cbt/application/controllers/Soal/Proyek.php 61
+ERROR - 2019-04-02 14:15:33 --> Severity: Notice --> Trying to get property 'proyek_ujian_nama' of non-object /usr/local/var/www/master-cbt/application/controllers/Soal/Proyek.php 61
+ERROR - 2019-04-02 14:15:33 --> Severity: Notice --> Undefined variable: res /usr/local/var/www/master-cbt/application/controllers/Soal/Proyek.php 62
+ERROR - 2019-04-02 14:15:33 --> Severity: Notice --> Trying to get property 'proyek_ujian_status' of non-object /usr/local/var/www/master-cbt/application/controllers/Soal/Proyek.php 62
+ERROR - 2019-04-02 14:15:33 --> Query error: Column 'proyek_ujian_tahun_ajaran' cannot be null - Invalid query: INSERT INTO `ak_data_soal_proyek_ujian` (`proyek_ujian_id`, `proyek_ujian_tahun_ajaran`, `proyek_ujian_nama`, `proyek_ujian_status`) VALUES ('PRO1904020001', NULL, NULL, NULL)
+ERROR - 2019-04-02 14:15:37 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 14:15:41 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 14:16:12 --> Severity: Notice --> Undefined variable: res /usr/local/var/www/master-cbt/application/controllers/Soal/Proyek.php 60
+ERROR - 2019-04-02 14:16:12 --> Severity: Notice --> Trying to get property 'proyek_ujian_tahun_ajaran' of non-object /usr/local/var/www/master-cbt/application/controllers/Soal/Proyek.php 60
+ERROR - 2019-04-02 14:16:12 --> Severity: Notice --> Undefined variable: res /usr/local/var/www/master-cbt/application/controllers/Soal/Proyek.php 61
+ERROR - 2019-04-02 14:16:12 --> Severity: Notice --> Trying to get property 'proyek_ujian_nama' of non-object /usr/local/var/www/master-cbt/application/controllers/Soal/Proyek.php 61
+ERROR - 2019-04-02 14:16:12 --> Severity: Notice --> Undefined variable: res /usr/local/var/www/master-cbt/application/controllers/Soal/Proyek.php 62
+ERROR - 2019-04-02 14:16:12 --> Severity: Notice --> Trying to get property 'proyek_ujian_status' of non-object /usr/local/var/www/master-cbt/application/controllers/Soal/Proyek.php 62
+ERROR - 2019-04-02 14:16:12 --> Query error: Column 'proyek_ujian_tahun_ajaran' cannot be null - Invalid query: INSERT INTO `ak_data_soal_proyek_ujian` (`proyek_ujian_id`, `proyek_ujian_tahun_ajaran`, `proyek_ujian_nama`, `proyek_ujian_status`) VALUES ('PRO1904020001', NULL, NULL, NULL)
+ERROR - 2019-04-02 14:16:46 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 14:16:55 --> Severity: Notice --> Undefined variable: data /usr/local/var/www/master-cbt/application/controllers/Soal/Proyek.php 60
+ERROR - 2019-04-02 14:16:55 --> Severity: Notice --> Trying to get property 'proyek_ujian_tahun_ajaran' of non-object /usr/local/var/www/master-cbt/application/controllers/Soal/Proyek.php 60
+ERROR - 2019-04-02 14:16:55 --> Severity: Notice --> Undefined variable: data /usr/local/var/www/master-cbt/application/controllers/Soal/Proyek.php 61
+ERROR - 2019-04-02 14:16:55 --> Severity: Notice --> Trying to get property 'proyek_ujian_nama' of non-object /usr/local/var/www/master-cbt/application/controllers/Soal/Proyek.php 61
+ERROR - 2019-04-02 14:16:55 --> Severity: Notice --> Undefined variable: data /usr/local/var/www/master-cbt/application/controllers/Soal/Proyek.php 62
+ERROR - 2019-04-02 14:16:55 --> Severity: Notice --> Trying to get property 'proyek_ujian_status' of non-object /usr/local/var/www/master-cbt/application/controllers/Soal/Proyek.php 62
+ERROR - 2019-04-02 14:16:55 --> Query error: Column 'proyek_ujian_tahun_ajaran' cannot be null - Invalid query: INSERT INTO `ak_data_soal_proyek_ujian` (`proyek_ujian_id`, `proyek_ujian_tahun_ajaran`, `proyek_ujian_nama`, `proyek_ujian_status`) VALUES ('PRO1904020001', NULL, NULL, NULL)
+ERROR - 2019-04-02 14:17:42 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 14:17:49 --> Severity: Notice --> Undefined property: CI_Loader::$input /usr/local/var/www/master-cbt/application/controllers/Soal/Proyek.php 60
+ERROR - 2019-04-02 14:17:49 --> Severity: error --> Exception: Call to a member function post() on null /usr/local/var/www/master-cbt/application/controllers/Soal/Proyek.php 60
+ERROR - 2019-04-02 14:18:07 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 14:18:14 --> Query error: Column 'proyek_ujian_status' cannot be null - Invalid query: INSERT INTO `ak_data_soal_proyek_ujian` (`proyek_ujian_id`, `proyek_ujian_tahun_ajaran`, `proyek_ujian_nama`, `proyek_ujian_status`) VALUES ('PRO1904020001', '2019/2020', 'UASBK', NULL)
+ERROR - 2019-04-02 14:18:28 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 14:18:46 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 14:23:10 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 14:23:35 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 14:29:17 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 14:30:18 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 14:30:32 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 14:30:49 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 14:30:54 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 14:31:00 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 14:31:05 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 14:31:37 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 14:31:41 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 14:31:52 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 14:31:56 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 14:32:54 --> Query error: Unknown column 'proyek_id' in 'where clause' - Invalid query: UPDATE `ak_data_soal_proyek_ujian` SET `proyek_ujian_status` = 'Aktif'
+WHERE `proyek_id` = 'PRO1904020001'
+ERROR - 2019-04-02 14:33:00 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 14:33:04 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 14:33:07 --> Query error: Unknown column 'proyek_id' in 'where clause' - Invalid query: UPDATE `ak_data_soal_proyek_ujian` SET `proyek_ujian_status` = 'Aktif'
+WHERE `proyek_id` = 'PRO1904020001'
+ERROR - 2019-04-02 14:33:30 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 14:33:33 --> Query error: Unknown column 'proyek_id' in 'where clause' - Invalid query: UPDATE `ak_data_soal_proyek_ujian` SET `proyek_ujian_status` = 'Aktif'
+WHERE `proyek_id` IS NULL
+ERROR - 2019-04-02 14:33:54 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 14:33:59 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 14:34:32 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 14:34:55 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 14:35:00 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 14:35:12 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 14:35:18 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 14:35:24 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 14:35:28 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 14:35:38 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 14:35:52 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 14:35:55 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 14:38:46 --> 404 Page Not Found: Portal/mapel
+ERROR - 2019-04-02 14:54:22 --> Severity: error --> Exception: Unable to locate the model you have specified: M_Mapel /usr/local/var/www/master-cbt/system/core/Loader.php 348
+ERROR - 2019-04-02 15:05:32 --> Severity: error --> Exception: Unable to locate the model you have specified: M_Mapel /usr/local/var/www/master-cbt/system/core/Loader.php 348
+ERROR - 2019-04-02 15:26:06 --> Query error: Unknown column 'proyek_nama' in 'field list' - Invalid query: SELECT `proyek_ujian_id` as `id`, `proyek_ujian_id` as `value`, `proyek_nama` as `text`
+FROM `ak_data_soal_proyek_ujian`
+WHERE `deleted` = 0
+ERROR - 2019-04-02 15:26:23 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 15:26:27 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 15:26:27 --> Query error: Unknown column 'proyek_nama' in 'field list' - Invalid query: SELECT `proyek_ujian_id` as `id`, `proyek_ujian_id` as `value`, `proyek_nama` as `text`
+FROM `ak_data_soal_proyek_ujian`
+WHERE `deleted` = 0
+ERROR - 2019-04-02 15:27:02 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 15:28:23 --> Severity: error --> Exception: Call to undefined method M_mapel::generate_token() /usr/local/var/www/master-cbt/application/controllers/Soal/Mapel.php 71
+ERROR - 2019-04-02 15:28:26 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 15:28:31 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 15:28:52 --> Severity: error --> Exception: Call to undefined method M_mapel::generate_token() /usr/local/var/www/master-cbt/application/controllers/Soal/Mapel.php 71
+ERROR - 2019-04-02 15:30:57 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 15:31:17 --> Query error: Column 'mapel_minimal_benar' cannot be null - Invalid query: INSERT INTO `ak_data_soal_mapel` (`mapel_id`, `peminatan_id`, `proyek_ujian_id`, `token_id`, `mapel_nama`, `mapel_singkatan`, `mapel_kkm`, `mapel_minimal_benar`, `mapel_jumlah_soal`, `mapel_waktu_ujian`) VALUES ('PRO1904020001', 'PMT1904010001', 'PRO1904020001', 'AHAY1904020001', 'Algoritma Pemrograman', 'Algo', '10', NULL, '10', NULL)
+ERROR - 2019-04-02 15:32:44 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 15:33:07 --> Query error: Unknown column 'keterangan' in 'field list' - Invalid query: INSERT INTO `ak_data_sistem_token` (`token_id`, `keterangan`) VALUES ('AHAY1904020001', 'Punya Algoritma Pemrograman')
+ERROR - 2019-04-02 15:33:30 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 15:33:47 --> Query error: Column 'mapel_waktu_ujian' cannot be null - Invalid query: INSERT INTO `ak_data_soal_mapel` (`mapel_id`, `peminatan_id`, `proyek_ujian_id`, `token_id`, `mapel_nama`, `mapel_singkatan`, `mapel_kkm`, `mapel_minimal_benar`, `mapel_jumlah_soal`, `mapel_waktu_ujian`) VALUES ('PRO1904020001', 'PMT1904010001', 'PRO1904020001', 'AHAY1904020001', 'Algoritma Pemrograman', 'Alg', '100', '10', '10', NULL)
+ERROR - 2019-04-02 15:33:55 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 15:37:10 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 15:37:23 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 16:12:06 --> Query error: Duplicate entry 'AHAY1904020001' for key 'PRIMARY' - Invalid query: INSERT INTO `ak_data_sistem_token` (`token_id`, `token_keterangan`) VALUES ('AHAY1904020001', 'Punya Algoritma Pemrograman')
+ERROR - 2019-04-02 16:12:09 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 16:12:12 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 16:12:29 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 16:13:08 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 16:13:08 --> Severity: Notice --> Undefined property: stdClass::$peminatan_nama /usr/local/var/www/master-cbt/application/controllers/Soal/Mapel.php 36
+ERROR - 2019-04-02 16:13:08 --> Severity: Notice --> Undefined property: stdClass::$proyek_ujian_nama /usr/local/var/www/master-cbt/application/controllers/Soal/Mapel.php 37
+ERROR - 2019-04-02 16:13:08 --> Severity: Notice --> Undefined property: stdClass::$token_nama /usr/local/var/www/master-cbt/application/controllers/Soal/Mapel.php 38
+ERROR - 2019-04-02 16:13:48 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 16:13:48 --> Severity: Notice --> Undefined property: stdClass::$peminatan_nama /usr/local/var/www/master-cbt/application/controllers/Soal/Mapel.php 36
+ERROR - 2019-04-02 16:13:48 --> Severity: Notice --> Undefined property: stdClass::$proyek_ujian_nama /usr/local/var/www/master-cbt/application/controllers/Soal/Mapel.php 37
+ERROR - 2019-04-02 16:13:48 --> Severity: Notice --> Undefined property: stdClass::$token_nama /usr/local/var/www/master-cbt/application/controllers/Soal/Mapel.php 38
+ERROR - 2019-04-02 16:14:23 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 16:14:23 --> Severity: Notice --> Undefined property: stdClass::$peminatan_singkatan /usr/local/var/www/master-cbt/application/controllers/Soal/Mapel.php 36
+ERROR - 2019-04-02 16:14:23 --> Severity: Notice --> Undefined property: stdClass::$proyek_ujian_nama /usr/local/var/www/master-cbt/application/controllers/Soal/Mapel.php 37
+ERROR - 2019-04-02 16:14:23 --> Severity: Notice --> Undefined property: stdClass::$token_nama /usr/local/var/www/master-cbt/application/controllers/Soal/Mapel.php 38
+ERROR - 2019-04-02 16:14:37 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 16:14:37 --> Severity: Notice --> Undefined property: stdClass::$peminatan_singkatan /usr/local/var/www/master-cbt/application/controllers/Soal/Mapel.php 36
+ERROR - 2019-04-02 16:14:37 --> Severity: Notice --> Undefined property: stdClass::$proyek_ujian_nama /usr/local/var/www/master-cbt/application/controllers/Soal/Mapel.php 37
+ERROR - 2019-04-02 16:14:37 --> Severity: Notice --> Undefined property: stdClass::$token_nama /usr/local/var/www/master-cbt/application/controllers/Soal/Mapel.php 38
+ERROR - 2019-04-02 16:19:50 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 16:19:50 --> Severity: Notice --> Undefined property: stdClass::$peminatan_nama /usr/local/var/www/master-cbt/application/controllers/Soal/Mapel.php 36
+ERROR - 2019-04-02 16:19:50 --> Severity: Notice --> Undefined property: stdClass::$proyek_ujian_nama /usr/local/var/www/master-cbt/application/controllers/Soal/Mapel.php 37
+ERROR - 2019-04-02 16:19:50 --> Severity: Notice --> Undefined property: stdClass::$token_nama /usr/local/var/www/master-cbt/application/controllers/Soal/Mapel.php 38
+ERROR - 2019-04-02 16:19:58 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 16:19:58 --> Severity: Notice --> Undefined property: stdClass::$peminatan_nama /usr/local/var/www/master-cbt/application/controllers/Soal/Mapel.php 36
+ERROR - 2019-04-02 16:19:58 --> Severity: Notice --> Undefined property: stdClass::$proyek_ujian_nama /usr/local/var/www/master-cbt/application/controllers/Soal/Mapel.php 37
+ERROR - 2019-04-02 16:19:58 --> Severity: Notice --> Undefined property: stdClass::$token_nama /usr/local/var/www/master-cbt/application/controllers/Soal/Mapel.php 38
+ERROR - 2019-04-02 16:20:40 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 16:21:02 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 16:21:02 --> Severity: Notice --> Undefined property: stdClass::$peminatan_nama /usr/local/var/www/master-cbt/application/controllers/Soal/Mapel.php 36
+ERROR - 2019-04-02 16:21:02 --> Severity: Notice --> Undefined property: stdClass::$proyek_ujian_nama /usr/local/var/www/master-cbt/application/controllers/Soal/Mapel.php 37
+ERROR - 2019-04-02 16:21:02 --> Severity: Notice --> Undefined property: stdClass::$token_nama /usr/local/var/www/master-cbt/application/controllers/Soal/Mapel.php 38
+ERROR - 2019-04-02 16:22:05 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 16:22:05 --> Severity: Notice --> Undefined property: stdClass::$token_nama /usr/local/var/www/master-cbt/application/controllers/Soal/Mapel.php 38
+ERROR - 2019-04-02 16:23:17 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 16:32:31 --> Query error: Duplicate entry 'ASHIAP1904020002' for key 'PRIMARY' - Invalid query: INSERT INTO `ak_data_sistem_token` (`token_id`, `token_keterangan`) VALUES ('ASHIAP1904020002', 'Punya Algoritma Pemrograman')
+ERROR - 2019-04-02 16:32:36 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 16:32:39 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 16:32:44 --> Query error: Duplicate entry 'ASHIAP1904020002' for key 'PRIMARY' - Invalid query: INSERT INTO `ak_data_sistem_token` (`token_id`, `token_keterangan`) VALUES ('ASHIAP1904020002', 'Punya Algoritma Pemrograman')
+ERROR - 2019-04-02 16:33:24 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 16:33:44 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 16:37:14 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 16:37:21 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 16:38:16 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 16:38:39 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 16:39:10 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 17:07:17 --> Severity: Notice --> Trying to get property 'paket_id' of non-object /usr/local/var/www/master-cbt/application/controllers/Soal/Paket.php 46
+ERROR - 2019-04-02 17:07:17 --> Severity: Notice --> Trying to get property 'paket_nama' of non-object /usr/local/var/www/master-cbt/application/controllers/Soal/Paket.php 47
+ERROR - 2019-04-02 17:07:52 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 17:07:54 --> Severity: Notice --> Trying to get property 'paket_id' of non-object /usr/local/var/www/master-cbt/application/controllers/Soal/Paket.php 46
+ERROR - 2019-04-02 17:07:54 --> Severity: Notice --> Trying to get property 'paket_nama' of non-object /usr/local/var/www/master-cbt/application/controllers/Soal/Paket.php 47
+ERROR - 2019-04-02 17:08:11 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 17:08:21 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 17:09:37 --> 404 Page Not Found: Portal/bank
+ERROR - 2019-04-02 17:09:50 --> 404 Page Not Found: Rekap
+ERROR - 2019-04-02 17:11:43 --> 404 Page Not Found: Rekap
+ERROR - 2019-04-02 17:11:53 --> 404 Page Not Found: Portal/bank
+ERROR - 2019-04-02 17:34:47 --> Severity: error --> Exception: Unable to locate the model you have specified: M_Bank_Soal /usr/local/var/www/master-cbt/system/core/Loader.php 348
+ERROR - 2019-04-02 17:34:57 --> Severity: error --> Exception: Unable to locate the model you have specified: M_Bank_Soal /usr/local/var/www/master-cbt/system/core/Loader.php 348
+ERROR - 2019-04-02 18:11:52 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 18:21:18 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 18:26:44 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 18:26:50 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 18:26:53 --> 404 Page Not Found: Rekap
+ERROR - 2019-04-02 18:26:55 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 18:26:56 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 18:26:59 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 18:29:31 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 18:30:26 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 18:30:46 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 18:31:22 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 18:31:37 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 18:38:33 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 18:39:03 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 18:41:09 --> 404 Page Not Found: Ckfinder
+ERROR - 2019-04-02 18:43:10 --> 404 Page Not Found: Ckfinder
+ERROR - 2019-04-02 18:43:37 --> 404 Page Not Found: Ckfinder
+ERROR - 2019-04-02 18:43:57 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 18:52:32 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 18:52:39 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 18:52:43 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 18:52:51 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 19:01:34 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 20:11:08 --> 404 Page Not Found: Rekap
+ERROR - 2019-04-02 20:14:53 --> 404 Page Not Found: Rekap
+ERROR - 2019-04-02 20:16:49 --> 404 Page Not Found: Rekap
+ERROR - 2019-04-02 21:19:45 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 21:19:50 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 21:20:52 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 21:23:17 --> 404 Page Not Found: Portal/localhost
+ERROR - 2019-04-02 21:23:59 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 21:24:08 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 21:24:24 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 21:46:39 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 21:48:09 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 21:48:38 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 21:48:55 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 21:49:13 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 21:53:53 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 21:55:33 --> 404 Page Not Found: Assets
+ERROR - 2019-04-02 22:11:11 --> 404 Page Not Found: Dashboard
+ERROR - 2019-04-02 22:38:20 --> Severity: error --> Exception: syntax error, unexpected ';', expecting ')' /usr/local/var/www/master-cbt/application/controllers/Portal.php 75
+ERROR - 2019-04-02 22:50:05 --> Severity: error --> Exception: syntax error, unexpected ';', expecting ')' /usr/local/var/www/master-cbt/application/controllers/Portal.php 42
+ERROR - 2019-04-02 22:54:11 --> 404 Page Not Found: Ujian
+ERROR - 2019-04-02 22:55:06 --> 404 Page Not Found: Ujian/Dashboard/index
+ERROR - 2019-04-02 22:55:13 --> 404 Page Not Found: Ujian/Dashboard/index
+ERROR - 2019-04-02 23:02:19 --> 404 Page Not Found: Assets
