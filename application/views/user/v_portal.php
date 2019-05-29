@@ -63,7 +63,12 @@
 												echo form_input($data);
 											?>
 										</div>
-										<button type="submit" name="button" class="btn btn-block btn-success btn-lg btn-circle"><i class="fa fa-sign-in-alt mr-2"></i> Masuk</button>
+										<button type="submit" name="button" class="btn btn-success btn-lg btn-circle">
+											<i class="fa fa-sign-in-alt mr-2"></i> Masuk
+										</button>
+										<a href="<?= base_url('user/registrasi') ?>" class="btn btn-danger btn-lg btn-circle">
+											<i class="fa fa-user mr-2"></i> Daftar
+										</a>
 									</div>
 								</div>
 							<?= form_close() ?>

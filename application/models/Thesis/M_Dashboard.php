@@ -5,9 +5,17 @@ class M_Dashboard extends CI_Model {
 	protected $kata = "ak_data_thesis_kata";
 	
 	public function get_list_data() {
-		return $this->db->where(
-			$this->thesis.'.deleted',false
-		)->get($this->thesis)->result();
+		if($this->session->userdata('level')!="Mahasiswa") {
+			return $this->db->where(
+				$this->thesis.'.deleted',false
+			)->order_by('created_date','desc')->get($this->thesis)->result();
+		} else {
+			return $this->db->where(
+				$this->thesis.'.deleted',false
+			)->where(
+				$this->thesis.'.user_id',$this->session->userdata('id')
+			)->order_by('created_date','desc')->get($this->thesis)->result();
+		}
 	}
 
 	public function get_data() {
@@ -19,6 +27,26 @@ class M_Dashboard extends CI_Model {
 	public function get_id() {
 		$res = $this->db->get($this->thesis)->num_rows();
 		return "THE".date('ymd').str_pad($res+1, 4, "0", STR_PAD_LEFT);
+	}
+
+	public function cari_judul() {
+		$judul = $this->input->post('thesis_judul');
+		$limit = 3;
+
+		$create_array = explode(" ",$judul);
+		$cut_array = array_slice($create_array,0,$limit);
+		$searchable = implode(" ",$cut_array);
+		return $this->db->like(
+			'thesis_judul',$searchable
+		)->get($this->thesis)->num_rows();
+	}
+
+	public function daftar_judul() {
+		return $this->db->select(
+			"thesis_judul as text"
+		)->like(
+			'thesis_judul',$this->input->post('thesis_judul')
+		)->get($this->thesis)->result();
 	}
 
 	public function simpan($data) { return $this->db->insert($this->thesis,$data); }

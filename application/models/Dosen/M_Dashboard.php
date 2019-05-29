@@ -17,7 +17,7 @@ class M_Dashboard extends CI_Model {
 
 	public function get_id() {
 		$res = $this->db->get($this->dosen)->num_rows();
-		return "DEPT".date('ymd').str_pad($res+1, 4, "0", STR_PAD_LEFT);
+		return "DOS".date('ymd').str_pad($res+1, 4, "0", STR_PAD_LEFT);
 	}
 
 	public function simpan($data) { return $this->db->insert($this->dosen,$data); }
@@ -36,7 +36,7 @@ class M_Dashboard extends CI_Model {
 
 	public function options() {
 		$res = $this->db->select(
-			"dosen_id as id,dosen_id as value,dosen_nama as text"
+			"dosen_id as id,dosen_id as value,dosen_nama as text,dosen_kuota as kuota"
 		)->where(
 			'deleted', FALSE
 		)->get($this->dosen)->result();

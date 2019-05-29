@@ -5,9 +5,17 @@ class M_Dashboard extends CI_Model {
 	protected $user = "ak_data_user";
 	
 	public function get_list_data() {
-		return $this->db->where(
-			$this->mahasiswa.'.deleted',false
-		)->get($this->mahasiswa)->result();
+		if($this->session->userdata('level')=="Mahasiswa") {
+			return $this->db->where(
+				$this->mahasiswa.'.deleted',false
+			)->where(
+				$this->mahasiswa.'.mahasiswa_id',$this->session->userdata('id')
+			)->get($this->mahasiswa)->result();
+		} else {
+			return $this->db->where(
+				$this->mahasiswa.'.deleted',false
+			)->get($this->mahasiswa)->result();
+		}
 	}
 
 	public function get_data() {

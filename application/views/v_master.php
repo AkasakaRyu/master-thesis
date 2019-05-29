@@ -9,7 +9,7 @@
 		<nav class="navbar navbar-expand-md navbar-dark bg-success">
 			<?php $this->load->view('template/v_navbar'); ?>
 		</nav>
-		<div class="container" style="min-height: 100vh">
+		<div class="container">
 			<main class="main">
 				<div class="row d-flex align-items-start flex-column">
 					 <div class="col-12">

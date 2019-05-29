@@ -6,6 +6,6 @@
 
 <div class="collapse navbar-collapse" id="navbarContent">
 	<div class="py-2 py-md-0 ml-auto">
-		<a href="<?= base_url('user/dashboard/logout') ?>" class="btn d-block d-md-inline text-left btn-light"><i class="fa fa-user-circle mr-2"></i> <?= $this->session->userdata('nama') ?></a>
+		<a href="<?= base_url('user/dashboard/logout') ?>" class="btn d-block d-md-inline text-left btn-light"><i class="fa fa-user-circle mr-2"></i> Sign Out</a>
 	</div>
 </div>

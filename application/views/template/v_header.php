@@ -14,10 +14,10 @@
     position: relative;
     min-height: 100%;
   }
-  body {
-    /* Margin bottom by footer height */
-    margin-bottom: 60px;
-  }
+  body { margin-bottom: 60px; }
+
+  *:focus, .form-control:focus { outline: none; }
+
   .container .text-muted {
     margin: 20px 0;
   }
@@ -38,10 +38,10 @@
     width: 100% !important;
   }
   .selec2-dropdown {
-	z-index: 99999;
+	 z-index: 99999;
   }
   .select2-dropdown.increasezindex {
-	z-index: 99999;
+	 z-index: 99999;
   }
 </style>
 <script src="<?= base_url('assets/jquery/jquery.min.js'); ?>"></script>

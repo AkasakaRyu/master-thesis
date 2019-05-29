@@ -5,7 +5,8 @@
 			"ajax": {
 				"url": "<?= base_url('dosen/dashboard/list_data/') ?>",
 				"type": "POST"
-			}
+			},
+			"responsive" : "true"
 		});
 
 		$('#FrmDiv').submit(function(e) {

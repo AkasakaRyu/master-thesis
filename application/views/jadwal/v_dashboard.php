@@ -3,12 +3,10 @@
 		<div class="card card-light enable-shadow">
 			<div class="card-header bg-secondary text-white">
 				<h4 class="card-title mb-0">
-					<i class="fa fa-user-graduate mr-2"></i> Data <?= $Title ?>
-					<?php if($this->session->userdata('level')=="Master") : ?>
-						<div class="float-none float-md-right mt-2 mt-md-0">
-							<a href="#" class="btn btn-sm btn-block btn-light" role="button" data-toggle="modal" data-target="#DivMod"><i class="fa fa-plus mr-2"></i> Tambah <?= $Title ?></a>
-						</div>
-					<?php endif ?>
+					<i class="fa fa-user-tie mr-2"></i> Data
+					<div class="float-none float-md-right mt-2 mt-md-0">
+						<a href="#" class="btn btn-sm btn-block btn-light" role="button" data-toggle="modal" data-target="#DivMod"><i class="fa fa-plus mr-2"></i> Tambah</a>
+					</div>
 					<div class="float-none float-md-right mt-2 mt-md-0 mr-md-1">
 						<a href="<?= base_url('user/dashboard') ?>" class="btn btn-sm btn-block btn-light"><i class="fa fa-home mr-2"></i> Beranda</a>
 					</div>
@@ -19,11 +17,9 @@
 					<table class="table table-sm table-striped table-bordered" id="dtDiv">
 						<thead>
 							<tr>
-								<th>NIM</th>
-								<th>Nama</th>
-								<th>Email</th>
-								<th>Alamat</th>
-								<th>Kontak</th>
+								<th>Mahasiswa</th>
+								<th>Dosen</th>
+								<th>Jadwal</th>
 								<th class="text-right"><i class="fa fa-cogs"></i></th>
 							</tr>
 						</thead>
@@ -36,19 +32,19 @@
 			<div class="modal-dialog modal-lg" role="document">
 				<div class="modal-content">
 					<div class="modal-header">
-						<h5 class="modal-title"><i class="fa fa-user-graduate mr-3"></i> Tambah Data <?= $Title ?></h5>
+						<h5 class="modal-title"><i class="fa fa-user-tie mr-3"></i> Tambah Data</h5>
 					</div>
 					<?= form_open("#",array('id' => 'FrmDiv')) ?>
 						<div class="modal-body">
 							<div class="row">
-								<div class="col-md-6">
+								<div class="col-md-4">
 									<div class="form-group">
-										<label for="">Kode <?= $Title ?></label>
+										<label for="">Kode</label>
 										<?php
 											$data = array(
-												'name' => 'mahasiswa_id',
-												'id' => 'mahasiswa_id',
-												'class' => 'form-control',
+												'name' => 'jadwal_id',
+												'id' => 'jadwal_id',
+												'class' => 'form-control form-control-sm',
 												'readonly' => 'true',
 												'required' => 'true',
 												'autocomplete' => 'off'
@@ -57,79 +53,53 @@
 										?>
 									</div>
 								</div>
-								<div class="col-md-6">
+								<div class="col-md-4">
 									<div class="form-group">
-										<label for="">NIM <?= $Title ?></label>
+										<label for="">Dosen</label>
 										<?php
 											$data = array(
-												'name' => 'mahasiswa_nim',
+												'name' => 'dosen_id',
 												'type' => 'number',
 												'min' => '0',
-												'id' => 'mahasiswa_nip',
-												'class' => 'form-control',
+												'id' => 'dosen_id',
+												'class' => 'form-control form-control-sm',
 												'required' => 'true',
 												'autocomplete' => 'off'
 											);
-											echo form_input($data);
+											$option = array(
+												'' => ''
+											);
+											echo form_dropdown($data,$option);
 										?>
 									</div>
 								</div>
-								<div class="col-md-6">
+								<div class="col-md-4">
 									<div class="form-group">
-										<label for="">Nama <?= $Title ?></label>
+										<label for="">Mahasiswa</label>
 										<?php
 											$data = array(
-												'name' => 'mahasiswa_nama',
-												'id' => 'mahasiswa_nama',
-												'class' => 'form-control',
+												'name' => 'mahasiswa_id',
+												'id' => 'mahasiswa_id',
+												'class' => 'form-control form-control-sm',
 												'required' => 'true',
 												'autocomplete' => 'off'
 											);
-											echo form_input($data);
-										?>
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="form-group">
-										<label for="">Email <?= $Title ?></label>
-										<?php
-											$data = array(
-												'name' => 'mahasiswa_email',
-												'type' => 'email',
-												'id' => 'mahasiswa_email',
-												'class' => 'form-control',
-												'required' => 'true',
-												'autocomplete' => 'off'
+											$option = array(
+												'' => ''
 											);
-											echo form_input($data);
+											echo form_dropdown($data,$option);
 										?>
 									</div>
 								</div>
-								<div class="col-md-6">
+								<div class="col-md-12">
 									<div class="form-group">
-										<label for="">Alamat <?= $Title ?></label>
+										<label for="">Tanggal</label>
 										<?php
 											$data = array(
-												'name' => 'mahasiswa_alamat',
-												'id' => 'mahasiswa_alamat',
-												'class' => 'form-control',
-												'required' => 'true',
-												'autocomplete' => 'off'
-											);
-											echo form_input($data);
-										?>
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="form-group">
-										<label for="">Kontak <?= $Title ?></label>
-										<?php
-											$data = array(
-												'name' => 'mahasiswa_kontak',
-												'type' => 'number',
-												'min' => '0',
-												'id' => 'mahasiswa_kontak',
-												'class' => 'form-control',
+												'name' => 'jadwal_tanggal',
+												'type' => 'date',
+												'id' => 'jadwal_tanggal',
+												'class' => 'form-control form-control-sm',
 												'required' => 'true',
 												'autocomplete' => 'off'
 											);
@@ -149,4 +119,4 @@
 		</div>
 	</div>
 </div>
-<?php $this->load->view('mahasiswa/js/js_page_dashboard') ?>
+<?php $this->load->view('jadwal/js/js_page_dashboard') ?>

@@ -5,17 +5,12 @@ class Dashboard extends CI_Controller {
 		parent::__construct();
 		$isLogin = $this->session->userdata('LoggedIn');
 		if($isLogin) {
-			$token = $this->session->userdata('token');
-			if($token=="") {
-				$level = $this->session->userdata('level');
-				$this->load->model('User/M_Dashboard','m');
-				if($level!="Master") {
-					$url = strtolower($level)."/dashboard";
-					redirect($url);
-				}
-			} else {
-				redirect("ujian/dashboard");
-			}
+			// $level = $this->session->userdata('level');
+			$this->load->model('User/M_Dashboard','m');
+			// if($level!="Master") {
+			// 	$url = strtolower($level)."/dashboard";
+			// 	redirect($url);
+			// }
 		} else {
 			redirect('portal');
 		}

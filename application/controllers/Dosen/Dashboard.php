@@ -5,10 +5,7 @@ class Dashboard extends CI_Controller {
 		parent::__construct();
 		$isLogin = $this->session->userdata('LoggedIn');
 		if($isLogin) {
-			$level = $this->session->userdata('level');
-			if($level=="Master") {
-				$this->load->model('Dosen/M_Dashboard','m');
-			}
+			$this->load->model('Dosen/M_Dashboard','m');
 		} else {
 			redirect('portal');
 		}
@@ -24,6 +21,11 @@ class Dashboard extends CI_Controller {
 		$list = $this->m->get_list_data();
 		$datatb = array();
 		foreach($list as $data) {
+			if($this->session->userdata('level')=="Kepala Jurusan" OR $this->session->userdata('level')=="Master") {
+				$button = "<button id='edit' data='".$data->dosen_id."' class='btn btn-xs btn-warning'><i class='fa fa-pencil-alt'></i></button> | <button id='hapus' class='btn btn-xs btn-danger' data='".$data->dosen_id."'><i class='fa fa-trash-alt'></i></a>";
+			} else {
+				$button = "-";
+			}
 			$row = array();
 			$row[] = $data->dosen_nip;
 			$row[] = $data->dosen_nama;
@@ -31,8 +33,7 @@ class Dashboard extends CI_Controller {
 			$row[] = $data->dosen_alamat;
 			$row[] = $data->dosen_kontak;
 			$row[] = $data->dosen_kuota;
-			$row[] = "<button id='edit' data='".$data->dosen_id."' class='btn btn-xs btn-warning'><i class='fa fa-pencil-alt'></i></button> | 
-			<button id='hapus' class='btn btn-xs btn-danger' data='".$data->dosen_id."'><i class='fa fa-trash-alt'></i></a>";
+			$row[] = $button;
 			$datatb[] = $row;
 		}
 		$output = array(

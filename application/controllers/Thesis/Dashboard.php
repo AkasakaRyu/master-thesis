@@ -5,10 +5,7 @@ class Dashboard extends CI_Controller {
 		parent::__construct();
 		$isLogin = $this->session->userdata('LoggedIn');
 		if($isLogin) {
-			$level = $this->session->userdata('level');
-			if($level=="Master") {
-				$this->load->model('Thesis/M_Dashboard','m');
-			}
+			$this->load->model('Thesis/M_Dashboard','m');
 		} else {
 			redirect('portal');
 		}
@@ -24,14 +21,25 @@ class Dashboard extends CI_Controller {
 		$list = $this->m->get_list_data();
 		$datatb = array();
 		foreach($list as $data) {
+			if($this->session->userdata('level')=="Kepala Jurusan") {
+				if($data->thesis_status=="Disetujui") {
+					$button = "<button type='button' id='tolak' data='".$data->thesis_id."' class='btn btn-sm btn-danger'><i class='fa fa-times'></i></button>";
+				} else {
+					$button = "<button type='button' id='terima' data='".$data->thesis_id."' class='btn btn-sm btn-success'><i class='fa fa-check'></i></button> | <button type='button' id='tolak' data='".$data->thesis_id."' class='btn btn-sm btn-danger'><i class='fa fa-times'></i></button>";
+				}
+			} else {
+				$button = "<button type='button' id='edit' data='".$data->thesis_id."' class='btn btn-sm btn-warning'><i class='fa fa-pencil-alt'></i></button> | 
+			<button type='button' id='hapus' class='btn btn-sm btn-danger' data='".$data->thesis_id."'><i class='fa fa-trash-alt'></i></button>";
+			}
 			$row = array();
 			$row[] = $data->thesis_judul;
+			$row[] = $data->thesis_keterangan;
+			$row[] = $data->thesis_status;
 			$row[] = $data->thesis_tujuan;
 			$row[] = $data->thesis_rumusan_masalah;
 			$row[] = $data->thesis_kerangka_teori;
 			$row[] = $data->thesis_metodologi_penelitian;
-			$row[] = "<button id='edit' data='".$data->thesis_id."' class='btn btn-xs btn-warning'><i class='fa fa-pencil-alt'></i></button> | 
-			<button id='hapus' class='btn btn-xs btn-danger' data='".$data->thesis_id."'><i class='fa fa-trash-alt'></i></a>";
+			$row[] = $button;
 			$datatb[] = $row;
 		}
 		$output = array(
@@ -49,72 +57,100 @@ class Dashboard extends CI_Controller {
 			'thesis_tujuan' => $res->thesis_tujuan,
 			'thesis_rumusan_masalah' => $res->thesis_rumusan_masalah,
 			'thesis_kerangka_teori' => $res->thesis_kerangka_teori,
-			'thesis_metodologi_penelitian' => $res->thesis_metodologi_penelitian
+			'thesis_metodologi_penelitian' => $res->thesis_metodologi_penelitian,
+			'thesis_status' => $res->thesis_status
 		);
 		echo json_encode($data);
 	}
 
-	public function simpan() {
-		$thesis_id = $this->input->post('thesis_id');
-		$check_judul = $this->checker('judul');
-		$check_rumusan = $this->checker('rumusan');
-		$check_kerangka = $this->checker('kerangka');
-		if($check_judul) {
-			if($check_rumusan) {
-				if($check_kerangka) {
-					if($thesis_id=="") {
-						$data = array(
-							'thesis_id' => $this->m->get_id(),
-							'user_id' => $this->session->userdata('id'),
-							'thesis_judul' => $this->input->post('thesis_judul'),
-							'thesis_tujuan' => $this->input->post('thesis_tujuan'),
-							'thesis_rumusan_masalah' => $this->input->post('thesis_rumusan_masalah'),
-							'thesis_kerangka_teori' => $this->input->post('thesis_kerangka_teori'),
-							'thesis_metodologi_penelitian' => $this->input->post('thesis_metodologi_penelitian'),
-							'created_by' => $this->session->userdata('nama')
-						);
-						$res = $this->m->simpan($data);
-						$pesan = array(
-							'warning' => 'Berhasil!',
-							'kode' => 'success',
-							'pesan' => 'Data thesis berhasil di simpan'
-						);
-					} else {
-						$data = array(
-							'thesis_judul' => $this->input->post('thesis_judul'),
-							'thesis_tujuan' => $this->input->post('thesis_tujuan'),
-							'thesis_rumusan_masalah' => $this->input->post('thesis_rumusan_masalah'),
-							'thesis_kerangka_teori' => $this->input->post('thesis_kerangka_teori'),
-							'thesis_metodologi_penelitian' => $this->input->post('thesis_metodologi_penelitian'),
-							'updated_by' => $this->session->userdata('nama'),
-							'last_update' => date('Y-m-d H:i:s')
-						);
-						$res = $this->m->edit($data);
-						$pesan = array(
-							'warning' => 'Berhasil!',
-							'kode' => 'success',
-							'pesan' => 'Data thesis berhasil di perbaharui'
-						);
-					}
-				} else {
-					$pesan = array(
-						'warning' => 'Gagal!',
-						'kode' => 'error',
-						'pesan' => 'Data thesis ditolak sistem. Check Kerangka!'
-					);
-				}
-			} else {
-				$pesan = array(
-					'warning' => 'Gagal!',
-					'kode' => 'error',
-					'pesan' => 'Data thesis ditolak sistem. Check Rumusan!'
-				);
-			}
+	public function cari_judul() {
+		$result = $this->m->cari_judul();
+		if($result>0) {
+			$pesan = array(
+				'warning' => 'Judul sudah ada!',
+				'kode' => 'error',
+				'pesan' => 'Judul thesis ditemukan '.$result.' data, gunakan judul lain!'
+			);
 		} else {
 			$pesan = array(
-				'warning' => 'Gagal!',
-				'kode' => 'error',
-				'pesan' => 'Data thesis ditolak sistem. Check Judul!'
+				'warning' => 'Judul belum ada!',
+				'kode' => 'success',
+				'pesan' => 'Judul thesis belum ada yang memakai, tekan tombol kirim untuk mengirim untuk ditinjau!'
+			);
+		}
+		echo json_encode($pesan);
+	}
+
+	public function daftar_judul() {
+		$res = $this->m->daftar_judul();
+		echo json_encode($res);
+	}
+
+	public function terima() {
+		$data = array(
+			'thesis_status' => 'Disetujui',
+			'updated_by' => $this->session->userdata('nama'),
+			'last_update' => date('Y-m-d H:i:s')
+		);
+		$this->m->edit($data);
+		$pesan = array(
+			'warning' => 'Berhasil!',
+			'kode' => 'success',
+			'pesan' => 'Data thesis berhasil di terima'
+		);
+		echo json_encode($pesan);
+	}
+
+	public function tolak() {
+		$data = array(
+			'thesis_status' => 'Ditolak',
+			'thesis_keterangan' => $this->input->post('thesis_keterangan'),
+			'updated_by' => $this->session->userdata('nama'),
+			'last_update' => date('Y-m-d H:i:s')
+		);
+		$this->m->edit($data);
+		$pesan = array(
+			'warning' => 'Berhasil!',
+			'kode' => 'success',
+			'pesan' => 'Data thesis berhasil di tolak'
+		);
+		echo json_encode($pesan);
+	}
+
+	public function simpan() {
+		$thesis_id = $this->input->post('thesis_id');
+		if($thesis_id=="") {
+			$data = array(
+				'thesis_id' => $this->m->get_id(),
+				'user_id' => $this->session->userdata('id'),
+				'thesis_judul' => $this->input->post('thesis_judul'),
+				'thesis_tujuan' => $this->input->post('thesis_tujuan'),
+				'thesis_rumusan_masalah' => $this->input->post('thesis_rumusan_masalah'),
+				'thesis_kerangka_teori' => $this->input->post('thesis_kerangka_teori'),
+				'thesis_metodologi_penelitian' => $this->input->post('thesis_metodologi_penelitian'),
+				'created_by' => $this->session->userdata('nama')
+			);
+			$res = $this->m->simpan($data);
+			$pesan = array(
+				'warning' => 'Berhasil!',
+				'kode' => 'success',
+				'pesan' => 'Data thesis berhasil di simpan'
+			);
+		} else {
+			$data = array(
+				'thesis_judul' => $this->input->post('thesis_judul'),
+				'thesis_tujuan' => $this->input->post('thesis_tujuan'),
+				'thesis_rumusan_masalah' => $this->input->post('thesis_rumusan_masalah'),
+				'thesis_kerangka_teori' => $this->input->post('thesis_kerangka_teori'),
+				'thesis_metodologi_penelitian' => $this->input->post('thesis_metodologi_penelitian'),
+				'updated_by' => $this->session->userdata('nama'),
+				'last_update' => date('Y-m-d H:i:s')
+			);
+			$res = $this->m->edit($data);
+			$pesan = array(
+				'warning' => 'Berhasil!',
+				'kode' => 'success',
+				'pesan' => 'Data thesis berhasil di perbaharui'
 			);
 		}
 		echo json_encode($pesan);
@@ -135,7 +171,7 @@ class Dashboard extends CI_Controller {
 			$allowed_word = $this->m->get_theory_words()->kata_maksimum;
 		}
 
-		$clean_string = strtolower(preg_replace('/[^a-z0-9]+/i', ' ', $string));
+		$clean_string = strtolower(preg_replace('/[^\p{L}\p{N}\s]/u', '', $string));
 		$string_array = array_unique(explode(" ",$clean_string));
 
 		if(!empty($forbidden_word)) {

@@ -5,10 +5,7 @@ class Dashboard extends CI_Controller {
 		parent::__construct();
 		$isLogin = $this->session->userdata('LoggedIn');
 		if($isLogin) {
-			$level = $this->session->userdata('level');
-			if($level=="Master") {
-				$this->load->model('Mahasiswa/M_Dashboard','m');
-			}
+			$this->load->model('Mahasiswa/M_Dashboard','m');
 		} else {
 			redirect('portal');
 		}
@@ -30,8 +27,12 @@ class Dashboard extends CI_Controller {
 			$row[] = $data->mahasiswa_email;
 			$row[] = $data->mahasiswa_alamat;
 			$row[] = $data->mahasiswa_kontak;
-			$row[] = "<button id='edit' data='".$data->mahasiswa_id."' class='btn btn-xs btn-warning'><i class='fa fa-pencil-alt'></i></button> | 
-			<button id='hapus' class='btn btn-xs btn-danger' data='".$data->mahasiswa_id."'><i class='fa fa-trash-alt'></i></a>";
+			if($this->session->userdata('level')=="Mahasiswa") {
+				$row[] = "<button id='edit' data='".$data->mahasiswa_id."' class='btn btn-xs btn-warning'><i class='fa fa-pencil-alt'></i></button>";
+			} else {
+				$row[] = "<button id='edit' data='".$data->mahasiswa_id."' class='btn btn-xs btn-warning'><i class='fa fa-pencil-alt'></i></button> | 
+				<button id='hapus' class='btn btn-xs btn-danger' data='".$data->mahasiswa_id."'><i class='fa fa-trash-alt'></i></a>";
+			}
 			$datatb[] = $row;
 		}
 		$output = array(
@@ -56,7 +57,7 @@ class Dashboard extends CI_Controller {
 
 	public function simpan() {
 		$mahasiswa_id = $this->input->post('mahasiswa_id');
-		$user_id = $this->m->get_user_id();
+		$user_id = $this->input->post('mahasiswa_nim');
 		if($mahasiswa_id=="") {
 			$user = array(
 				'user_id' => $user_id,
