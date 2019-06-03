@@ -1,14 +1,16 @@
-<div class="col-12 mt-5">
+<div class="col-12">
 	<div class="pl-3 py-4">
 		<div class="card card-light enable-shadow">
 			<div class="card-header bg-secondary text-white">
 				<h4 class="card-title mb-0">
 					<i class="fa fa-user-tie mr-2"></i> Data
-					<div class="float-none float-md-right mt-2 mt-md-0">
-						<a href="#" class="btn btn-sm btn-block btn-light" role="button" data-toggle="modal" data-target="#DivMod"><i class="fa fa-plus mr-2"></i> Tambah</a>
-					</div>
+					<?php if($this->session->userdata('access')!="LVL19011700003") : ?>
+						<div class="float-none float-md-right mt-2 mt-md-0">
+							<a href="#" class="btn btn-sm btn-block btn-light" role="button" data-toggle="modal" data-target="#DivMod"><i class="fa fa-plus mr-2"></i> Add</a>
+						</div>
+					<?php endif ?>
 					<div class="float-none float-md-right mt-2 mt-md-0 mr-md-1">
-						<a href="<?= base_url('user/dashboard') ?>" class="btn btn-sm btn-block btn-light"><i class="fa fa-home mr-2"></i> Beranda</a>
+						<a href="<?= base_url('user/dashboard') ?>" class="btn btn-sm btn-block btn-light"><i class="fa fa-home mr-2"></i> Dashboard</a>
 					</div>
 				</h4>
 			</div>
@@ -17,9 +19,9 @@
 					<table class="table table-sm table-striped table-bordered" id="dtDiv">
 						<thead>
 							<tr>
-								<th>Mahasiswa</th>
-								<th>Dosen</th>
-								<th>Jadwal</th>
+								<th>Students</th>
+								<th>Lecturer</th>
+								<th>Date</th>
 								<th class="text-right"><i class="fa fa-cogs"></i></th>
 							</tr>
 						</thead>
@@ -32,14 +34,14 @@
 			<div class="modal-dialog modal-lg" role="document">
 				<div class="modal-content">
 					<div class="modal-header">
-						<h5 class="modal-title"><i class="fa fa-user-tie mr-3"></i> Tambah Data</h5>
+						<h5 class="modal-title"><i class="fa fa-user-tie mr-3"></i> Forms</h5>
 					</div>
 					<?= form_open("#",array('id' => 'FrmDiv')) ?>
 						<div class="modal-body">
 							<div class="row">
 								<div class="col-md-4">
 									<div class="form-group">
-										<label for="">Kode</label>
+										<label for="">System Code <span class="text-muted"><i>leave default</i></span></label>
 										<?php
 											$data = array(
 												'name' => 'jadwal_id',
@@ -55,7 +57,7 @@
 								</div>
 								<div class="col-md-4">
 									<div class="form-group">
-										<label for="">Dosen</label>
+										<label for="">Lecturer <span class="text-muted"><i>*Required*</i></span></label>
 										<?php
 											$data = array(
 												'name' => 'dosen_id',
@@ -75,7 +77,7 @@
 								</div>
 								<div class="col-md-4">
 									<div class="form-group">
-										<label for="">Mahasiswa</label>
+										<label for="">Students <span class="text-muted"><i>*Required*</i></span></label>
 										<?php
 											$data = array(
 												'name' => 'mahasiswa_id',
@@ -93,7 +95,7 @@
 								</div>
 								<div class="col-md-12">
 									<div class="form-group">
-										<label for="">Tanggal</label>
+										<label for="">Date <span class="text-muted"><i>*Required*</i></span></label>
 										<?php
 											$data = array(
 												'name' => 'jadwal_tanggal',
@@ -111,7 +113,7 @@
 						</div>
 						<div class="modal-footer">
 							<button type="button" class="btn btn-circle btn-secondary" data-dismiss="modal"><i class="fa fa-times mr-2"></i> Close</button>
-							<button type="submit" class="btn btn-circle btn-primary"><i class="fa fa-check mr-2"></i> Save changes</button>
+							<button type="submit" class="btn btn-circle btn-primary"><i class="fa fa-check mr-2"></i> Save</button>
 						</div>
 					<?= form_close() ?>
 				</div>

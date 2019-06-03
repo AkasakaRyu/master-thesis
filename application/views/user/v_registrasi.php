@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Home</title>
+		<title>REGISTRATION PAGE | <?= $Info->app_info_name ?></title>
 		<link rel="stylesheet" href="<?= base_url('assets/bootstrap/css/bootstrap.min.css') ?>">
 		<link rel="stylesheet" href="<?= base_url('assets/fontawesome/css/fontawesome.css') ?>">
 		<link rel="stylesheet" href="<?= base_url('assets/fath/css/main.css') ?>">
@@ -29,12 +29,12 @@
 							<?= form_open('',array('id' => 'FrmDiv')) ?>
 								<div class="card card-light">
 									<div class="card-body">
-										<h2>Registrasi Mahasiswa</h2>
+										<h2>Registration Page</h2>
 										<p class="lead"><?= $Info->app_info_name ?></p>
 										<div class="row">
-										<div class="col-md-6">
+										<div class="col-md-4">
 											<div class="form-group">
-												<label for="">NIM <?= $Title ?></label>
+												<label for="">NIM <span class="text-muted"><i>*Required*</i></span></label>
 												<?php
 													$data = array(
 														'name' => 'mahasiswa_nim',
@@ -49,9 +49,9 @@
 												?>
 											</div>
 										</div>
-										<div class="col-md-6">
+										<div class="col-md-8">
 											<div class="form-group">
-												<label for="">Nama <?= $Title ?></label>
+												<label for="">Name <span class="text-muted"><i>*Required*</i></span></label>
 												<?php
 													$data = array(
 														'name' => 'mahasiswa_nama',
@@ -64,9 +64,9 @@
 												?>
 											</div>
 										</div>
-										<div class="col-md-6">
+										<div class="col-md-4">
 											<div class="form-group">
-												<label for="">Email <?= $Title ?></label>
+												<label for="">Email <span class="text-muted"><i>*Required*</i></span></label>
 												<?php
 													$data = array(
 														'name' => 'mahasiswa_email',
@@ -80,9 +80,9 @@
 												?>
 											</div>
 										</div>
-										<div class="col-md-6">
+										<div class="col-md-4">
 											<div class="form-group">
-												<label for="">Alamat <?= $Title ?></label>
+												<label for="">Address <span class="text-muted"><i>*Required*</i></span></label>
 												<?php
 													$data = array(
 														'name' => 'mahasiswa_alamat',
@@ -95,9 +95,9 @@
 												?>
 											</div>
 										</div>
-										<div class="col-md-6">
+										<div class="col-md-4">
 											<div class="form-group">
-												<label for="">Kontak <?= $Title ?></label>
+												<label for="">Phone Number <span class="text-muted"><i>*Required*</i></span></label>
 												<?php
 													$data = array(
 														'name' => 'mahasiswa_kontak',
@@ -114,10 +114,10 @@
 										</div>
 									</div>
 										<button type="submit" name="button" class="btn btn-success btn-lg btn-circle">
-											<i class="fa fa-edit mr-2"></i> Daftar
+											<i class="fa fa-edit mr-2"></i> Submit
 										</button>
 										<a href="<?= base_url('portal') ?>" class="btn btn-danger btn-lg btn-circle">
-											<i class="fa fa-caret-left mr-2"></i> Kembali
+											<i class="fa fa-caret-left mr-2"></i> Back
 										</a>
 									</div>
 								</div>
@@ -147,18 +147,20 @@
 							success: function(response) {
 								var data = JSON.parse(response);
 								swal(data.warning, data.pesan, data.kode).then((value) => {
-									location.reload();
+									if(data.kode=="success") {
+										window.location.href = "<?= base_url('portal') ?>";
+									}
 								})
 							},
 							error: function(xhr, status, error) {
 								swal(error, "Please Ask Support or Refresh the Page!", "error").then((value) => {
-									location.reload();
+									// location.reload();
 								})
 							}
 						})
 					} else {
-						swal("Poof!","Penyimpanan Data Dibatalkan", "error").then((value) => {
-							location.reload();
+						swal("Poof!","Data Storage Canceled", "error").then((value) => {
+							// location.reload();
 						})
 					}
 				})

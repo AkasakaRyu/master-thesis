@@ -6,20 +6,18 @@
 	</head>
 	<body class="bg-grey">
 		<div class="cover"></div>
-		<nav class="navbar navbar-expand-md navbar-dark bg-success">
+		<nav class="navbar navbar-dark navbar-expand-sm bg-success justify-content-center">
 			<?php $this->load->view('template/v_navbar'); ?>
 		</nav>
-		<div class="container">
-			<main class="main">
+		<main class="main">
+			<div class="container-fluid">
 				<div class="row d-flex align-items-start flex-column">
-					 <div class="col-12">
-					 	<div class="container py-4">
-							<?php $this->load->view($Konten); ?>
-						</div>
+					<div class="col-12">
+						<?php $this->load->view($Konten); ?>
 					</div>
 				</div>
-			</main>
-		</div>
+			</div>
+		</main>
 		<footer class="footer">
 			<?php $this->load->view('template/v_footer'); ?>
 		</footer>

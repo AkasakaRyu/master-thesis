@@ -12,7 +12,7 @@ class Dashboard extends CI_Controller {
 	}
 
 	public function index() {
-		$data["Title"] = "Dosen";
+		$data["Title"] = "Lecturer";
 		$data["Konten"] = "dosen/v_dashboard";
 		$this->load->view("v_master",$data);
 	}
@@ -21,8 +21,8 @@ class Dashboard extends CI_Controller {
 		$list = $this->m->get_list_data();
 		$datatb = array();
 		foreach($list as $data) {
-			if($this->session->userdata('level')=="Kepala Jurusan" OR $this->session->userdata('level')=="Master") {
-				$button = "<button id='edit' data='".$data->dosen_id."' class='btn btn-xs btn-warning'><i class='fa fa-pencil-alt'></i></button> | <button id='hapus' class='btn btn-xs btn-danger' data='".$data->dosen_id."'><i class='fa fa-trash-alt'></i></a>";
+			if($this->session->userdata('access')=="LVL19011700001") {
+				$button = "<button id='edit' data='".$data->dosen_id."' class='btn btn-sm btn-warning'><i class='fa fa-pencil-alt'></i></button> | <button id='hapus' class='btn btn-sm btn-danger' data='".$data->dosen_id."'><i class='fa fa-trash-alt'></i></a>";
 			} else {
 				$button = "-";
 			}
@@ -72,9 +72,9 @@ class Dashboard extends CI_Controller {
 			);
 			$res = $this->m->simpan($data);
 			$pesan = array(
-				'warning' => 'Berhasil!',
+				'warning' => 'It works!',
 				'kode' => 'success',
-				'pesan' => 'Data dosen '.$this->input->post('dosen_nama').' berhasil di simpan'
+				'pesan' => 'Lecturer data successfully saved'
 			);
 		} else {
 			$data = array( 
@@ -89,21 +89,25 @@ class Dashboard extends CI_Controller {
 			);
 			$res = $this->m->edit($data);
 			$pesan = array(
-				'warning' => 'Berhasil!',
+				'warning' => 'It works!',
 				'kode' => 'success',
-				'pesan' => 'Data dosen '.$this->input->post('dosen_nama').' berhasil di perbaharui'
+				'pesan' => 'Lecturer data successfully updated'
 			);
 		}
 		echo json_encode($pesan);
 	}
 
 	public function hapus() {
-		$data = array( 'deleted' => TRUE );
+		$data = array( 
+			'updated_by' => $this->session->userdata('nama'),
+			'last_update' => date('Y-m-d H:i:s'),
+			'deleted' => TRUE 
+		);
 		$this->m->hapus($data);
 		$pesan = array(
-			'warning' => 'Berhasil!',
+			'warning' => 'It works!',
 			'kode' => 'success',
-			'pesan' => 'Data dosen berhasil di hapus'
+			'pesan' => 'Lecturer data successfully deleted'
 		);
 		echo json_encode($pesan);
 	}

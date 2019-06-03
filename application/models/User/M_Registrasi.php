@@ -21,11 +21,15 @@ class M_Registrasi extends CI_Model {
 
 	public function cek_email() {
 		return $this->db->where(
-			'mahasiswa_email',$this->input->post('mahasiswa_email')
-		)->get($this->mahasiswa)->num_rows();
+			'user_login',$this->input->post('user_login')
+		)->get($this->user)->num_rows();
 	}
 
-	public function simpan($data) { return $this->db->insert($this->mahasiswa,$data); }
+	public function update_mahasiswa($data) {
+		return $this->db->where(
+			'mahasiswa_nim',$this->input->post('mahasiswa_nim')
+		)->update($this->mahasiswa,$data);
+	}
 
 	public function simpan_user($data) { return $this->db->insert($this->user,$data); }
 

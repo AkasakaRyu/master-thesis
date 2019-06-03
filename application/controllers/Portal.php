@@ -35,6 +35,7 @@
 					$data_session = array(
 						'id' => $data_akun->user_id,
 						'level' => $data_akun->level_nama,
+						'access' => $data_akun->level_id,
 						'nama' => $data_akun->user_nama,
 						'last_login' => $last,
 						'created_date' => $data_akun->created_date,
@@ -44,31 +45,31 @@
 					$this->a->update_last_login($data_akun->user_id);
 					$this->session->set_userdata($data_session);
 					$pesan = array(
-						'warning' => 'Akses Diterima!',
+						'warning' => 'Access Received!',
 						'kode' => 'success',
-						'pesan' => 'Berhasil masuk ke dalam sistem! Hallo, '.$this->session->userdata('nama')
+						'pesan' => 'Successfully entered the system! Hello, '.$this->session->userdata('nama')
 					);
 				} else {
 					$pesan = array(
-						'warning' => 'Akses Ditolak!',
+						'warning' => 'Access denied!',
 						'kode' => 'error',
-						'pesan' => 'Kata sandi tidak tepat!'
+						'pesan' => 'Invalid password!'
 					);
 					$rekam_kesempatan;
 				}
 			} else {
 				$pesan = array(
-					'warning' => 'Akses Ditolak!',
+					'warning' => 'Access denied!',
 					'kode' => 'error',
-					'pesan' => 'Akun tidak ditemukan!'
+					'pesan' => 'Account not found!'
 				);
 				$rekam_kesempatan;
 			}
 		} else {
 			$pesan = array(
-				'warning' => 'Akses Ditolak!',
+				'warning' => 'Access denied!',
 				'kode' => 'error',
-				'pesan' => 'Terlalu banyak percobaan gagal! Akun anda terkunci sementara!'
+				'pesan' => 'Too many failed attempts! Your account is temporarily locked!'
 			);
 			$rekam_kesempatan;
 		}

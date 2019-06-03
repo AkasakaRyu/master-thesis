@@ -33,33 +33,60 @@
 				);
 				$this->m->simpan_user($user);
 				$data = array(
-					'mahasiswa_id' => $user_id,
 					'user_id' => $user_id,
-					'mahasiswa_nim' => $this->input->post('mahasiswa_nim'),
-					'mahasiswa_nama' => $this->input->post('mahasiswa_nama'),
-					'mahasiswa_email' => $this->input->post('mahasiswa_email'),
-					'mahasiswa_alamat' => $this->input->post('mahasiswa_alamat'),
-					'mahasiswa_kontak' => $this->input->post('mahasiswa_kontak'),
 					'created_by' => "REGISTRATION"
 				);
-				$res = $this->m->simpan($data);
+				$res = $this->m->update_mahasiswa($data);
+				$email = "
+					Hello, ".$this->input->post('mahasiswa_nama')."<br /><br />
+					Congratulations, your account has been confirmed and you have the right access to the system. Here's the details of your account : <br />
+					----------------------------------------------------------- <br />
+					<table>
+						<tr><td>Username</td><td>:</td><td><b>".$this->input->post('mahasiswa_email')."</b></td></tr>
+						<tr><td>Password</td><td>:</td><td><b>".$user_id."</b></td></tr>
+					</table>
+					-----------------------------------------------------------<br />
+					Please click this <a href='https://thesis.kodepanda.id/portal?email=".$this->input->post('mahasiswa_email')."'>link</a>. To access the systems.<br /><br />
+					Regards,
+					<br />
+					<br />
+					University.<br />
+				";
+				$this->load->library('email');
+				//config nih
+				$config['protocol']    = 'smtp';
+				$config['smtp_host']    = 'ssl://mail.kodepanda.id';
+				$config['smtp_port']    = '465';
+				$config['smtp_timeout'] = '10';
+				$config['smtp_user']    = 'webmaster@kodepanda.id';
+				$config['smtp_pass']    = 'older45.,';
+				$config['charset']    = 'utf-8';
+				$config['newline']    = "\r\n";
+				$config['mailtype'] = 'html';
+				$config['validation'] = TRUE;
+				$this->email->initialize($config);
+				$this->email->from('webmaster@kodepanda.id', 'Thesis Kodepanda');
+				$this->email->to($this->input->post('mahasiswa_email'));
+				$this->email->subject('Detail Akun Mahasiswa');
+				$this->email->message($email);
+				$this->email->send();
 				$pesan = array(
-					'warning' => 'Berhasil!',
+					'warning' => 'Hooray!',
 					'kode' => 'success',
-					'pesan' => 'Data berhasil di simpan. Silahkan login menggunakan username : '.$this->input->post('mahasiswa_email').' dan password : '.$user_id.'.'
+					'pesan' => 'Registration successful! please check email!'
 				);
 			} else {
 				$pesan = array(
-					'warning' => 'Gagal!',
+					'warning' => 'Oh, Craps!',
 					'kode' => 'error',
-					'pesan' => 'Email tersebut sudah digunakan!'
+					'pesan' => 'The email has already been used!'
 				);
 			}
 		} else {
 			$pesan = array(
-				'warning' => 'Gagal!',
+				'warning' => 'Oh, Craps!',
 				'kode' => 'error',
-				'pesan' => 'Nim anda belum terdaftar!'
+				'pesan' => 'Your Nim is not registered yet!'
 			);
 		}
 		echo json_encode($pesan);

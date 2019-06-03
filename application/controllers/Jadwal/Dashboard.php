@@ -12,7 +12,7 @@ class Dashboard extends CI_Controller {
 	}
 
 	public function index() {
-		$data["Title"] = "Jadwal";
+		$data["Title"] = "Schedule";
 		$data["Konten"] = "jadwal/v_dashboard";
 		$this->load->view("v_master",$data);
 	}
@@ -21,7 +21,7 @@ class Dashboard extends CI_Controller {
 		$list = $this->m->get_list_data();
 		$datatb = array();
 		foreach($list as $data) {
-			if($this->session->userdata('level')=="Kepala Jurusan" OR $this->session->userdata('level')=="Master") {
+			if($this->session->userdata('access')!="LVL19011700003") {
 				$button = "<button id='edit' data='".$data->jadwal_id."' class='btn btn-sm btn-warning'><i class='fa fa-pencil-alt'></i></button> | <button id='hapus' class='btn btn-sm btn-danger' data='".$data->jadwal_id."'><i class='fa fa-trash-alt'></i></a>";
 			} else {
 				$button = "-";
@@ -61,10 +61,12 @@ class Dashboard extends CI_Controller {
 				'created_by' => $this->session->userdata('nama')
 			);
 			$res = $this->m->simpan($data);
+			$this->mailto_students();
+			$this->mailto_lecturer();
 			$pesan = array(
-				'warning' => 'Berhasil!',
+				'warning' => 'It Works!',
 				'kode' => 'success',
-				'pesan' => 'Data berhasil di simpan'
+				'pesan' => 'Data saved successfully!'
 			);
 		} else {
 			$data = array( 
@@ -76,12 +78,73 @@ class Dashboard extends CI_Controller {
 			);
 			$res = $this->m->edit($data);
 			$pesan = array(
-				'warning' => 'Berhasil!',
+				'warning' => 'It Works!',
 				'kode' => 'success',
-				'pesan' => 'Data berhasil di perbaharui'
+				'pesan' => 'Data successfully updated!'
 			);
 		}
 		echo json_encode($pesan);
+	}
+
+	public function mailto_students() {
+		$mahasiswa = $this->m->get_mahasiswa();
+		$email = "
+			Hello, ".$mahasiswa->mahasiswa_nama."<br /><br />
+			The schedule for your guidance at ".$this->input->post('jadwal_tanggal')." has been determined, please go to the system to see the details.<br /><br />
+			Regards,
+			<br />
+			<br />
+			University.<br />
+		";
+		$this->load->library('email');
+		//config nih
+		$config['protocol']    = 'smtp';
+		$config['smtp_host']    = 'ssl://mail.kodepanda.id';
+		$config['smtp_port']    = '465';
+		$config['smtp_timeout'] = '10';
+		$config['smtp_user']    = 'webmaster@kodepanda.id';
+		$config['smtp_pass']    = 'older45.,';
+		$config['charset']    = 'utf-8';
+		$config['newline']    = "\r\n";
+		$config['mailtype'] = 'html';
+		$config['validation'] = TRUE;
+		$this->email->initialize($config);
+		$this->email->from('webmaster@kodepanda.id', 'Thesis Kodepanda');
+		$this->email->to($mahasiswa->mahasiswa_email);
+		$this->email->subject('Your Guidance Schedule');
+		$this->email->message($email);
+		return $this->email->send();
+	}
+
+	public function mailto_lecturer() {
+		$dosen = $this->m->get_dosen();
+		$mahasiswa = $this->m->get_mahasiswa();
+		$email = "
+			Hello, ".$dosen->dosen_nama."<br /><br />
+			The schedule your guidance for <b>".$mahasiswa->mahasiswa_nama."</b> at ".$this->input->post('jadwal_tanggal')." has been determined. Please enter the system to see the details.<br /><br />
+			Regards,
+			<br />
+			<br />
+			University.<br />
+		";
+		$this->load->library('email');
+		//config nih
+		$config['protocol']    = 'smtp';
+		$config['smtp_host']    = 'ssl://mail.kodepanda.id';
+		$config['smtp_port']    = '465';
+		$config['smtp_timeout'] = '10';
+		$config['smtp_user']    = 'webmaster@kodepanda.id';
+		$config['smtp_pass']    = 'older45.,';
+		$config['charset']    = 'utf-8';
+		$config['newline']    = "\r\n";
+		$config['mailtype'] = 'html';
+		$config['validation'] = TRUE;
+		$this->email->initialize($config);
+		$this->email->from('webmaster@kodepanda.id', 'Thesis Kodepanda');
+		$this->email->to($dosen->dosen_email);
+		$this->email->subject('Your Guidance Schedule');
+		$this->email->message($email);
+		return $this->email->send();
 	}
 
 	public function hapus() {
@@ -92,9 +155,9 @@ class Dashboard extends CI_Controller {
 		);
 		$this->m->hapus($data);
 		$pesan = array(
-			'warning' => 'Berhasil!',
+			'warning' => 'It Works!',
 			'kode' => 'success',
-			'pesan' => 'Data dosen berhasil di hapus'
+			'pesan' => 'Data successfully deleted!'
 		);
 		echo json_encode($pesan);
 	}

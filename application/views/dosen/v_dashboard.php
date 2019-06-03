@@ -1,14 +1,14 @@
-<div class="col-12 mt-5">
+<div class="col-12">
 	<div class="pl-3 py-4">
 		<div class="card card-light enable-shadow">
 			<div class="card-header bg-secondary text-white">
 				<h4 class="card-title mb-0">
-					<i class="fa fa-user-tie mr-2"></i> Data <?= $Title ?>
+					<i class="fa fa-user-tie mr-2"></i> Lists
 					<div class="float-none float-md-right mt-2 mt-md-0">
-						<a href="#" class="btn btn-sm btn-block btn-light" role="button" data-toggle="modal" data-target="#DivMod"><i class="fa fa-plus mr-2"></i> Tambah <?= $Title ?></a>
+						<a href="#" class="btn btn-sm btn-block btn-light" role="button" data-toggle="modal" data-target="#DivMod"><i class="fa fa-plus mr-2"></i> Add</a>
 					</div>
 					<div class="float-none float-md-right mt-2 mt-md-0 mr-md-1">
-						<a href="<?= base_url('user/dashboard') ?>" class="btn btn-sm btn-block btn-light"><i class="fa fa-home mr-2"></i> Beranda</a>
+						<a href="<?= base_url('user/dashboard') ?>" class="btn btn-sm btn-block btn-light"><i class="fa fa-home mr-2"></i> Dashboard</a>
 					</div>
 				</h4>
 			</div>
@@ -18,11 +18,11 @@
 						<thead>
 							<tr>
 								<th>NIP</th>
-								<th>Nama</th>
+								<th>Name</th>
 								<th>Email</th>
-								<th>Alamat</th>
-								<th>Kontak</th>
-								<th>Kuota</th>
+								<th class="none">Address</th>
+								<th>Phone Number</th>
+								<th>Quota</th>
 								<th class="text-right"><i class="fa fa-cogs"></i></th>
 							</tr>
 						</thead>
@@ -35,14 +35,14 @@
 			<div class="modal-dialog modal-lg" role="document">
 				<div class="modal-content">
 					<div class="modal-header">
-						<h5 class="modal-title"><i class="fa fa-user-tie mr-3"></i> Tambah Data <?= $Title ?></h5>
+						<h5 class="modal-title"><i class="fa fa-user-tie mr-3"></i> Forms</h5>
 					</div>
 					<?= form_open("#",array('id' => 'FrmDiv')) ?>
 						<div class="modal-body">
 							<div class="row">
 								<div class="col-md-6">
 									<div class="form-group">
-										<label for="">Kode <?= $Title ?></label>
+										<label for="">System Code <span class="text-muted"><i>leave it empty</i></span></label>
 										<?php
 											$data = array(
 												'name' => 'dosen_id',
@@ -58,7 +58,7 @@
 								</div>
 								<div class="col-md-6">
 									<div class="form-group">
-										<label for="">NIP <?= $Title ?></label>
+										<label for="">NIP <span class="text-muted"><i>*required*</i></span></label>
 										<?php
 											$data = array(
 												'name' => 'dosen_nip',
@@ -75,7 +75,7 @@
 								</div>
 								<div class="col-md-6">
 									<div class="form-group">
-										<label for="">Nama <?= $Title ?></label>
+										<label for="">Name <span class="text-muted"><i>*required*</i></span></label>
 										<?php
 											$data = array(
 												'name' => 'dosen_nama',
@@ -90,7 +90,7 @@
 								</div>
 								<div class="col-md-6">
 									<div class="form-group">
-										<label for="">Email <?= $Title ?></label>
+										<label for="">Email <span class="text-muted"><i>*required*</i></span></label>
 										<?php
 											$data = array(
 												'name' => 'dosen_email',
@@ -106,7 +106,7 @@
 								</div>
 								<div class="col-md-12">
 									<div class="form-group">
-										<label for="">Alamat <?= $Title ?></label>
+										<label for="">Address <span class="text-muted"><i>*required*</i></span></label>
 										<?php
 											$data = array(
 												'name' => 'dosen_alamat',
@@ -121,7 +121,7 @@
 								</div>
 								<div class="col-md-6">
 									<div class="form-group">
-										<label for="">Kontak <?= $Title ?></label>
+										<label for="">Phone Number <span class="text-muted"><i>*required*</i></span></label>
 										<?php
 											$data = array(
 												'name' => 'dosen_kontak',
@@ -138,7 +138,7 @@
 								</div>
 								<div class="col-md-6">
 									<div class="form-group">
-										<label for="">Kouta <?= $Title ?></label>
+										<label for="">Quota <span class="text-muted"><i>*required*</i></span></label>
 										<?php
 											$data = array(
 												'name' => 'dosen_kuota',

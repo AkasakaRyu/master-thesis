@@ -4,6 +4,7 @@ class Dashboard extends CI_Controller {
 	public function __construct() {
 		parent::__construct();
 		$isLogin = $this->session->userdata('LoggedIn');
+		$access = $this->session->userdata('access');
 		if($isLogin) {
 			$this->load->model('Mahasiswa/M_Dashboard','m');
 		} else {
@@ -12,7 +13,7 @@ class Dashboard extends CI_Controller {
 	}
 
 	public function index() {
-		$data["Title"] = "Mahasiswa";
+		$data["Title"] = "Students";
 		$data["Konten"] = "mahasiswa/v_dashboard";
 		$this->load->view("v_master",$data);
 	}
@@ -27,11 +28,11 @@ class Dashboard extends CI_Controller {
 			$row[] = $data->mahasiswa_email;
 			$row[] = $data->mahasiswa_alamat;
 			$row[] = $data->mahasiswa_kontak;
-			if($this->session->userdata('level')=="Mahasiswa") {
-				$row[] = "<button id='edit' data='".$data->mahasiswa_id."' class='btn btn-xs btn-warning'><i class='fa fa-pencil-alt'></i></button>";
+			if($this->session->userdata('access')=="LVL19011700003") {
+				$row[] = "<button id='edit' data='".$data->mahasiswa_id."' class='btn btn-sm btn-warning'><i class='fa fa-pencil-alt'></i></button> | <button id='pass' class='btn btn-sm btn-info' data='".$data->mahasiswa_id."'><i class='fa fa-key'></i></button>";
 			} else {
-				$row[] = "<button id='edit' data='".$data->mahasiswa_id."' class='btn btn-xs btn-warning'><i class='fa fa-pencil-alt'></i></button> | 
-				<button id='hapus' class='btn btn-xs btn-danger' data='".$data->mahasiswa_id."'><i class='fa fa-trash-alt'></i></a>";
+				$row[] = "<button id='edit' data='".$data->mahasiswa_id."' class='btn btn-sm btn-warning'><i class='fa fa-pencil-alt'></i></button> | 
+				<button id='hapus' class='btn btn-sm btn-danger' data='".$data->mahasiswa_id."'><i class='fa fa-trash-alt'></i></button> | <button id='pass' class='btn btn-sm btn-info' data='".$data->mahasiswa_id."'><i class='fa fa-key'></i></button>";
 			}
 			$datatb[] = $row;
 		}
@@ -46,6 +47,7 @@ class Dashboard extends CI_Controller {
 		$res = $this->m->get_data();
 		$data = array(
 			'mahasiswa_id' => $res->mahasiswa_id,
+			'user_id' => $res->user_id,
 			'mahasiswa_nim' => $res->mahasiswa_nim,
 			'mahasiswa_nama' => $res->mahasiswa_nama,
 			'mahasiswa_email' => $res->mahasiswa_email,
@@ -59,14 +61,6 @@ class Dashboard extends CI_Controller {
 		$mahasiswa_id = $this->input->post('mahasiswa_id');
 		$user_id = $this->input->post('mahasiswa_nim');
 		if($mahasiswa_id=="") {
-			$user = array(
-				'user_id' => $user_id,
-				'level_id' => 'LVL19011700003',
-				'user_nama' => $this->input->post('mahasiswa_nama'),
-				'user_login' => $this->input->post('mahasiswa_email'),
-				'user_pass' => password_hash($user_id, PASSWORD_BCRYPT)
-			);
-			$this->m->simpan_user($user);
 			$data = array(
 				'mahasiswa_id' => $this->m->get_id(),
 				'user_id' => $user_id,
@@ -79,9 +73,9 @@ class Dashboard extends CI_Controller {
 			);
 			$res = $this->m->simpan($data);
 			$pesan = array(
-				'warning' => 'Berhasil!',
+				'warning' => 'It Works',
 				'kode' => 'success',
-				'pesan' => 'Data mahasiswa '.$this->input->post('mahasiswa_nama').' berhasil di simpan'
+				'pesan' => 'Student data saved successfully'
 			);
 		} else {
 			$data = array( 
@@ -95,21 +89,65 @@ class Dashboard extends CI_Controller {
 			);
 			$res = $this->m->edit($data);
 			$pesan = array(
-				'warning' => 'Berhasil!',
+				'warning' => 'It Works',
 				'kode' => 'success',
-				'pesan' => 'Data mahasiswa '.$this->input->post('mahasiswa_nama').' berhasil di perbaharui'
+				'pesan' => 'Student data successfully updated'
 			);
 		}
 		echo json_encode($pesan);
 	}
 
+	public function ganti_password() {
+		$data = array(
+			'user_pass' => password_hash($this->input->post('user_pass'), PASSWORD_BCRYPT)
+		);
+		$this->m->ganti_password($data);
+		$mahasiswa = $this->m->get_mahasiswa();
+		$email = "
+			Hello, ".$mahasiswa->mahasiswa_nama."<br /><br />
+			Your password has been changed on ".date('Y-m-d H:i:s')."<br /><br />
+			Regards,
+			<br />
+			<br />
+			University.<br />
+		";
+		$this->load->library('email');
+		//config nih
+		$config['protocol']    = 'smtp';
+		$config['smtp_host']    = 'ssl://mail.kodepanda.id';
+		$config['smtp_port']    = '465';
+		$config['smtp_timeout'] = '10';
+		$config['smtp_user']    = 'webmaster@kodepanda.id';
+		$config['smtp_pass']    = 'older45.,';
+		$config['charset']    = 'utf-8';
+		$config['newline']    = "\r\n";
+		$config['mailtype'] = 'html';
+		$config['validation'] = TRUE;
+		$this->email->initialize($config);
+		$this->email->from('webmaster@kodepanda.id', 'Thesis Kodepanda');
+		$this->email->to($mahasiswa->mahasiswa_email);
+		$this->email->subject('Notice of new password change');
+		$this->email->message($email);
+		$this->email->send();
+		$pesan = array(
+			'warning' => 'It Works',
+			'kode' => 'success',
+			'pesan' => 'Student password successfully updated'
+		);
+		echo json_encode($pesan);
+	}
+
 	public function hapus() {
-		$data = array( 'deleted' => TRUE );
+		$data = array( 
+			'updated_by' => $this->session->userdata('nama'),
+			'last_update' => date('Y-m-d H:i:s'),
+			'deleted' => TRUE 
+		);
 		$this->m->hapus($data);
 		$pesan = array(
-			'warning' => 'Berhasil!',
+			'warning' => 'It Works',
 			'kode' => 'success',
-			'pesan' => 'Data mahasiswa berhasil di hapus'
+			'pesan' => 'Student data was successfully deleted'
 		);
 		echo json_encode($pesan);
 	}

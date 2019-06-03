@@ -14,7 +14,7 @@
     position: relative;
     min-height: 100%;
   }
-  body { margin-bottom: 60px; }
+  body { margin-bottom: 100px; }
 
   *:focus, .form-control:focus { outline: none; }
 

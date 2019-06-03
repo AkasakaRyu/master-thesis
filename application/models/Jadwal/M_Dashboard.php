@@ -6,7 +6,7 @@ class M_Dashboard extends CI_Model {
 	protected $mahasiswa = "ak_data_master_mahasiswa";
 	
 	public function get_list_data() {
-		if($this->session->userdata('level')=="Kepala Jurusan" OR $this->session->userdata('level')=="Master") {
+		if($this->session->userdata('access')!="LVL19011700003") {
 			return $this->db->where(
 				$this->jadwal.'.deleted',false
 			)->join(
@@ -15,22 +15,8 @@ class M_Dashboard extends CI_Model {
 				$this->jadwal.'.dosen_id'
 			)->join(
 				$this->mahasiswa,
-				$this->mahasiswa.'.mahasiswa_id='.
+				$this->mahasiswa.'.user_id='.
 				$this->jadwal.'.mahasiswa_id'
-			)->get($this->jadwal)->result();
-		} elseif($this->session->userdata('level')=="Mahasiswa") {
-			return $this->db->where(
-				$this->jadwal.'.deleted',false
-			)->join(
-				$this->dosen,
-				$this->dosen.'.dosen_id='.
-				$this->jadwal.'.dosen_id'
-			)->join(
-				$this->mahasiswa,
-				$this->mahasiswa.'.mahasiswa_id='.
-				$this->jadwal.'.mahasiswa_id'
-			)->where(
-				$this->mahasiswa.'.mahasiswa_id'
 			)->get($this->jadwal)->result();
 		} else {
 			return $this->db->where(
@@ -41,10 +27,10 @@ class M_Dashboard extends CI_Model {
 				$this->jadwal.'.dosen_id'
 			)->join(
 				$this->mahasiswa,
-				$this->mahasiswa.'.mahasiswa_id='.
+				$this->mahasiswa.'.user_id='.
 				$this->jadwal.'.mahasiswa_id'
 			)->where(
-				$this->dosen.'.dosen_id'
+				$this->mahasiswa.'.user_id',$this->session->userdata('id')
 			)->get($this->jadwal)->result();
 		}
 	}
@@ -61,6 +47,18 @@ class M_Dashboard extends CI_Model {
 	}
 
 	public function simpan($data) { return $this->db->insert($this->jadwal,$data); }
+
+	public function get_mahasiswa() {
+		return $this->db->where(
+			'user_id',$this->input->post('mahasiswa_id')
+		)->get($this->mahasiswa)->row();
+	}
+
+	public function get_dosen() {
+		return $this->db->where(
+			'dosen_id',$this->input->post('dosen_id')
+		)->get($this->dosen)->row();
+	}
 
 	public function edit($data) {
 		return $this->db->where(

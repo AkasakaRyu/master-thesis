@@ -12,7 +12,7 @@
 		$('#FrmDiv').submit(function(e) {
 			e.preventDefault();
 			swal({
-				title: "Anda Yakin Ingin Menyimpan Data?",
+				title: "Are You Sure You Want to Save Data?",
 				text: "",
 				icon: "warning",
 				buttons: true,
@@ -37,7 +37,7 @@
 						}
 					})
 				} else {
-					swal("Poof!","Penyimpanan Data Dibatalkan", "error").then((value) => {
+					swal("Poof!","Data Manipulation Canceled", "error").then((value) => {
 						location.reload();
 					})
 				}
@@ -71,7 +71,7 @@
 
 		$(document).on('click','#hapus',function() {
 			swal({
-				title: "Anda Yakin Ingin Menghapus Data?",
+				title: "Are You Sure You Want to Delete Data?",
 				text: "",
 				icon: "warning",
 				buttons: true,
@@ -96,7 +96,7 @@
 						}
 					})
 				} else {
-					swal("Poof!","Penyimpanan Data Dibatalkan", "error").then((value) => {
+					swal("Poof!","Data Manipulation Canceled", "error").then((value) => {
 						location.reload();
 					})
 				}

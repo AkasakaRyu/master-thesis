@@ -12,7 +12,7 @@
 		$('#FrmJudul').submit(function(e) {
 			e.preventDefault();
 			swal({
-				title: "Anda Yakin Ingin Mencari Judul Ini?",
+				title: "Are You Sure You Want to Search for This Title?",
 				text: "",
 				icon: "warning",
 				buttons: true,
@@ -59,7 +59,7 @@
 						}
 					})
 				} else {
-					swal("Poof!","Penyimpanan Data Dibatalkan", "error").then((value) => {
+					swal("Poof!","Data Storage Canceled!", "error").then((value) => {
 						location.reload();
 					})
 				}
@@ -69,7 +69,7 @@
 		$('#FrmDiv').submit(function(e) {
 			e.preventDefault();
 			swal({
-				title: "Anda Yakin Ingin Menyimpan Data?",
+				title: "Are You Sure You Want to Save Data?",
 				text: "",
 				icon: "warning",
 				buttons: true,
@@ -96,7 +96,7 @@
 						}
 					})
 				} else {
-					swal("Poof!","Penyimpanan Data Dibatalkan", "error").then((value) => {
+					swal("Poof!","Data Storage Canceled!", "error").then((value) => {
 						location.reload();
 					})
 				}
@@ -106,7 +106,7 @@
 		$('#FrmSend').submit(function(e) {
 			e.preventDefault();
 			swal({
-				title: "Anda Yakin Ingin Menyimpan Data?",
+				title: "Are You Sure You Want To Send Data?",
 				text: "",
 				icon: "warning",
 				buttons: true,
@@ -133,7 +133,7 @@
 						}
 					})
 				} else {
-					swal("Poof!","Penyimpanan Data Dibatalkan", "error").then((value) => {
+					swal("Poof!","Data Storage Canceled!", "error").then((value) => {
 						location.reload();
 					})
 				}
@@ -149,11 +149,13 @@
 				dataType: 'json',
 				data: { thesis_id: $(this).attr("data") },
 				success: function(data) {
-					if(data.thesis_status=="Menunggu") {
+					if(data.thesis_status=="Waiting") {
 						$("#thesis_tujuan").attr("disabled","true");
 						$("#thesis_rumusan_masalah").attr("disabled","true");
 						$("#thesis_kerangka_teori").attr("disabled","true");
 						$("#thesis_metodologi_penelitian").attr("disabled","true");
+					} else if(data.thesis_status=="Approved") {
+						$("#thesis_judul").attr("readonly","true");
 					}
 					$.each(data, function(key, value) {
 						var ctrl = $('[name='+key+']');
@@ -173,7 +175,7 @@
 
 		$(document).on('click','#hapus',function() {
 			swal({
-				title: "Anda Yakin Ingin Menghapus Data?",
+				title: "Are You Sure You Want to Delete Data?",
 				text: "",
 				icon: "warning",
 				buttons: true,
@@ -198,7 +200,7 @@
 						}
 					})
 				} else {
-					swal("Poof!","Penyimpanan Data Dibatalkan", "error").then((value) => {
+					swal("Poof!","Data Storage Canceled!", "error").then((value) => {
 						location.reload();
 					})
 				}
@@ -207,7 +209,7 @@
 
 		$(document).on('click','#terima',function() {
 			swal({
-				title: "Anda Yakin Ingin Menyetujui Thesis Ini?",
+				title: "Are You Sure You Want To Approve This Thesis?",
 				text: "",
 				icon: "warning",
 				buttons: true,
@@ -234,7 +236,7 @@
 						}
 					})
 				} else {
-					swal("Poof!","Penyimpanan Data Dibatalkan", "error").then((value) => {
+					swal("Poof!","Data Storage Canceled!", "error").then((value) => {
 						location.reload();
 					})
 				}
@@ -250,7 +252,7 @@
 				dataType: 'json',
 				data: { thesis_id: $(this).attr("data") },
 				success: function(data) {
-					if(data.thesis_status=="Menunggu") {
+					if(data.thesis_status=="Waiting") {
 						$("#thesis_tujuan").attr("disabled","true");
 						$("#thesis_rumusan_masalah").attr("disabled","true");
 						$("#thesis_kerangka_teori").attr("disabled","true");
@@ -275,7 +277,7 @@
 		$('#FrmTolak').submit(function(e) {
 			e.preventDefault();
 			swal({
-				title: "Anda Yakin Ingin Menyimpan Data?",
+				title: "Are you sure you want to reject data?",
 				text: "",
 				icon: "warning",
 				buttons: true,
@@ -302,7 +304,7 @@
 						}
 					})
 				} else {
-					swal("Poof!","Penyimpanan Data Dibatalkan", "error").then((value) => {
+					swal("Poof!","Data Storage Canceled!", "error").then((value) => {
 						location.reload();
 					})
 				}
